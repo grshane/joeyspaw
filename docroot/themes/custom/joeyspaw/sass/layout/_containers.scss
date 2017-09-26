@@ -5,7 +5,7 @@
 .cog--mq {
   @include container(80em);
 
-  margin: 10px auto;
+  margin: 0 auto;
 
 }
 
@@ -15,4 +15,8 @@
 
 .mq-main {
   background: $white;
+}
+
+.pre-content {
+  background: $green;
 }
