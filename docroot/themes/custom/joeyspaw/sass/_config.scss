@@ -3,7 +3,10 @@
 $white: #fff;
 $red: #ee696c;
 $yellow: #e8ed57;
-$blue:
+$blue: #04284A;
+$green: #6B7C39;
+$brown: #936339;
+
 // b&w colors as placeholders
 $blk: #000;
 $dark-gray: lighten($blk, 20%);
@@ -15,9 +18,9 @@ $off-white: lighten($blk, 97%);
 // Utility color variables ///////////////
 $heading: $dark-gray;
 $link: $med-gray;
-$primary: $red;
-$secondary: $yellow;
-$accent:
+$primary: $green;
+$secondary: $blue;
+$accent: $brown;
 
 // Fonts ///////////////
 $opensans: 'Open Sans';

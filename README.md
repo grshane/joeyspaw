@@ -12,9 +12,28 @@ To set up your local environment and begin developing for this project, refer to
 * Local drush alias: @joeyspaw.local
 * Local site URL: http://local.joeyspaw.com/
 
+## BSD Local Directions
+1. Clone Repo
+2. If not set up follow above instructions for setting up BLT
+3. `cd repo-dir`
+4. `vagrant up`
+5. `blt sync:refresh` (Pulls down db from remote and imports config)
+6. Commit changes
+7. `blt deploy --commit-msg "BLT-000: Example deploy to branch" --branch "stage" --no-interaction
+` (This creates the build artifact and pushes to Stage)
+
+
+### Theme Development
+1. `cd docroot/themes/custom/joeyspaw`
+2. `yarn install`
+3. `gulp serve` _ctrl + c to quit gulp_
+4. Make changes
+5. If committing to production `gulp build`
+6. Deploy as in step 7 above
+
+
 ## Resources
 
-* JIRA - link me!
-* GitHub - link me!
+* [GitHub](https://github.com/grshane/joeyspaw) 
 * Acquia Cloud subscription - link me!
 * TravisCI - link me!

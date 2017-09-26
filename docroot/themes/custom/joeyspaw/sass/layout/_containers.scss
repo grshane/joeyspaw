@@ -6,4 +6,13 @@
   @include container(80em);
 
   margin: 10px auto;
+
+}
+
+#main {
+  background-image: linear-gradient(to top, #FFFFFF 0%, #6B7C39 72%);
+}
+
+.mq-main {
+  background: $white;
 }
