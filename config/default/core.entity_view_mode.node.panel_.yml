@@ -1,0 +1,10 @@
+uuid: f38df88a-f157-444f-be18-e0ced306b09b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.panel_
+label: 'Panel Test'
+targetEntityType: node
+cache: true

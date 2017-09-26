@@ -1,0 +1,20 @@
+uuid: 41ef7092-90db-4618-95fc-492ddb3a583f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - joeyspaw
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: joeyspaw_page_title
+theme: joeyspaw
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

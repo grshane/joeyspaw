@@ -1,0 +1,25 @@
+uuid: 2cad26a3-4a02-4e3a-8822-daad689ea282
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - joeyspaw
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: joeyspaw_branding
+theme: joeyspaw
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

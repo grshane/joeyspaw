@@ -1,0 +1,22 @@
+uuid: f9847466-46e2-446c-89d4-b1e6c44a9ff2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cog
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: cog_messages
+theme: cog
+region: branding
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
