@@ -5,16 +5,24 @@
 // Markup: tabs.twig
 //
 // Style guide: components.tabs
-.block-tabs {
+.block-tabs,
+.tabs {
   margin: 1.5em 0;
 
   ul {
-    display: block;
+    display: flex;
     padding-left: 0;
     border-bottom: 1px solid $light-gray;
 
     li {
       display: inline-block;
+      list-style-type: none;
+      border-top: 1px solid $light-gray;
+      border-right: 1px solid $light-gray;
+      border-left: 1px solid $light-gray;
+      &:hover {
+        transform: translateY(-3px);
+      }
 
       a {
         margin: 0;

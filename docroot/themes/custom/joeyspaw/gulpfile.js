@@ -106,9 +106,9 @@ var options = {
   browserSync: {
     // Put your local site URL here to prevent Browsersync
     // from prompting you to add additional scripts to your page.
-    // proxy: {
-    //   target: 'http://local.example.com'
-    // },
+    proxy: {
+      target: 'http://local.joeyspaw.com/'
+    },
     open: 'external',
     xip: true,
     logConnections: true
@@ -177,8 +177,8 @@ var options = {
   pa11y: {
     urls: [ // An array of urls to test.
       // For testing in a travis environment:
-      // 'http://127.0.0.1:8888',
-      // 'http://127.0.0.1:8888/themes/custom/yourtheme/styleguide'
+      'http://local.joeyspaw.com/',
+      'http://local.joeyspaw.com/themes/custom/yourtheme/styleguide'
     ],
     failOnError: true, // fail the build on error
     showFailedOnly: true, // show errors only and override reporter

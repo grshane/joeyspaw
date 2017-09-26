@@ -8,4 +8,16 @@
 
 .region-header {
   @include region-spacer($light-gray);
+  display: flex;
+
+  .block-system-menublock {
+
+  }
+
+  .menu {
+    display: flex;
+  }
+  .menu-item {
+    list-style: none;
+  }
 }
