@@ -16,6 +16,7 @@ To set up your local environment and begin developing for this project, refer to
 1. Clone Repo
 2. If not set up follow above instructions for setting up BLT
 3. `cd repo-dir`
+4. `composer install`
 4. `vagrant up`
 5. `blt sync:refresh` (Pulls down db from remote and imports config)
 6. Commit changes
