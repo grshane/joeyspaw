@@ -40,7 +40,8 @@
         "drupal/focal_point": "^1.0@beta",
         "drupal/blazy": "^1.0@RC",
         "drupal/extlink": "^1.0",
-        "drupal/drush": "^6.0@RC"
+        "drupal/drush": "^6.0@RC",
+        "drupal/page_manager": "^4.0@beta"
     },
     "require-dev": {},
     "config": {
