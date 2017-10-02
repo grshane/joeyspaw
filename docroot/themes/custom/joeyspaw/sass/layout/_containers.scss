@@ -19,4 +19,9 @@
 
 .pre-content {
   background: $green;
+  .region-pre-content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
 }

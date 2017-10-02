@@ -1,0 +1,35 @@
+uuid: 573ebd4e-7ae2-42c8-88a9-2d9fa6efc516
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4d71e30a-ad20-40ae-8bf8-20b04ee51046'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - joeyspaw
+third_party_settings:
+  block_class:
+    classes: mission__block
+id: missionstatement
+theme: joeyspaw
+region: pre_content
+weight: 0
+provider: null
+plugin: 'block_content:4d71e30a-ad20-40ae-8bf8-20b04ee51046'
+settings:
+  id: 'block_content:4d71e30a-ad20-40ae-8bf8-20b04ee51046'
+  label: 'Mission Statement'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

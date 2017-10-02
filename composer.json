@@ -41,7 +41,8 @@
         "drupal/blazy": "^1.0@RC",
         "drupal/extlink": "^1.0",
         "drupal/drush": "^6.0@RC",
-        "drupal/page_manager": "^4.0@beta"
+        "drupal/page_manager": "^4.0@beta",
+        "drupal/block_class": "^1.0@alpha"
     },
     "require-dev": {},
     "config": {
