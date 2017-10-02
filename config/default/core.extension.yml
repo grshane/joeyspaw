@@ -5,6 +5,7 @@ module:
   automated_cron: 0
   blazy: 0
   block: 0
+  block_class: 0
   block_content: 0
   breakpoint: 0
   ckeditor: 0
@@ -12,6 +13,7 @@ module:
   color: 0
   comment: 0
   config: 0
+  config_direct_save: 0
   config_update: 0
   contact: 0
   contextual: 0
@@ -22,9 +24,15 @@ module:
   dynamic_page_cache: 0
   editor: 0
   embed: 0
+  entity: 0
+  entity_browser: 0
+  entity_embed: 0
+  entity_reference_revisions: 0
+  extlink: 0
   features: 0
   features_ui: 0
   field: 0
+  field_formatter_class: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -34,6 +42,8 @@ module:
   image: 0
   layout_discovery: 0
   link: 0
+  media_entity: 0
+  media_entity_image: 0
   menu_ui: 0
   metatag: 0
   metatag_views: 0
@@ -46,21 +56,25 @@ module:
   panelizer_quickedit: 0
   panels: 0
   panels_ipe: 0
+  paragraphs: 0
   path: 0
   pathauto: 0
   quickedit: 0
   rdf: 0
   redirect: 0
+  responsive_menu: 0
   search: 0
   shortcut: 0
   slick: 0
   slick_ui: 0
+  superfish: 0
   system: 0
   taxonomy: 0
   text: 0
   token: 0
   toolbar: 0
   tour: 0
+  twig_tweak: 0
   update: 0
   user: 0
   views_ui: 0
@@ -68,6 +82,7 @@ module:
   webform_node: 0
   webform_scheduled_email: 0
   webform_ui: 0
+  yoast_seo: 0
   menu_link_content: 1
   views: 10
   standard: 1000
