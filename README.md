@@ -19,6 +19,11 @@ To set up your local environment and begin developing for this project, refer to
 4. `composer install`
 4. `vagrant up`
 5. `blt sync:refresh` (Pulls down db from remote and imports config)
+7. If `command not found: blt`: run 
+```
+composer run-script blt-alias
+source ~/.bash_profile
+```
 6. Commit changes
 7. `blt deploy --commit-msg "BLT-000: Example deploy to branch" --branch "stage" --no-interaction
 ` (This creates the build artifact and pushes to Stage)
