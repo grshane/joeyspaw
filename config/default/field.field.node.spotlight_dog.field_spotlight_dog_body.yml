@@ -1,0 +1,22 @@
+uuid: 7a863d1a-bf98-46fa-99b9-0001d9e0bd2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_spotlight_dog_body
+    - node.type.spotlight_dog
+  module:
+    - text
+id: node.spotlight_dog.field_spotlight_dog_body
+field_name: field_spotlight_dog_body
+entity_type: node
+bundle: spotlight_dog
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

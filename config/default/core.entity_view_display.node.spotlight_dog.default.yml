@@ -1,0 +1,49 @@
+uuid: 5c299151-b4e6-4d82-8508-d73722467582
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.spotlight_dog.field_header_image
+    - field.field.node.spotlight_dog.field_spotlight_dog_body
+    - field.field.node.spotlight_dog.field_spotlight_dog_image
+    - node.type.spotlight_dog
+  module:
+    - image
+    - text
+    - user
+id: node.spotlight_dog.default
+targetEntityType: node
+bundle: spotlight_dog
+mode: default
+content:
+  field_header_image:
+    weight: 102
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_spotlight_dog_body:
+    weight: 101
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_spotlight_dog_image:
+    weight: 103
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
