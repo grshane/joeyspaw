@@ -42,7 +42,8 @@
         "drupal/extlink": "^1.0",
         "drupal/drush": "^6.0@RC",
         "drupal/page_manager": "^4.0@beta",
-        "drupal/block_class": "^1.0@alpha"
+        "drupal/block_class": "^1.0@alpha",
+        "drupal/config_direct_save": "^1.0"
     },
     "require-dev": {},
     "config": {

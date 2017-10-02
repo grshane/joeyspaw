@@ -28,6 +28,12 @@ source ~/.bash_profile
 7. `blt deploy --commit-msg "BLT-000: Example deploy to branch" --branch "stage" --no-interaction
 ` (This creates the build artifact and pushes to Stage)
 
+### Exporting Config
+`drush @joeyspaw.local cex`
+
+1. Choose VCS
+2. Commit files
+
 
 ### Theme Development
 1. `cd docroot/themes/custom/joeyspaw`

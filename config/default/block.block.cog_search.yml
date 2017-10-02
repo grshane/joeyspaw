@@ -1,0 +1,22 @@
+uuid: c5b5de5e-af81-4ff4-9461-981319c75f3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - cog
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: cog_search
+theme: cog
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }
