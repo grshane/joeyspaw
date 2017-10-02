@@ -29,10 +29,11 @@ source ~/.bash_profile
 ` (This creates the build artifact and pushes to Stage)
 
 ### Exporting Config
-`drush @joeyspaw.local cex`
+`drush @joeyspaw.local cex vcs`
 
 1. Choose VCS
 2. Commit files
+3. After `blt deploy`: `drush @joeyspaw.{env} cim vcs`
 
 
 ### Theme Development
