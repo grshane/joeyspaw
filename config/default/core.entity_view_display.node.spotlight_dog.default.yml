@@ -3,24 +3,31 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.spotlight_dog.field_dog_photo
     - field.field.node.spotlight_dog.field_header_image
+    - field.field.node.spotlight_dog.field_home_page_dog
     - field.field.node.spotlight_dog.field_meta_tags
     - field.field.node.spotlight_dog.field_spotlight_dog_body
-    - field.field.node.spotlight_dog.field_spotlight_dog_image
-    - field.field.node.spotlight_dog.field_yoast_seo
     - node.type.spotlight_dog
   module:
     - image
     - metatag
+    - panelizer
     - text
     - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
 id: node.spotlight_dog.default
 targetEntityType: node
 bundle: spotlight_dog
 mode: default
 content:
-  field_header_image:
-    weight: 102
+  field_dog_photo:
+    weight: 5
     label: hidden
     settings:
       image_style: ''
@@ -29,39 +36,24 @@ content:
     type: image
     region: content
   field_meta_tags:
-    weight: 104
-    label: above
+    weight: 3
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: metatag_empty_formatter
     region: content
   field_spotlight_dog_body:
-    weight: 101
+    weight: 1
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
-  field_spotlight_dog_image:
-    weight: 103
-    label: hidden
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
-    region: content
-  field_yoast_seo:
-    weight: 105
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
   links:
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_header_image: true
+  field_home_page_dog: true

@@ -1,0 +1,18 @@
+uuid: cda7efa7-18a6-4816-9b7c-79ee51e023e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.avaliable_dog
+id: node.avaliable_dog.title
+field_name: title
+entity_type: node
+bundle: avaliable_dog
+label: 'Dog Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

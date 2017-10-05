@@ -3,24 +3,46 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.faq.body
+    - field.field.node.faq.field_faq_body
+    - field.field.node.faq.field_meta_tags
+    - field.field.node.faq.field_question
     - node.type.faq
   module:
+    - entity_reference_revisions
+    - panelizer
     - text
     - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
 id: node.faq.default
 targetEntityType: node
 bundle: faq
 mode: default
 content:
-  body:
+  field_faq_body:
+    weight: 1
     label: hidden
-    type: text_default
-    weight: 101
     settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_question:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
     third_party_settings: {  }
     region: content
   links:
-    weight: 100
+    weight: 0
     region: content
-hidden: {  }
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_meta_tags: true

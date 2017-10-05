@@ -1,16 +1,16 @@
-uuid: 4e05fe34-734f-40de-ae20-cf668dcc0f97
+uuid: d6494dec-9535-4a40-ab75-8d0ef28dd41f
 langcode: en
 status: true
 dependencies:
   module:
+    - link
     - node
-    - yoast_seo
-id: node.field_yoast_seo
-field_name: field_yoast_seo
+id: node.field_sponsor_url
+field_name: field_sponsor_url
 entity_type: node
-type: yoast_seo
+type: link
 settings: {  }
-module: yoast_seo
+module: link
 locked: false
 cardinality: 1
 translatable: true

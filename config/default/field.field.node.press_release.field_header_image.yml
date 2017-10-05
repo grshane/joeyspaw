@@ -1,0 +1,38 @@
+uuid: 84e49427-0096-46e6-b09e-d961db2b9280
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_header_image
+    - node.type.press_release
+  module:
+    - image
+id: node.press_release.field_header_image
+field_name: field_header_image
+entity_type: node
+bundle: press_release
+label: 'Header Image'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 85473f8d-b886-4e9a-8916-ef69b9f3f298
+    alt: ''
+    title: ''
+    width: 1620
+    height: 366
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

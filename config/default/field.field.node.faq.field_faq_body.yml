@@ -1,22 +1,22 @@
-uuid: a866833a-e40d-451a-86b5-68dc028e6eb3
+uuid: dcabd266-a757-42a6-aeb4-dfdcd113425d
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.body
+    - field.storage.node.field_faq_body
     - node.type.faq
   module:
     - text
-id: node.faq.body
-field_name: body
+id: node.faq.field_faq_body
+field_name: field_faq_body
 entity_type: node
 bundle: faq
 label: Body
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  display_summary: true
+  display_summary: false
 field_type: text_with_summary

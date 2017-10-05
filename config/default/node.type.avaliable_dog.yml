@@ -1,0 +1,18 @@
+uuid: eac96c6d-a354-4eb5-b6c7-e77a57b4f1ab
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Avaliable Dog'
+type: avaliable_dog
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

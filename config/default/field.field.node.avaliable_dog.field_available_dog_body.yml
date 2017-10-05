@@ -1,0 +1,22 @@
+uuid: 1fa8d95a-bffa-476a-8e0f-5e89d1826245
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_available_dog_body
+    - node.type.avaliable_dog
+  module:
+    - text
+id: node.avaliable_dog.field_available_dog_body
+field_name: field_available_dog_body
+entity_type: node
+bundle: avaliable_dog
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

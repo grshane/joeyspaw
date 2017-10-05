@@ -1,0 +1,57 @@
+uuid: fd8961e7-c3c7-4bcc-bca4-4fb53a1d8e80
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.avaliable_dog.field_available_dog_body
+    - field.field.node.avaliable_dog.field_dog_photo
+    - field.field.node.avaliable_dog.field_header_image
+    - field.field.node.avaliable_dog.field_meta_tags
+    - node.type.avaliable_dog
+  module:
+    - image
+    - metatag
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.avaliable_dog.default
+targetEntityType: node
+bundle: avaliable_dog
+mode: default
+content:
+  field_available_dog_body:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_dog_photo:
+    weight: 3
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_meta_tags:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_header_image: true

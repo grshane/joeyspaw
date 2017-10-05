@@ -1,0 +1,27 @@
+uuid: e1bbb41e-cac9-4228-af9d-f2a66438a458
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_title
+label: 'Page Title'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  bae6ff08-9ce6-46d5-a6ca-c332cc04e519:
+    id: node_type
+    bundles:
+      article: article
+      faq: faq
+      page: page
+      sponsor: sponsor
+      testimonial: testimonial
+      webform: webform
+    negate: false
+    context_mapping:
+      node: node
+    uuid: bae6ff08-9ce6-46d5-a6ca-c332cc04e519
+selection_logic: and
+weight: -10
+relationships: {  }

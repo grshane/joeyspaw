@@ -1,0 +1,9 @@
+uuid: 5d2a818a-b180-45be-a511-628d2e72b166
+langcode: en
+status: true
+dependencies: {  }
+id: faq_paragraph
+label: 'FAQ Paragraph'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

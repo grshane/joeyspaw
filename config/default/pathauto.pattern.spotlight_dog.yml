@@ -1,0 +1,22 @@
+uuid: 1e9b43b7-0b0c-4993-9e4d-9b8cff971b12
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: spotlight_dog
+label: 'Spotlight Dog'
+type: 'canonical_entities:node'
+pattern: 'spotlight-dog/[node:title]'
+selection_criteria:
+  90fd9edd-718b-446b-8126-55d51cdba243:
+    id: node_type
+    bundles:
+      spotlight_dog: spotlight_dog
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 90fd9edd-718b-446b-8126-55d51cdba243
+selection_logic: and
+weight: -5
+relationships: {  }

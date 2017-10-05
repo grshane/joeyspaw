@@ -1,0 +1,18 @@
+uuid: 4718243a-8897-471a-b794-ef3adde1d810
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.avaliable_dog
+  module:
+    - user
+id: node.avaliable_dog.teaser
+targetEntityType: node
+bundle: avaliable_dog
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,38 @@
+uuid: 44448436-dec0-429c-b7e0-c7cd30b60c9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dog_photo
+    - node.type.avaliable_dog
+  module:
+    - image
+id: node.avaliable_dog.field_dog_photo
+field_name: field_dog_photo
+entity_type: node
+bundle: avaliable_dog
+label: 'Dog Photo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

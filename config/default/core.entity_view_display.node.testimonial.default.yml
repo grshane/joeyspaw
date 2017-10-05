@@ -1,0 +1,35 @@
+uuid: 1e12056e-9be1-4e09-95a0-102e7adcf399
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.testimonial.field_testimonial_body
+    - node.type.testimonial
+  module:
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.testimonial.default
+targetEntityType: node
+bundle: testimonial
+mode: default
+content:
+  field_testimonial_body:
+    weight: 101
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

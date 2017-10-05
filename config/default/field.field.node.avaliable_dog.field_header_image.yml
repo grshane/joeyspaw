@@ -1,20 +1,20 @@
-uuid: e8f3f6e3-7e65-46ec-a341-1b6ed5afc36a
+uuid: 02243661-7953-4777-9f03-ce25808af60e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_spotlight_dog_image
-    - node.type.spotlight_dog
+    - field.storage.node.field_header_image
+    - node.type.avaliable_dog
   module:
     - image
-id: node.spotlight_dog.field_spotlight_dog_image
-field_name: field_spotlight_dog_image
+id: node.avaliable_dog.field_header_image
+field_name: field_header_image
 entity_type: node
-bundle: spotlight_dog
-label: 'Spotlight Dog Image'
+bundle: avaliable_dog
+label: 'Header Image'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

@@ -1,0 +1,23 @@
+uuid: 5546215a-ca2b-473c-9aed-198caac013d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_home_page_dog
+    - node.type.spotlight_dog
+id: node.spotlight_dog.field_home_page_dog
+field_name: field_home_page_dog
+entity_type: node
+bundle: spotlight_dog
+label: 'Home Page Dog'
+description: 'Do you want this dog to display on the home page? If so, please check the box.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

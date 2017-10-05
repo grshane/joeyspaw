@@ -8,7 +8,6 @@ dependencies:
     - field.field.node.article.field_image
     - field.field.node.article.field_meta_tags
     - field.field.node.article.field_tags
-    - field.field.node.article.field_yoast_seo
     - image.style.thumbnail
     - node.type.article
   module:
@@ -17,7 +16,6 @@ dependencies:
     - metatag
     - path
     - text
-    - yoast_seo
 _core:
   default_config_hash: N8YzXGJXPIvh1OPpjuLH_XDvPwWBpKnTx0GwAvgU0Rg
 id: node.article.default
@@ -66,13 +64,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_yoast_seo:
-    weight: 32
-    settings:
-      body: body
-    third_party_settings: {  }
-    type: yoast_seo_widget
-    region: content
   path:
     type: path
     weight: 30

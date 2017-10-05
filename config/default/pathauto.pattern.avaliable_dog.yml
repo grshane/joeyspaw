@@ -1,0 +1,22 @@
+uuid: 92ee66af-7391-4986-bfa5-79a3ba39187b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: avaliable_dog
+label: 'Avaliable Dog'
+type: 'canonical_entities:node'
+pattern: 'avaliable-dog/[node:title]'
+selection_criteria:
+  9e63fd4e-0831-450f-b0ed-e5e18717ff6d:
+    id: node_type
+    bundles:
+      avaliable_dog: avaliable_dog
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 9e63fd4e-0831-450f-b0ed-e5e18717ff6d
+selection_logic: and
+weight: -9
+relationships: {  }

@@ -1,0 +1,36 @@
+uuid: e74e5f03-2320-493e-9241-d1f4833314a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.faq_paragraph.field_answer
+    - field.field.paragraph.faq_paragraph.field_question
+    - paragraphs.paragraphs_type.faq_paragraph
+  module:
+    - text
+id: paragraph.faq_paragraph.default
+targetEntityType: paragraph
+bundle: faq_paragraph
+mode: default
+content:
+  field_answer:
+    weight: 1
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_question:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

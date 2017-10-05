@@ -3,14 +3,21 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
+    - field.field.node.page.field_header_image
     - field.field.node.page.field_meta_tags
-    - field.field.node.page.field_yoast_seo
+    - field.field.node.page.field_page_body
+    - field.field.node.page.field_real_time_seo
     - node.type.page
   module:
-    - metatag
+    - panelizer
     - text
     - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
 _core:
   default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
 id: node.page.default
@@ -18,29 +25,19 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  body:
-    label: hidden
+  field_page_body:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
     type: text_default
-    weight: 100
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_meta_tags:
-    weight: 102
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: metatag_empty_formatter
-    region: content
-  field_yoast_seo:
-    weight: 103
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
     region: content
   links:
-    weight: 101
+    weight: 0
     region: content
-hidden: {  }
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_header_image: true
+  field_meta_tags: true
+  field_real_time_seo: true
