@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d60d15603ff4aecba4b0cdfd4f81e7ee",
+    "content-hash": "ed021743aed4320559634aa3b4b5930f",
     "packages": [
         {
             "name": "acquia/blt",
@@ -6420,6 +6420,62 @@
             }
         },
         {
+            "name": "drupal/simple_sitemap",
+            "version": "2.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/simple_sitemap",
+                "reference": "8.x-2.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/simple_sitemap-8.x-2.10.zip",
+                "reference": "8.x-2.10",
+                "shasum": "cc96a9fb7d9a6eb60ff6ce7a335c9a4065ad2340"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.10",
+                    "datestamp": "1506805827",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Pawel Ginalski (gbyte.co)",
+                    "homepage": "https://www.drupal.org/u/gbyte.co",
+                    "email": "contact@gbyte.co",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Sam Becker (Sam152)",
+                    "homepage": "https://www.drupal.org/u/sam152",
+                    "role": "Co-maintainer"
+                }
+            ],
+            "description": "Simple XML sitemap creates a standard conform XML sitemap of your content.",
+            "homepage": "https://drupal.org/project/simple_sitemap",
+            "support": {
+                "source": "https://cgit.drupalcode.org/simple_sitemap",
+                "issues": "https://drupal.org/project/issues/simple_sitemap",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
             "name": "drupal/slick",
             "version": "1.0.0",
             "source": {
@@ -7146,11 +7202,17 @@
         },
         {
             "name": "drupal/yoast_seo",
-            "version": "dev-2.x",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/yoast_seo",
-                "reference": "6451f3e47aa21732fff2d43859fc467e70fdde67"
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/yoast_seo-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "aceae70f479ab89f37b9d174c1545ad15892b21f"
             },
             "require": {
                 "drupal/core": "*",
@@ -7159,14 +7221,14 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-2.x": "2.x-dev"
+                    "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.x-dev",
-                    "datestamp": "1506435844",
+                    "version": "8.x-1.3",
+                    "datestamp": "1499849343",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -7212,8 +7274,7 @@
             "homepage": "https://www.drupal.org/project/yoast_seo",
             "support": {
                 "source": "http://cgit.drupalcode.org/yoast_seo"
-            },
-            "time": "2017-09-28T12:11:48+00:00"
+            }
         },
         {
             "name": "drush/drush",
@@ -13029,7 +13090,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/redirect": 10,
-        "drupal/yoast_seo": 20,
         "drupal/coffee": 10,
         "drupal/auto_entitylabel": 10,
         "drupal/field_collection": 15,
