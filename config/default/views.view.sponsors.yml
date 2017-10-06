@@ -11,6 +11,7 @@ dependencies:
     - image
     - link
     - node
+    - slick_views
     - user
 id: sponsors
 label: Sponsors
@@ -58,11 +59,44 @@ display:
           items_per_page: 0
           offset: 0
       style:
-        type: default
+        type: slick
         options:
-          grouping: {  }
-          row_class: ''
-          default_row_class: true
+          vanilla: true
+          optionset: default
+          skin: default
+          layout: ''
+          caption:
+            title: '0'
+            field_sponsor_url: '0'
+            field_sponsor_logo: '0'
+          optionset_thumbnail: default
+          skin_thumbnail: ''
+          thumbnail_caption: ''
+          grid_header: ''
+          grid: 4
+          grid_medium: 3
+          grid_small: 2
+          visible_items: null
+          preserve_keys: false
+          image: field_sponsor_logo
+          thumbnail: ''
+          overlay: ''
+          title: title
+          link: field_sponsor_url
+          class: ''
+          id: ''
+          override: false
+          overridables:
+            arrows: '0'
+            autoplay: '0'
+            dots: '0'
+            draggable: '0'
+            infinite: '0'
+            mouseWheel: '0'
+            randomize: '0'
+            variableWidth: '0'
+          cache: 0
+          current_view_mode: block_1
       row:
         type: fields
       fields:

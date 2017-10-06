@@ -15,7 +15,7 @@ _core:
 id: joeyspaw_branding
 theme: joeyspaw
 region: header
-weight: 0
+weight: -7
 provider: null
 plugin: system_branding_block
 settings:

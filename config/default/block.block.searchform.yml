@@ -1,0 +1,24 @@
+uuid: 8c0cf49a-eb82-43ac-a9e4-8fbaef196e24
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - search
+  theme:
+    - joeyspaw
+third_party_settings:
+  block_class:
+    classes: ''
+id: searchform
+theme: joeyspaw
+region: branding
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+visibility: {  }

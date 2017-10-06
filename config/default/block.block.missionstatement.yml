@@ -16,7 +16,7 @@ third_party_settings:
 id: missionstatement
 theme: joeyspaw
 region: pre_content
-weight: 0
+weight: -7
 provider: null
 plugin: 'block_content:276dad92-1799-4e5e-ab75-bb77ab9a5652'
 settings:

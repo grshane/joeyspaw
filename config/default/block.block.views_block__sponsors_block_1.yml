@@ -1,0 +1,34 @@
+uuid: 378ad2e0-f3c3-4f3c-85c4-c85850dee23d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sponsors
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - joeyspaw
+third_party_settings:
+  block_class:
+    classes: sponsor__block
+id: views_block__sponsors_block_1
+theme: joeyspaw
+region: post_content
+weight: 0
+provider: null
+plugin: 'views_block:sponsors-block_1'
+settings:
+  id: 'views_block:sponsors-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

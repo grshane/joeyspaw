@@ -1,6 +1,6 @@
 uuid: 15ec23cf-ea63-40b3-924f-00b652c7882e
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: joeyspaw_powered
 theme: joeyspaw
 region: branding
-weight: 10
+weight: -4
 provider: null
 plugin: system_powered_by_block
 settings:
