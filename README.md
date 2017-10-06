@@ -19,14 +19,17 @@ To set up your local environment and begin developing for this project, refer to
 4. `composer install`
 4. `vagrant up`
 5. `blt sync:refresh` (Pulls down db from remote and imports config)
-7. If `command not found: blt`: run 
+6. If `command not found: blt`: run 
 ```
 composer run-script blt-alias
 source ~/.bash_profile
 ```
-6. Commit changes
-6. PUSH to GitHub
-7. `blt deploy --commit-msg "BLT-000: Example deploy to branch" --branch "stage" --no-interaction
+7. Commit changes
+8. ```
+    git pull
+    git push
+
+8. `blt deploy --commit-msg "BLT-000: Example deploy to branch" --branch "stage" --no-interaction
 ` (This creates the build artifact and pushes to Stage)
 
 ### Exporting Config
@@ -34,8 +37,12 @@ source ~/.bash_profile
 
 1. Choose VCS
 2. Commit files
-3. PUSH to Github
-3. After `blt deploy`: `drush @joeyspaw.{env} cim vcs`
+3. ```
+       git pull
+       git push
+4. After `blt deploy` completes: `drush @joeyspaw.{env} cim vcs`
+5. `blt deploy --commit-msg "BLT-000: Example deploy to branch" --branch "stage" --no-interaction
+`
 
 
 ### Theme Development
@@ -44,11 +51,16 @@ source ~/.bash_profile
 3. `gulp serve` _ctrl + c to quit gulp_
 4. Make changes
 5. If committing to production `gulp build`
-6. Deploy as in step 7 above
+6. ```$xslt
+    git pull
+    git push
+
+7. `blt deploy --commit-msg "BLT-000: Example deploy to branch" --branch "stage" --no-interaction`
 
 
 ## Resources
 
-* [GitHub](https://github.com/grshane/joeyspaw) 
-* Acquia Cloud subscription - link me!
+* [GitHub](https://github.com/grshane/joeyspaw)
+* [Cog Base Theme Documentation](https://github.com/acquia-pso/cog/blob/8.x-1.x/STARTERKIT/README.md)
+* Living Theme Styleguide(/themes/custom/joeyspaw/styleguide/)
 * TravisCI - link me!
