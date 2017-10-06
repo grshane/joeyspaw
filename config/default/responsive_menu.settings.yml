@@ -3,16 +3,16 @@ horizontal_depth: 9
 off_canvas_menus: main
 horizontal_wrapping_element: nav
 horizontal_breakpoint: wide
-horizontal_media_query: '(min-width: 960px)'
+horizontal_media_query: 'all and (min-width: 851px)'
 include_css: true
 off_canvas_position: right
-off_canvas_theme: theme-light
-horizontal_superfish: false
+off_canvas_theme: theme-dark
+horizontal_superfish: true
 horizontal_superfish_delay: 300
 horizontal_superfish_speed: 100
 horizontal_superfish_speed_out: 100
 horizontal_superfish_hoverintent: true
-hammerjs: false
+hammerjs: true
 breakpoint_css_filepath: 'public://css'
 use_breakpoint: true
 _core:

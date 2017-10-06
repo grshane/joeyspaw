@@ -26,11 +26,13 @@
     }
   }
 ;
-  .menu {
+  .menu,
+  .horizontal-menu {
     display: flex;
     justify-content: space-between;
   }
-  .menu__item {
+  .menu__item,
+  .menu-item {
     list-style: none;
     a {
       font-size: 1.5em;

@@ -1,0 +1,24 @@
+uuid: 194c334a-7987-4c03-8cc0-7632d7106f49
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - responsive_menu
+  theme:
+    - joeyspaw
+third_party_settings:
+  block_class:
+    classes: ''
+id: responsivemenumobileicon
+theme: joeyspaw
+region: header
+weight: 0
+provider: null
+plugin: responsive_menu_toggle
+settings:
+  id: responsive_menu_toggle
+  label: 'Responsive menu mobile icon'
+  provider: responsive_menu
+  label_display: '0'
+visibility: {  }
