@@ -106,6 +106,7 @@ var options = {
   browserSync: {
     // Put your local site URL here to prevent Browsersync
     // from prompting you to add additional scripts to your page.
+    injectChanges: true,
     proxy: {
       target: 'http://local.joeyspaw.com/'
     },

@@ -6,18 +6,42 @@
 //
 // Style guide: components.header
 
+.mq-header {
+  margin-top: -8.5em;
+}
+
 .region-header {
-  @include region-spacer($light-gray);
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 230px;
 
-  .block-system-menublock {
-
+  .site-branding {
+    display: flex;
+    justify-content: center;
+    //height: 140px;
+    .logo {
+      width: 180px;
+    }
   }
-
+;
   .menu {
     display: flex;
+    justify-content: space-between;
   }
-  .menu-item {
+  .menu__item {
     list-style: none;
+    a {
+      font-size: 1.5em;
+      color: $primary;
+      &:hover,
+      &:active,
+      &:focus {
+        color: $secondary;
+        text-decoration: underline;
+      }
+
+    }
   }
 }

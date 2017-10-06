@@ -1,0 +1,24 @@
+// Example Button
+//
+// This is an example styleguide entry. To see the code that generates this entry, go to the `sass/components/button` folder in your theme and view the `button.scss`, `button.twig`, and `button.json` files to see what they do.
+//
+// :hover   - Text turns red on hover.
+// .rounded   - Wow! So round!
+//
+// Markup: example_button.twig
+//
+// Style guide: components.button
+.button {
+  color: $primary;
+  border: 2px solid $primary;
+
+}
+
+.rounded {
+  border-radius:40%;
+}
+
+button:hover {
+  color: $secondary;
+  background: none;
+}

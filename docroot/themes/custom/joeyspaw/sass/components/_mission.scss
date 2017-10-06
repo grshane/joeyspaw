@@ -1,12 +1,13 @@
 .mission__block {
   width: span(10);
   color: $white;
-  margin-left: span(4);
-  .field--name-body {
+  margin: 1.5em 0 3em span(4);
 
+  .field--name-body {
     display: flex;
     justify-content: center;
     align-items: center;
+
     div {
       display: flex;
       justify-content: center;
@@ -15,15 +16,17 @@
       width: span(6);
     }
   }
-    h2 {
-      color: $white;
-      padding: 0;
-      line-height: 80%;
-    }
-    img {
-      padding-right: 1em;
-      width: 200px;
-      height: 100%;
-    }
+
+  h2 {
+    color: $white;
+    padding: 0;
+    line-height: 80%;
+  }
+
+  img {
+    padding-right: 1em;
+    width: 140px;
+    height: 100%;
+  }
 
 }
