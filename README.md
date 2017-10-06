@@ -25,6 +25,7 @@ composer run-script blt-alias
 source ~/.bash_profile
 ```
 6. Commit changes
+6. PUSH to GitHub
 7. `blt deploy --commit-msg "BLT-000: Example deploy to branch" --branch "stage" --no-interaction
 ` (This creates the build artifact and pushes to Stage)
 
@@ -33,6 +34,7 @@ source ~/.bash_profile
 
 1. Choose VCS
 2. Commit files
+3. PUSH to Github
 3. After `blt deploy`: `drush @joeyspaw.{env} cim vcs`
 
 
