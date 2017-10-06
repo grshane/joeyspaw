@@ -22,3 +22,14 @@ button:hover {
   color: $secondary;
   background: none;
 }
+
+.donate__block {
+  .button {
+    font-size: 1.25em;
+    color: $secondary;
+    font-weight: bold;
+    background-color: transparent;
+    height: 2em;
+    border-radius: 1em;
+  }
+}
