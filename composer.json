@@ -42,7 +42,9 @@
         "drupal/drush": "^6.0@RC",
         "drupal/page_manager": "^4.0@beta",
         "drupal/block_class": "^1.0@alpha",
-        "drupal/config_direct_save": "^1.0"
+        "drupal/config_direct_save": "^1.0",
+        "drupal/slick_views": "^1.0@RC",
+        "drupal/slick_extras": "^1.0@beta"
     },
     "require-dev": {
         "geerlingguy/drupal-vm": "^4.6"

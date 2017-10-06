@@ -15,4 +15,8 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_available_dog_body: true
+  field_dog_photo: true
+  field_header_image: true
+  field_meta_tags: true

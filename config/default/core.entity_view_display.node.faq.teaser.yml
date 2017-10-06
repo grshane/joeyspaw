@@ -15,4 +15,7 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_faq_body: true
+  field_meta_tags: true
+  field_question: true
