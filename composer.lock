@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "186cb7b95c038d0b14c472fb1cbbc4fd",
+    "content-hash": "de8471ed78c663b048b3ee44b38a410b",
     "packages": [
         {
             "name": "acquia/blt",
@@ -7127,6 +7127,59 @@
             }
         },
         {
+            "name": "drupal/we_megamenu",
+            "version": "1.0.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/we_megamenu",
+                "reference": "8.x-1.0-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/we_megamenu-8.x-1.0-rc1.zip",
+                "reference": "8.x-1.0-rc1",
+                "shasum": "5f2abf2b82662df16bda5193a740c1b4f1f33b60"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc1",
+                    "datestamp": "1503399545",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Hai Nguyen Ngoc (HaiNN)",
+                    "homepage": "https://www.drupal.org/u/hainn",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "WeebPal",
+                    "homepage": "https://www.drupal.org/user/1861072"
+                }
+            ],
+            "description": "This powerful Drupal module helps you create custom menu, video and Drupal Blocks.",
+            "homepage": "https://www.drupal.org/project/we_megamenu",
+            "support": {
+                "source": "http://cgit.drupalcode.org/we_megamenu",
+                "issues": "https://www.drupal.org/project/issues/we_megamenu"
+            }
+        },
+        {
             "name": "drupal/webform",
             "version": "5.0.0-beta19",
             "source": {
@@ -13115,7 +13168,8 @@
         "drupal/block_class": 15,
         "drupal/slick_views": 5,
         "drupal/slick_extras": 10,
-        "drupal/context": 10
+        "drupal/context": 10,
+        "drupal/we_megamenu": 5
     },
     "prefer-stable": true,
     "prefer-lowest": false,
