@@ -1,7 +1,8 @@
 .mission__block {
   width: span(10);
   color: $white;
-  margin: 1.5em 0 3em span(4);
+  margin: 1.5em 0 3em;
+  align-self: center;
 
   .field--name-body {
     display: flex;
