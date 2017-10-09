@@ -1,0 +1,12 @@
+uuid: a6ee964b-bad6-4c30-9890-eed5aae76fcc
+langcode: en
+status: true
+dependencies: {  }
+id: avaliable_dogs
+label: 'Avaliable Dogs'
+description: ''
+use_admin_theme: false
+path: '/avaliable-dog/[node:title]'
+access_logic: and
+access_conditions: {  }
+parameters: {  }
