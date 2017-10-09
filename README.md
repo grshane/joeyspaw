@@ -1,6 +1,6 @@
-# My Project
+# Joey's P.A.W.
 
-A brief description of My Project.
+A brief description of Joey's P.A.W. for Beyond Spots and Dots
 
 ## Getting Started
 
@@ -46,9 +46,12 @@ source ~/.bash_profile
 
 
 ### Theme Development
+_Prior to developing:_
+Install Node 6.10, (NVM)[https://github.com/creationix/nvm], (ANV)[https://github.com/wbyoung/avn], and (yarn)[https://yarnpkg.com/en/docs/install] 
+
 1. `cd docroot/themes/custom/joeyspaw`
 2. `yarn install`
-3. `gulp serve` _ctrl + c to quit gulp_
+3. `yarn run serve` _ctrl + c to quit gulp_
 4. Make changes
 5. If committing to production `gulp build`
 6. ```$xslt
