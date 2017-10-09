@@ -1,6 +1,6 @@
-# My Project
+# Joey's P.A.W.
 
-A brief description of My Project.
+A brief description of Joey's P.A.W. for Beyond Spots and Dots
 
 ## Getting Started
 
