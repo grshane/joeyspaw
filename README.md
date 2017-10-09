@@ -67,3 +67,8 @@ Install Node 6.10, (NVM)[https://github.com/creationix/nvm], (ANV)[https://githu
 * [Cog Base Theme Documentation](https://github.com/acquia-pso/cog/blob/8.x-1.x/STARTERKIT/README.md)
 * Living Theme Styleguide(/themes/custom/joeyspaw/styleguide/)
 * TravisCI - link me!
+
+## Troubleshooting
+
+**Error 255:** Readd public key for Acquia
+**Config on local fails:** Try running `drush @joeyspaw.local updb`
