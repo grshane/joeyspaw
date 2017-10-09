@@ -1,0 +1,8 @@
+uuid: 69d30327-9c9e-40f3-89d2-beab41c0eb6a
+langcode: en
+status: true
+dependencies: {  }
+id: image_block
+label: Image
+revision: 0
+description: 'Has only an image field'

@@ -1,24 +1,24 @@
-uuid: 0ac6d485-2fcf-44b4-9b08-66eb995f4a80
+uuid: 54a01ba5-c0c2-4e04-8b17-c03ab7614893
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - block_class
-    - responsive_menu
+    - we_megamenu
   theme:
     - joeyspaw
 third_party_settings:
   block_class:
     classes: ''
-id: horizontalmenu
+id: mainnavigation
 theme: joeyspaw
 region: header
 weight: 0
 provider: null
-plugin: responsive_menu_horizontal_menu
+plugin: 'we_megamenu_block:main'
 settings:
-  id: responsive_menu_horizontal_menu
-  label: 'Horizontal menu'
-  provider: responsive_menu
+  id: 'we_megamenu_block:main'
+  label: 'Main navigation'
+  provider: we_megamenu
   label_display: '0'
 visibility: {  }

@@ -17,6 +17,8 @@ module:
   config_direct_save: 0
   config_update: 0
   contact: 0
+  context: 0
+  context_ui: 0
   contextual: 0
   ctools: 0
   ctools_block: 0
@@ -87,6 +89,7 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  we_megamenu: 0
   webform: 0
   webform_node: 0
   webform_scheduled_email: 0
