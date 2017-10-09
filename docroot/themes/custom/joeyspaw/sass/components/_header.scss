@@ -27,12 +27,14 @@
   }
 ;
   .menu,
-  .horizontal-menu {
+  .horizontal-menu,
+  .we-mega-menu-ul{
     display: flex;
     justify-content: space-between;
   }
   .menu__item,
-  .menu-item {
+  .menu-item,
+  .we-mega-menu-li {
     list-style: none;
     a {
       font-size: 1.5em;
