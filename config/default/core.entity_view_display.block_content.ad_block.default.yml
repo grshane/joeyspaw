@@ -9,6 +9,8 @@ dependencies:
     - field.field.block_content.ad_block.field_headline
     - field.field.block_content.ad_block.field_subhead
   module:
+    - field_formatter_class
+    - image
     - link
 id: block_content.ad_block.default
 targetEntityType: block_content
@@ -17,15 +19,16 @@ mode: default
 content:
   field_ad_image:
     weight: 4
-    label: above
+    label: hidden
     settings:
-      link: true
+      image_style: ''
+      image_link: ''
     third_party_settings: {  }
-    type: entity_reference_label
+    type: image
     region: content
   field_ad_link:
     weight: 3
-    label: above
+    label: hidden
     settings:
       trim_length: 80
       url_only: false
@@ -37,18 +40,22 @@ content:
     region: content
   field_headline:
     weight: 0
-    label: above
+    label: visually_hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: ''
     type: string
     region: content
   field_subhead:
     weight: 1
-    label: above
+    label: visually_hidden
     settings:
       link_to_entity: false
-    third_party_settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: ''
     type: string
     region: content
 hidden: {  }
