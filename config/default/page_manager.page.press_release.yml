@@ -1,0 +1,16 @@
+uuid: ae943919-900a-4712-8458-e42536cab9b2
+langcode: en
+status: true
+dependencies: {  }
+id: press_release
+label: 'Press Release'
+description: 'The sidebar on the individual press release pages.'
+use_admin_theme: false
+path: '/press-release/{press}'
+access_logic: and
+access_conditions: {  }
+parameters:
+  press:
+    machine_name: press
+    type: 'entity:node'
+    label: ''

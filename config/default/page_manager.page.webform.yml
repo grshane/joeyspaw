@@ -1,0 +1,16 @@
+uuid: b72e4a0f-e7f9-4a74-86e3-65013f4d95d8
+langcode: en
+status: true
+dependencies: {  }
+id: webform
+label: Webform
+description: ''
+use_admin_theme: false
+path: '/webform/{webform}'
+access_logic: and
+access_conditions: {  }
+parameters:
+  webform:
+    machine_name: webform
+    type: 'entity:node'
+    label: ''

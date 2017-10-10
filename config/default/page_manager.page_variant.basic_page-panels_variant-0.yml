@@ -1,0 +1,45 @@
+uuid: 526a7ffe-c819-42e3-bac2-a6ca7a14807b
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.basic_page
+  module:
+    - ctools_block
+    - panels
+id: basic_page-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    95bb04f0-67b6-4ad5-8b06-4e68bcb7a394:
+      id: 'entity_field:node:body'
+      label: Body
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: text_default
+        settings: {  }
+        third_party_settings: {  }
+        weight: 0
+      region: middle_left
+      weight: 0
+      uuid: 95bb04f0-67b6-4ad5-8b06-4e68bcb7a394
+      context_mapping:
+        entity: basic
+  id: panels_variant
+  uuid: a986ca42-1f14-4fae-9b71-b4f1cabd78fb
+  label: null
+  weight: 0
+  layout: one_two_one_cl
+  layout_settings: {  }
+  page_title: '[node:title]'
+  storage_type: page_manager
+  storage_id: basic_page-panels_variant-0
+  builder: standard
+page: basic_page
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

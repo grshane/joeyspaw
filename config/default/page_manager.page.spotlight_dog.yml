@@ -1,0 +1,16 @@
+uuid: 9ad214d4-ba47-4696-86c8-09db163fba54
+langcode: en
+status: true
+dependencies: {  }
+id: spotlight_dog
+label: 'Spotlight Dog'
+description: ''
+use_admin_theme: false
+path: '/spotlight-dog/{spotlight}'
+access_logic: and
+access_conditions: {  }
+parameters:
+  spotlight:
+    machine_name: spotlight
+    type: 'entity:node'
+    label: ''
