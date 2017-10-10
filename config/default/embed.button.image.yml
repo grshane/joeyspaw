@@ -1,0 +1,24 @@
+uuid: 34add54a-0e8e-4d46-9446-ee69cd3a2d3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.image
+  content:
+    - 'file:file:d57df6bc-3fba-4109-a6c4-b9799ba01a58'
+  module:
+    - entity_embed
+    - media_entity
+label: Image
+id: image
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - image
+  display_plugins:
+    - 'entity_reference:media_thumbnail'
+  entity_browser: entity_browser
+  entity_browser_settings:
+    display_review: true
+icon_uuid: d57df6bc-3fba-4109-a6c4-b9799ba01a58

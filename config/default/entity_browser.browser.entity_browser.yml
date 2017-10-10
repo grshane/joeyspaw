@@ -1,4 +1,4 @@
-uuid: ead3c903-06e8-4a41-a785-2f2880245fa8
+uuid: 51644b87-c548-4c59-a495-0c8ff2108b57
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,9 @@ dependencies:
   module:
     - media_entity_image
     - views
-name: asset_browser
-label: 'Asset Browser'
-display: modal
+name: entity_browser
+label: 'Entity Browser'
+display: iframe
 display_configuration:
   width: '650'
   height: '500'
@@ -20,24 +20,24 @@ selection_display_configuration: {  }
 widget_selector: tabs
 widget_selector_configuration: {  }
 widgets:
-  4de1ae62-2e2b-4116-9537-5a94d6de817e:
+  98a13b6b-1749-459f-a183-b2dce148cae5:
     settings:
       view: asset_browser
       view_display: entity_browser_1
       submit_text: 'Select entities'
       auto_select: false
-    uuid: 4de1ae62-2e2b-4116-9537-5a94d6de817e
+    uuid: 98a13b6b-1749-459f-a183-b2dce148cae5
     weight: 1
-    label: 'Media Library'
+    label: view
     id: view
-  1d075fd4-f3eb-453b-8674-2ed119c63c4c:
+  297c52b2-0b6d-475c-a6e9-aeafd5b54c24:
     settings:
       extensions: 'jpg jpeg png gif'
       media_bundle: image
       upload_location: 'public://'
       multiple: '1'
       submit_text: 'Select files'
-    uuid: 1d075fd4-f3eb-453b-8674-2ed119c63c4c
+    uuid: 297c52b2-0b6d-475c-a6e9-aeafd5b54c24
     weight: 2
-    label: Upload
+    label: media_entity_image_upload
     id: media_entity_image_upload
