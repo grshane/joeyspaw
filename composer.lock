@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "de8471ed78c663b048b3ee44b38a410b",
+    "content-hash": "4a16ca5d3b10a51383ef2c369e3ce2d7",
     "packages": [
         {
             "name": "acquia/blt",
@@ -4729,73 +4729,6 @@
             "support": {
                 "source": "https://www.drupal.org/project/media_entity",
                 "issues": "https://www.drupal.org/project/issues/media_entity"
-            }
-        },
-        {
-            "name": "drupal/media_entity_browser",
-            "version": "1.0.0-beta3",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/media_entity_browser",
-                "reference": "8.x-1.0-beta3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/media_entity_browser-8.x-1.0-beta3.zip",
-                "reference": "8.x-1.0-beta3",
-                "shasum": "f6f9f13bb0aa6bfd0a61667a47ca60c5282341d5"
-            },
-            "require": {
-                "drupal/core": "~8.0",
-                "drupal/entity_browser": "*",
-                "drupal/media_entity": "*"
-            },
-            "require-dev": {
-                "drupal/ctools": "*",
-                "drupal/entity_browser": "*",
-                "drupal/media_entity": "*",
-                "drupal/video_embed_field": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-beta3",
-                    "datestamp": "1487741885",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Sam152",
-                    "homepage": "https://www.drupal.org/user/1485048"
-                },
-                {
-                    "name": "benjy",
-                    "homepage": "https://www.drupal.org/user/1852732"
-                },
-                {
-                    "name": "larowlan",
-                    "homepage": "https://www.drupal.org/user/395439"
-                },
-                {
-                    "name": "rikki_iki",
-                    "homepage": "https://www.drupal.org/user/1068918"
-                }
-            ],
-            "description": "This module provides an Entity Browser for Media Entity.",
-            "homepage": "https://www.drupal.org/project/media_entity_browser",
-            "support": {
-                "source": "http://cgit.drupalcode.org/media_entity_browser"
             }
         },
         {
@@ -13157,7 +13090,6 @@
         "drupal/field_collection": 15,
         "drupal/field_group": 5,
         "drupal/inline_entity_form": 10,
-        "drupal/media_entity_browser": 10,
         "drupal/media_entity_video": 10,
         "drupal/rules": 15,
         "drupal/simple_block": 10,
