@@ -1,0 +1,35 @@
+uuid: ff5c9ca2-4819-4ea1-9c5a-f1f4ac8cb233
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:ad_block:a989405e-c4ec-48fa-869b-551742c05556'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - joeyspaw
+third_party_settings:
+  block_class:
+    classes: ''
+id: homepageadblock
+theme: joeyspaw
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:a989405e-c4ec-48fa-869b-551742c05556'
+settings:
+  id: 'block_content:a989405e-c4ec-48fa-869b-551742c05556'
+  label: 'Homepage Ad block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

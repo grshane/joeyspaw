@@ -1,4 +1,4 @@
-uuid: b2489e31-bac2-4e46-9225-fd96091f753d
+uuid: 683e2f50-b027-4299-b463-8756f2b7ccf9
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,6 @@ dependencies:
     - block_content.type.ad_block
     - field.storage.block_content.field_ad_image
     - media_entity.bundle.image
-  module:
-    - entity_reference_revisions
 id: block_content.ad_block.field_ad_image
 field_name: field_ad_image
 entity_type: block_content
@@ -24,8 +22,8 @@ settings:
     target_bundles:
       image: image
     sort:
-      field: changed
+      field: created
       direction: DESC
     auto_create: false
     auto_create_bundle: ''
-field_type: entity_reference_revisions
+field_type: entity_reference
