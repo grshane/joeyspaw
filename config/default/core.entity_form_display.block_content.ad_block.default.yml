@@ -4,19 +4,34 @@ status: true
 dependencies:
   config:
     - block_content.type.ad_block
+    - entity_browser.browser.entity_browser
     - field.field.block_content.ad_block.field_ad_image
     - field.field.block_content.ad_block.field_ad_link
     - field.field.block_content.ad_block.field_headline
     - field.field.block_content.ad_block.field_subhead
   module:
+    - entity_browser
     - link
 id: block_content.ad_block.default
 targetEntityType: block_content
 bundle: ad_block
 mode: default
 content:
+  field_ad_image:
+    type: entity_browser_entity_reference
+    weight: 4
+    region: content
+    settings:
+      entity_browser: entity_browser
+      field_widget_display: label
+      field_widget_edit: true
+      field_widget_remove: true
+      open: true
+      selection_mode: selection_edit
+      field_widget_display_settings: {  }
+    third_party_settings: {  }
   field_ad_link:
-    weight: 3
+    weight: 2
     settings:
       placeholder_url: ''
       placeholder_title: ''
@@ -41,11 +56,10 @@ content:
     region: content
   info:
     type: string_textfield
-    weight: 4
+    weight: 3
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden:
-  field_ad_image: true
+hidden: {  }
