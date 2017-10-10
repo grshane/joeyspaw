@@ -1,12 +1,12 @@
-uuid: a6ee964b-bad6-4c30-9890-eed5aae76fcc
+uuid: 192f54c9-a014-4c9d-98f9-d95d2da90bb4
 langcode: en
 status: false
 dependencies: {  }
-id: avaliable_dogs
-label: 'Avaliable Dogs'
+id: dog
+label: Dog
 description: ''
 use_admin_theme: false
-path: '/avaliable-dog/[node:title]'
+path: '/dog/{node:title}'
 access_logic: and
 access_conditions: {  }
 parameters: {  }

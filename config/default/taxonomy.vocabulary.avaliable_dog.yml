@@ -1,0 +1,9 @@
+uuid: a5cba618-2754-4cee-883b-196382910c35
+langcode: en
+status: true
+dependencies: {  }
+name: 'Dog Status'
+vid: avaliable_dog
+description: ''
+hierarchy: 0
+weight: 0

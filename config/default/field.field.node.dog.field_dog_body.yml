@@ -1,17 +1,17 @@
-uuid: 7a863d1a-bf98-46fa-99b9-0001d9e0bd2f
+uuid: 9e4843dc-6573-445d-a6ab-07a5d52a0c72
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_spotlight_dog_body
-    - node.type.spotlight_dog
+    - field.storage.node.field_dog_body
+    - node.type.dog
   module:
     - text
-id: node.spotlight_dog.field_spotlight_dog_body
-field_name: field_spotlight_dog_body
+id: node.dog.field_dog_body
+field_name: field_dog_body
 entity_type: node
-bundle: spotlight_dog
-label: Body
+bundle: dog
+label: 'Dog Body'
 description: ''
 required: false
 translatable: false

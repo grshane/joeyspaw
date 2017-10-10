@@ -1,4 +1,4 @@
-uuid: eac96c6d-a354-4eb5-b6c7-e77a57b4f1ab
+uuid: 45cd36ea-b855-4d5b-975b-4e789b4687ff
 langcode: en
 status: true
 dependencies:
@@ -9,8 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: 'Avaliable Dog'
-type: avaliable_dog
+name: Dog
+type: dog
 description: ''
 help: ''
 new_revision: true

@@ -1,0 +1,89 @@
+uuid: 5ab2210f-4af9-4761-89dc-d6723699cf4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.node_view
+  module:
+    - ctools
+    - ctools_block
+    - panels
+id: node_view-panels_variant-0
+label: Dog
+variant: panels_variant
+variant_settings:
+  blocks:
+    9a67c0c1-3256-49b5-8d66-8d6f28378ec4:
+      id: 'entity_field:node:field_dog_body'
+      label: 'Dog Body'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: text_default
+        settings: {  }
+        third_party_settings: {  }
+        weight: 0
+      region: middle_left
+      weight: 0
+      uuid: 9a67c0c1-3256-49b5-8d66-8d6f28378ec4
+      context_mapping:
+        entity: node
+    69e04edf-9c24-486a-bced-1c4f0991c8cc:
+      id: 'entity_field:node:field_header_image'
+      label: 'Header Image'
+      provider: ctools_block
+      label_display: visible
+      formatter:
+        label: above
+        type: image
+        settings:
+          image_style: ''
+          image_link: ''
+        third_party_settings: {  }
+        weight: 0
+      region: top
+      weight: 0
+      uuid: 69e04edf-9c24-486a-bced-1c4f0991c8cc
+      context_mapping:
+        entity: node
+    06f5fb79-280b-4293-8d6f-66a79c10bd6b:
+      id: 'entity_field:node:field_dog_photo'
+      label: 'Dog Photo'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: image
+        settings:
+          image_style: ''
+          image_link: ''
+        third_party_settings: {  }
+        weight: 0
+      region: middle_right
+      weight: 0
+      uuid: 06f5fb79-280b-4293-8d6f-66a79c10bd6b
+      context_mapping:
+        entity: node
+  id: panels_variant
+  uuid: 940a2517-1918-4df3-98fa-0e6c046d2d82
+  label: null
+  weight: 0
+  layout: one_two_one_cl
+  layout_settings: {  }
+  page_title: '[node:title]'
+  storage_type: page_manager
+  storage_id: node_view-panels_variant-0
+  builder: ipe
+page: node_view
+weight: 0
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    bundles:
+      dog: dog
+    negate: false
+    context_mapping:
+      node: node
+selection_logic: and
+static_context: {  }

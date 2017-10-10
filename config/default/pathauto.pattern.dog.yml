@@ -1,0 +1,22 @@
+uuid: 461d2384-df1e-4e32-94dd-82a63528e7f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: dog
+label: Dog
+type: 'canonical_entities:node'
+pattern: 'dog/[node:title]'
+selection_criteria:
+  a31d7092-daad-4419-9150-70e2768a3c41:
+    id: node_type
+    bundles:
+      dog: dog
+    negate: false
+    context_mapping:
+      node: node
+    uuid: a31d7092-daad-4419-9150-70e2768a3c41
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,20 +1,20 @@
-uuid: 02243661-7953-4777-9f03-ce25808af60e
+uuid: b387b2b4-ada1-4724-a050-51978890229e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_header_image
-    - node.type.avaliable_dog
+    - field.storage.node.field_dog_photo
+    - node.type.dog
   module:
     - image
-id: node.avaliable_dog.field_header_image
-field_name: field_header_image
+id: node.dog.field_dog_photo
+field_name: field_dog_photo
 entity_type: node
-bundle: avaliable_dog
-label: 'Header Image'
+bundle: dog
+label: 'Dog Photo'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

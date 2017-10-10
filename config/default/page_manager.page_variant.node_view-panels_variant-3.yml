@@ -1,0 +1,53 @@
+uuid: 50b6a963-5d93-4677-a023-200dfd408b88
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.node_view
+  module:
+    - ctools
+    - ctools_block
+    - panels
+id: node_view-panels_variant-3
+label: 'Basic Page'
+variant: panels_variant
+variant_settings:
+  blocks:
+    5196ffc5-f24f-4a68-8938-5aadf8728cc0:
+      id: 'entity_field:node:field_page_body'
+      label: Body
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: text_default
+        settings: {  }
+        third_party_settings: {  }
+        weight: 0
+      region: middle_left
+      weight: 0
+      uuid: 5196ffc5-f24f-4a68-8938-5aadf8728cc0
+      context_mapping:
+        entity: node
+  id: panels_variant
+  uuid: 56b0efca-e3c2-4f2a-af92-21a78041a759
+  label: null
+  weight: 0
+  layout: one_two_one_cl
+  layout_settings: {  }
+  page_title: '[node:title]'
+  storage_type: page_manager
+  storage_id: node_view-panels_variant-3
+  builder: ipe
+page: node_view
+weight: 0
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: node
+selection_logic: and
+static_context: {  }

@@ -1,16 +1,16 @@
-uuid: fd8961e7-c3c7-4bcc-bca4-4fb53a1d8e80
+uuid: b1ee9720-7eb2-4cd9-ab4e-b5d9a8418da9
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.avaliable_dog.field_available_dog_body
-    - field.field.node.avaliable_dog.field_dog_photo
-    - field.field.node.avaliable_dog.field_header_image
-    - field.field.node.avaliable_dog.field_meta_tags
-    - node.type.avaliable_dog
+    - field.field.node.dog.field_dog_body
+    - field.field.node.dog.field_dog_photo
+    - field.field.node.dog.field_dog_status
+    - field.field.node.dog.field_dog_url
+    - field.field.node.dog.field_home_page_dog
+    - node.type.dog
   module:
     - image
-    - metatag
     - panelizer
     - text
     - user
@@ -20,20 +20,20 @@ third_party_settings:
     custom: false
     allow: false
     default: default
-id: node.avaliable_dog.default
+id: node.dog.default
 targetEntityType: node
-bundle: avaliable_dog
+bundle: dog
 mode: default
 content:
-  field_available_dog_body:
-    weight: 2
+  field_dog_body:
+    weight: 1
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_dog_photo:
-    weight: 3
+    weight: 2
     label: hidden
     settings:
       image_style: ''
@@ -41,17 +41,12 @@ content:
     third_party_settings: {  }
     type: image
     region: content
-  field_meta_tags:
-    weight: 4
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: metatag_empty_formatter
-    region: content
   links:
     weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_header_image: true
+  field_dog_status: true
+  field_dog_url: true
+  field_home_page_dog: true

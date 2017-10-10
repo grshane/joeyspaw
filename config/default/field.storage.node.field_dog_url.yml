@@ -1,16 +1,16 @@
-uuid: b608eb6f-187d-4964-8af8-0124498728c2
+uuid: 62b979b2-3a4c-4e3e-91df-790085be130b
 langcode: en
 status: true
 dependencies:
   module:
+    - link
     - node
-    - text
-id: node.field_available_dog_body
-field_name: field_available_dog_body
+id: node.field_dog_url
+field_name: field_dog_url
 entity_type: node
-type: text_with_summary
+type: link
 settings: {  }
-module: text
+module: link
 locked: false
 cardinality: 1
 translatable: true

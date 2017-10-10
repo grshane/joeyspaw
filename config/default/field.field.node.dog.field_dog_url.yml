@@ -1,0 +1,23 @@
+uuid: f8bf0901-e61d-4e03-8018-01d41257ea45
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dog_url
+    - node.type.dog
+  module:
+    - link
+id: node.dog.field_dog_url
+field_name: field_dog_url
+entity_type: node
+bundle: dog
+label: 'Dog Shelter URL'
+description: 'If this dog is available, you can put the URL to the shelter that this dog is at.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

@@ -1,13 +1,13 @@
-uuid: cda7efa7-18a6-4816-9b7c-79ee51e023e0
+uuid: 96092fa6-41be-4354-9ff0-9e88aea3a8f6
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.avaliable_dog
-id: node.avaliable_dog.title
+    - node.type.dog
+id: node.dog.title
 field_name: title
 entity_type: node
-bundle: avaliable_dog
+bundle: dog
 label: 'Dog Name'
 description: ''
 required: true

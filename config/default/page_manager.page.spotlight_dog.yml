@@ -1,6 +1,6 @@
 uuid: 9ad214d4-ba47-4696-86c8-09db163fba54
 langcode: en
-status: true
+status: false
 dependencies: {  }
 id: spotlight_dog
 label: 'Spotlight Dog'

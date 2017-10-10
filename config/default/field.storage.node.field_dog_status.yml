@@ -1,17 +1,19 @@
-uuid: c357417d-682e-4601-a540-e01afd6e6f62
+uuid: 9cc6405d-9c67-4171-9646-9c6265460a1b
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_home_page_dog
-field_name: field_home_page_dog
+    - taxonomy
+id: node.field_dog_status
+field_name: field_dog_status
 entity_type: node
-type: boolean
-settings: {  }
+type: entity_reference
+settings:
+  target_type: taxonomy_term
 module: core
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

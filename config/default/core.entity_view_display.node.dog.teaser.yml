@@ -1,0 +1,20 @@
+uuid: d7f02cf2-3467-4349-93b5-566faba3fbf7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.dog.field_dog_body
+    - node.type.dog
+  module:
+    - user
+id: node.dog.teaser
+targetEntityType: node
+bundle: dog
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_dog_body: true

@@ -1,0 +1,92 @@
+uuid: 913f9e70-c3e0-4ea1-8f30-df1db27a204b
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.dog
+  module:
+    - ctools
+    - ctools_block
+    - panels
+id: dog-panels_variant-0
+label: 'Dog Page'
+variant: panels_variant
+variant_settings:
+  blocks:
+    90c2c28a-bf11-4995-97cc-d17a8eb0e14c:
+      id: 'entity_field:node:field_dog_body'
+      label: 'Dog Body'
+      provider: ctools_block
+      label_display: visible
+      formatter:
+        label: hidden
+        type: text_default
+        settings: {  }
+        third_party_settings: {  }
+        weight: 0
+      region: middle_left
+      weight: 0
+      uuid: 90c2c28a-bf11-4995-97cc-d17a8eb0e14c
+      context_mapping:
+        entity: dog
+    90617e58-447c-4227-8b30-bc51c61e735c:
+      id: 'entity_field:node:field_dog_photo'
+      label: 'Dog Photo'
+      provider: ctools_block
+      label_display: visible
+      formatter:
+        label: hidden
+        type: image
+        settings:
+          image_style: ''
+          image_link: ''
+        third_party_settings: {  }
+        weight: 0
+      region: middle_right
+      weight: 0
+      uuid: 90617e58-447c-4227-8b30-bc51c61e735c
+      context_mapping:
+        entity: dog
+    9fcbd8ac-de82-46a8-899e-77b6518d7e31:
+      id: 'entity_field:node:field_dog_url'
+      label: 'Dog Shelter URL'
+      provider: ctools_block
+      label_display: visible
+      formatter:
+        label: hidden
+        type: link
+        settings:
+          trim_length: 80
+          url_only: false
+          url_plain: false
+          rel: '0'
+          target: '0'
+        third_party_settings: {  }
+        weight: 0
+      region: middle_right
+      weight: -1
+      uuid: 9fcbd8ac-de82-46a8-899e-77b6518d7e31
+      context_mapping:
+        entity: dog
+  id: panels_variant
+  uuid: c70e37f6-bfc3-4431-a479-38cae33becd6
+  label: null
+  weight: 0
+  layout: one_two_one_cl
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: dog-panels_variant-0
+  builder: ipe
+page: dog
+weight: 0
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    bundles:
+      dog: dog
+    negate: false
+    context_mapping:
+      node: dog
+selection_logic: and
+static_context: {  }

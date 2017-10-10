@@ -1,12 +1,12 @@
-uuid: 78f086b9-3157-49e4-9eab-e0d0189eca1e
+uuid: 95f9d014-1b93-4055-bd1c-46e06f75c93b
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - text
-id: node.field_spotlight_dog_body
-field_name: field_spotlight_dog_body
+id: node.field_dog_body
+field_name: field_dog_body
 entity_type: node
 type: text_with_summary
 settings: {  }
