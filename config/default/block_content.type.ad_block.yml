@@ -1,0 +1,8 @@
+uuid: 5d7d735d-851a-40eb-9a62-aa9531fc3967
+langcode: en
+status: true
+dependencies: {  }
+id: ad_block
+label: 'Ad Block'
+revision: 1
+description: ''

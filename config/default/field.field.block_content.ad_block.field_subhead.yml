@@ -1,0 +1,19 @@
+uuid: e0758c72-2077-4c70-a404-568fcd7f5094
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ad_block
+    - field.storage.block_content.field_subhead
+id: block_content.ad_block.field_subhead
+field_name: field_subhead
+entity_type: block_content
+bundle: ad_block
+label: Subhead
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

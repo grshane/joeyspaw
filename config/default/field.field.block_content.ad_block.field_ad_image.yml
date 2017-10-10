@@ -1,0 +1,31 @@
+uuid: b2489e31-bac2-4e46-9225-fd96091f753d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ad_block
+    - field.storage.block_content.field_ad_image
+    - media_entity.bundle.image
+  module:
+    - entity_reference_revisions
+id: block_content.ad_block.field_ad_image
+field_name: field_ad_image
+entity_type: block_content
+bundle: ad_block
+label: Image
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: changed
+      direction: DESC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference_revisions

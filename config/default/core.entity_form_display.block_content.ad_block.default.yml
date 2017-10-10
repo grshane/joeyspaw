@@ -1,0 +1,60 @@
+uuid: 95ea57f5-cbcc-4297-9ab8-1ac0c76c566e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ad_block
+    - field.field.block_content.ad_block.field_ad_image
+    - field.field.block_content.ad_block.field_ad_link
+    - field.field.block_content.ad_block.field_headline
+    - field.field.block_content.ad_block.field_subhead
+  module:
+    - entity_reference_revisions
+    - link
+id: block_content.ad_block.default
+targetEntityType: block_content
+bundle: ad_block
+mode: default
+content:
+  field_ad_image:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_autocomplete
+    region: content
+  field_ad_link:
+    weight: 3
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_headline:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_subhead:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

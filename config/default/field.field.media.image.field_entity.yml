@@ -1,0 +1,21 @@
+uuid: 03026452-5723-4cdc-94db-c70d5eeddab1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_entity
+    - media_entity.bundle.image
+id: media.image.field_entity
+field_name: field_entity
+entity_type: media
+bundle: image
+label: Entity
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:entity_browser'
+  handler_settings: {  }
+field_type: entity_reference
