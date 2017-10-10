@@ -1,0 +1,63 @@
+uuid: 7bc8ac2c-acd7-4dae-8938-2bffe141d327
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.spotlight_dog
+  module:
+    - ctools_block
+    - panels
+id: spotlight_dog-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    e1f93bd8-c1bd-4b7d-b01c-6458866fb967:
+      id: 'entity_field:node:field_spotlight_dog_body'
+      label: Body
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: text_default
+        settings: {  }
+        third_party_settings: {  }
+        weight: 0
+      region: middle_left
+      weight: 0
+      uuid: e1f93bd8-c1bd-4b7d-b01c-6458866fb967
+      context_mapping:
+        entity: spotlight
+    7dc785c2-c7ff-4c93-bd52-d771640f8043:
+      id: 'entity_field:node:field_dog_photo'
+      label: 'Dog Photo'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: above
+        type: image
+        settings:
+          image_style: ''
+          image_link: ''
+        third_party_settings: {  }
+        weight: 0
+      region: middle_right
+      weight: 0
+      uuid: 7dc785c2-c7ff-4c93-bd52-d771640f8043
+      context_mapping:
+        entity: spotlight
+  id: panels_variant
+  uuid: db068c91-4464-4f21-a737-8864577a2d2f
+  label: null
+  weight: 0
+  layout: one_two_one_cl
+  layout_settings: {  }
+  page_title: '[node:title]'
+  storage_type: page_manager
+  storage_id: spotlight_dog-panels_variant-0
+  builder: standard
+page: spotlight_dog
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

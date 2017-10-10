@@ -1,0 +1,58 @@
+uuid: c64741c0-85ad-49ea-bc43-021b468438b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.press_release
+    - views.view.press_releases
+  module:
+    - ctools_block
+    - panels
+    - views
+id: press_release-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    2a8b907b-84bf-4c45-8e04-1a61630eabf9:
+      id: 'entity_field:node:field_press_release_body'
+      label: Body
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: text_default
+        settings: {  }
+        third_party_settings: {  }
+        weight: 0
+      region: middle_left
+      weight: 0
+      uuid: 2a8b907b-84bf-4c45-8e04-1a61630eabf9
+      context_mapping:
+        entity: press
+    9ad008de-1137-459d-b955-90590c1c3182:
+      id: 'views_block:press_releases-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: middle_right
+      weight: 0
+      uuid: 9ad008de-1137-459d-b955-90590c1c3182
+      context_mapping: {  }
+  id: panels_variant
+  uuid: ca5cf134-b0a8-44eb-b333-e556fc08e8b9
+  label: null
+  weight: 0
+  layout: one_two_one_cl
+  layout_settings: {  }
+  page_title: '[node:title]'
+  storage_type: page_manager
+  storage_id: press_release-panels_variant-0
+  builder: standard
+page: press_release
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

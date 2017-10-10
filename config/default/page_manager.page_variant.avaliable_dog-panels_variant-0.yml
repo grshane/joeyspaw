@@ -1,0 +1,63 @@
+uuid: 8b11a472-8aa5-42e8-9a8a-7d0f577ddc36
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.avaliable_dog
+  module:
+    - ctools_block
+    - panels
+id: avaliable_dog-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    881fb576-d885-4458-8685-b2761bebf68f:
+      id: 'entity_field:node:field_available_dog_body'
+      label: Body
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: text_default
+        settings: {  }
+        third_party_settings: {  }
+        weight: 0
+      region: middle_left
+      weight: 0
+      uuid: 881fb576-d885-4458-8685-b2761bebf68f
+      context_mapping:
+        entity: dog
+    3fd5dc98-636c-4a5e-a823-63b4c06a4a0c:
+      id: 'entity_field:node:field_dog_photo'
+      label: 'Dog Photo'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: image
+        settings:
+          image_style: ''
+          image_link: ''
+        third_party_settings: {  }
+        weight: 0
+      region: middle_right
+      weight: 0
+      uuid: 3fd5dc98-636c-4a5e-a823-63b4c06a4a0c
+      context_mapping:
+        entity: dog
+  id: panels_variant
+  uuid: a4442e7b-c9d3-4e06-904c-e920bbadccda
+  label: null
+  weight: 0
+  layout: one_two_one_cl
+  layout_settings: {  }
+  page_title: '[node:title]'
+  storage_type: page_manager
+  storage_id: avaliable_dog-panels_variant-0
+  builder: standard
+page: avaliable_dog
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

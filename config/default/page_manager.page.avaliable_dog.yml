@@ -1,0 +1,16 @@
+uuid: c377df9b-87ff-43f0-9fb3-92f9cef48084
+langcode: en
+status: true
+dependencies: {  }
+id: avaliable_dog
+label: 'Avaliable Dog'
+description: ''
+use_admin_theme: false
+path: '/avaliable-dog/{dog}'
+access_logic: and
+access_conditions: {  }
+parameters:
+  dog:
+    machine_name: dog
+    type: 'entity:node'
+    label: ''
