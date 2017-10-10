@@ -76,6 +76,7 @@ var plugins = require('gulp-load-plugins')({
     'run-sequence': 'runSequence',
     'gulp-clean-css': 'cleanCSS',
     'gulp-stylelint': 'stylelint',
+    'gulp-eslint': 'gulpEslint',
     'gulp-babel': 'babel',
     'gulp-util': 'gutil'
   }
@@ -106,9 +107,8 @@ var options = {
   browserSync: {
     // Put your local site URL here to prevent Browsersync
     // from prompting you to add additional scripts to your page.
-    injectChanges: true,
     proxy: {
-      target: 'http://local.joeyspaw.com/'
+      target: 'http://local.joeyspaw.com'
     },
     open: 'external',
     xip: true,
@@ -178,8 +178,8 @@ var options = {
   pa11y: {
     urls: [ // An array of urls to test.
       // For testing in a travis environment:
-      'http://local.joeyspaw.com/',
-      'http://local.joeyspaw.com/themes/custom/yourtheme/styleguide'
+      'http://local.joeyspaw.com',
+      'http://local.joeyspaw.com/themes/custom/joeyspaw/styleguide'
     ],
     failOnError: true, // fail the build on error
     showFailedOnly: true, // show errors only and override reporter

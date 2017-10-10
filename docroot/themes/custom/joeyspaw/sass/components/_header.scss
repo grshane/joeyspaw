@@ -15,7 +15,6 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  height: 230px;
 
   .site-branding {
     display: flex;
@@ -31,12 +30,15 @@
   .we-mega-menu-ul{
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
   }
   .menu__item,
   .menu-item,
   .we-mega-menu-li {
     list-style: none;
     a {
+      //padding-left: 0;
+      //padding-right: 0;
       font-size: 1.5em;
       color: $primary;
       &:hover,
@@ -47,5 +49,15 @@
       }
 
     }
+  }
+  .sub-nav {
+    background: url(../images/joeys_paw_menu_joey.png) rgba(255, 255, 255, 0.9) no-repeat;
+    background-size: contain;
+    background-position: 90%;
+    width: 500px;
+    padding: 1em 0;
+    border-bottom: 0.8em solid rgba(255, 255, 255, 0);
+    border-top: 0.8em solid rgba(255, 255, 255, 0);
+    padding-right: 200px;
   }
 }
