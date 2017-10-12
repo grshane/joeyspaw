@@ -765,4 +765,4 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
 $config_directories['vcs'] = $app_root . '/../config/' . basename($site_path);
 
-$settings['install_profile'] = 'standard';
+$settings['install_profile'] = 'lightning';
