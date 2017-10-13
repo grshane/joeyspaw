@@ -131,6 +131,12 @@
             ],
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
+            ],
+            "docroot/libraries/mmenu": [
+                "FrDH/jQuery.mmenu"
+            ],
+            "docroot/libraries/hammerjs": [
+                "hammerjs/hammer.js"
             ]
         },
         "merge-plugin": {
@@ -143,11 +149,6 @@
             "merge-scripts": true,
             "replace": false,
             "ignore-duplicates": true
-        },
-        "patches": {
-            "drupal/responsive_menu": {
-                "Libary path issue": "https://www.drupal.org/files/issues/responsive_menu-mmenu-path-changes-21.patch"
-            }
         }
     }
 }
