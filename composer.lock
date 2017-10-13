@@ -4,8 +4,19 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a45e7f070062d0faa5bcc95d11718b42",
+    "content-hash": "521334db2d24cfef4f2f9de4483196c7",
     "packages": [
+        {
+            "name": "FrDH/jQuery.mmenu",
+            "version": "6.1.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/FrDH/jQuery.mmenu/archive/v6.1.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "drupal-library"
+        },
         {
             "name": "acquia/blt",
             "version": "8.9.7",
@@ -8429,6 +8440,17 @@
             "time": "2017-03-20T17:10:46+00:00"
         },
         {
+            "name": "hammerjs/hammer.js",
+            "version": "2.0.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/hammerjs/hammer.js/archive/v2.0.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "drupal-library"
+        },
+        {
             "name": "j7mbo/twitter-api-php",
             "version": "1.0.6",
             "source": {
@@ -8564,6 +8586,17 @@
                 }
             ],
             "time": "2015-04-20T18:58:01+00:00"
+        },
+        {
+            "name": "joeldbirch/superfish",
+            "version": "1.7.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/joeldbirch/superfish/archive/v1.7.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "drupal-library"
         },
         {
             "name": "lcobucci/jwt",

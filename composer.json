@@ -8,10 +8,11 @@
         {
             "type": "package",
             "package": {
-                "name": "oeldbirch/superfish",
+                "name": "FrDH/jQuery.mmenu",
                 "type": "drupal-library",
+                "version": "6.1.8",
                 "dist": {
-                    "url": "https://api.github.com/repos/joeldbirch/superfish/zipball",
+                    "url": "https://github.com/FrDH/jQuery.mmenu/archive/v6.1.8.zip",
                     "type": "zip"
                 }
             }
@@ -21,8 +22,9 @@
             "package": {
                 "name": "hammerjs/hammer.js",
                 "type": "drupal-library",
+                "version": "2.0.8",
                 "dist": {
-                    "url": "https://api.github.com/repos/hammerjs/hammer.js/zipball",
+                    "url": "https://github.com/hammerjs/hammer.js/archive/v2.0.8.zip",
                     "type": "zip"
                 }
             }
@@ -30,10 +32,11 @@
         {
             "type": "package",
             "package": {
-                "name": "FrDH/jQuery.mmenu",
+                "name": "joeldbirch/superfish",
                 "type": "drupal-library",
+                "version": "1.7.9",
                 "dist": {
-                    "url": "https://api.github.com/repos/FrDH/jQuery.mmenu/zipball",
+                    "url": "https://github.com/joeldbirch/superfish/archive/v1.7.9.zip",
                     "type": "zip"
                 }
             }
@@ -82,7 +85,10 @@
         "drupal/recreate_block_content": "^1.0",
         "drupal/context": "^4.0@beta",
         "drush/drush": "^8.1",
-        "drupal/console": "~1.0"
+        "drupal/console": "~1.0",
+        "joeldbirch/superfish": "^1.7",
+        "FrDH/jQuery.mmenu": "^6.1",
+        "hammerjs/hammer.js": "^2.0"
     },
     "require-dev": {
         "geerlingguy/drupal-vm": "^4.6"
