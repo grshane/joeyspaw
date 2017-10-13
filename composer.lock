@@ -4,8 +4,19 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4eee9789a1a9496031c6667e5a14d443",
+    "content-hash": "b5b2675ae855906e0228b1e843bbf15d",
     "packages": [
+        {
+            "name": "FrDH/jQuery.mmenu",
+            "version": "6.1.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/FrDH/jQuery.mmenu/archive/v6.1.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "drupal-library"
+        },
         {
             "name": "acquia/blt",
             "version": "8.9.8",
@@ -8434,7 +8445,7 @@
             "time": "2017-03-20T17:10:46+00:00"
         },
         {
-            "name": "hammerjs",
+            "name": "hammerjs/hammer.js",
             "version": "2.0.8",
             "dist": {
                 "type": "zip",
@@ -8961,17 +8972,6 @@
                 "html"
             ],
             "time": "2016-07-25T17:07:32+00:00"
-        },
-        {
-            "name": "mmenu",
-            "version": "6.1.8",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/FrDH/jQuery.mmenu/archive/v6.1.8.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "drupal-library"
         },
         {
             "name": "nikic/php-parser",
@@ -13571,6 +13571,17 @@
             "time": "2017-10-07T04:35:10+00:00"
         },
         {
+            "name": "hammerjs",
+            "version": "2.0.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/hammerjs/hammer.js/archive/v2.0.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "drupal-library"
+        },
+        {
             "name": "instaclick/php-webdriver",
             "version": "1.4.5",
             "source": {
@@ -13763,6 +13774,17 @@
             "description": "Virtual file system to mock the real file system in unit tests.",
             "homepage": "http://vfs.bovigo.org/",
             "time": "2017-08-01T08:02:14+00:00"
+        },
+        {
+            "name": "mmenu",
+            "version": "6.1.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/FrDH/jQuery.mmenu/archive/v6.1.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "drupal-library"
         },
         {
             "name": "se/selenium-server-standalone",
