@@ -9,7 +9,6 @@
             "type": "package",
             "package": {
                 "name": "FrDH/jQuery.mmenu",
-                "type": "drupal-library",
                 "version": "6.1.8",
                 "dist": {
                     "url": "https://github.com/FrDH/jQuery.mmenu/archive/v6.1.8.zip",
@@ -21,7 +20,6 @@
             "type": "package",
             "package": {
                 "name": "hammerjs/hammer.js",
-                "type": "drupal-library",
                 "version": "2.0.8",
                 "dist": {
                     "url": "https://github.com/hammerjs/hammer.js/archive/v2.0.8.zip",
@@ -33,7 +31,6 @@
             "type": "package",
             "package": {
                 "name": "joeldbirch/superfish",
-                "type": "drupal-library",
                 "version": "1.7.9",
                 "dist": {
                     "url": "https://github.com/joeldbirch/superfish/archive/v1.7.9.zip",
