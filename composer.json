@@ -8,8 +8,9 @@
         {
             "type": "package",
             "package": {
-                "name": "FrDH/jQuery.mmenu",
+                "name": "mmenu",
                 "version": "6.1.8",
+                "type": "drupal-library",
                 "dist": {
                     "url": "https://github.com/FrDH/jQuery.mmenu/archive/v6.1.8.zip",
                     "type": "zip"
@@ -19,8 +20,9 @@
         {
             "type": "package",
             "package": {
-                "name": "hammerjs/hammer.js",
+                "name": "hammerjs",
                 "version": "2.0.8",
+                "type": "drupal-library",
                 "dist": {
                     "url": "https://github.com/hammerjs/hammer.js/archive/v2.0.8.zip",
                     "type": "zip"
@@ -83,7 +85,10 @@
         "drupal/context": "^4.0@beta",
         "drush/drush": "^8.1",
         "drupal/console": "~1.0",
-        "drupal/panelizer": "^4.0"
+        "drupal/panelizer": "^4.0",
+        "joeldbirch/superfish": "^1.7",
+        "mmenu": "^6.1",
+        "hammerjs": "^2.0"
     },
     "require-dev": {
         "geerlingguy/drupal-vm": "^4.6"
@@ -98,6 +103,12 @@
             "npm-asset"
         ],
         "installer-paths": {
+            "docroot/libraries/mmenu": [
+                "FrDH/jQuery.mmenu"
+            ],
+            "docroot/libraries/hammerjs": [
+                "hammerjs/hammer.js"
+            ],
             "docroot/core": [
                 "type:drupal-core"
             ],
