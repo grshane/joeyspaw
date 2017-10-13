@@ -1,0 +1,9 @@
+uuid: 564c683f-b220-462d-b210-9d8be174bc87
+langcode: en
+status: true
+dependencies: {  }
+id: node__press_release
+label: 'Content: Press Release'
+tags:
+  keywords: '[site:name], [site:slogan], [node:title], Press Release, '
+  title: '[node:title] | [site:name]'

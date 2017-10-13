@@ -1,0 +1,29 @@
+uuid: 81a1dffb-79cd-4d8f-9bd5-04bee9360eb6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b7c8c194-5d78-44fc-b8c3-40cf7fd664ec'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - joeyspaw
+third_party_settings:
+  block_class:
+    classes: ''
+id: socialmediablock
+theme: joeyspaw
+region: header
+weight: -12
+provider: null
+plugin: 'block_content:b7c8c194-5d78-44fc-b8c3-40cf7fd664ec'
+settings:
+  id: 'block_content:b7c8c194-5d78-44fc-b8c3-40cf7fd664ec'
+  label: 'Social Media Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

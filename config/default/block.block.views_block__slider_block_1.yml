@@ -1,0 +1,34 @@
+uuid: 1efedfd2-9707-4341-aa86-f5d373699d8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slider
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - joeyspaw
+third_party_settings:
+  block_class:
+    classes: ''
+id: views_block__slider_block_1
+theme: joeyspaw
+region: header
+weight: -7
+provider: null
+plugin: 'views_block:slider-block_1'
+settings:
+  id: 'views_block:slider-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

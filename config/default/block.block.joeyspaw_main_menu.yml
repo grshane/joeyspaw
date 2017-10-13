@@ -17,7 +17,7 @@ _core:
 id: joeyspaw_main_menu
 theme: joeyspaw
 region: header
-weight: -6
+weight: -8
 provider: null
 plugin: 'system_menu_block:main'
 settings:

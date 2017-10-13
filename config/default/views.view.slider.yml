@@ -1,20 +1,17 @@
-uuid: e546ab4d-20ac-46a1-b592-8e5f98b6b36a
+uuid: 2d33cbc4-7f45-4e49-82d7-1af35680a6d5
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_sponsor_logo
-    - field.storage.node.field_sponsor_url
-    - node.type.sponsor
+    - field.storage.node.field_slider_image
+    - node.type.slider_image
   module:
-    - blazy
     - image
-    - link
     - node
     - slick_views
     - user
-id: sponsors
-label: Sponsors
+id: slider
+label: Slider
 module: views
 description: ''
 tag: ''
@@ -62,27 +59,26 @@ display:
         type: slick
         options:
           vanilla: true
-          optionset: sponsors
+          optionset: home_slider
           skin: fullwidth
           layout: ''
           caption:
+            field_slider_image: field_slider_image
             title: '0'
-            field_sponsor_url: '0'
-            field_sponsor_logo: '0'
-          optionset_thumbnail: default
+          optionset_thumbnail: ''
           skin_thumbnail: ''
           thumbnail_caption: ''
           grid_header: ''
           grid: null
-          grid_medium: null
-          grid_small: 4
+          grid_medium: 3
+          grid_small: 1
           visible_items: 3
           preserve_keys: false
-          image: field_sponsor_logo
+          image: field_slider_image
           thumbnail: ''
           overlay: ''
-          title: title
-          link: field_sponsor_url
+          title: ''
+          link: ''
           class: ''
           id: ''
           override: false
@@ -99,6 +95,11 @@ display:
           current_view_mode: block_1
       row:
         type: fields
+        options:
+          default_field_elements: true
+          inline: {  }
+          separator: ''
+          hide_empty: false
       fields:
         title:
           id: title
@@ -165,15 +166,15 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: field
-        field_sponsor_url:
-          id: field_sponsor_url
-          table: node__field_sponsor_url
-          field: field_sponsor_url
+        field_slider_image:
+          id: field_slider_image
+          table: node__field_slider_image
+          field: field_slider_image
           relationship: none
           group_type: group
           admin_label: ''
           label: ''
-          exclude: true
+          exclude: false
           alter:
             alter_text: false
             text: ''
@@ -190,73 +191,6 @@ display:
             prefix: ''
             suffix: ''
             target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: uri
-          type: link
-          settings:
-            trim_length: 80
-            url_only: false
-            url_plain: false
-            rel: '0'
-            target: '0'
-          group_column: ''
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          plugin_id: field
-        field_sponsor_logo:
-          id: field_sponsor_logo
-          table: node__field_sponsor_logo
-          field: field_sponsor_logo
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: true
-            path: '{{ field_sponsor_url }}'
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: _blank
             nl2br: false
             max_length: 0
             word_boundary: true
@@ -313,33 +247,33 @@ display:
           table: node_field_data
           field: type
           value:
-            sponsor: sponsor
+            slider_image: slider_image
           entity_type: node
           entity_field: type
           plugin_id: bundle
       sorts:
-        title:
-          id: title
+        created:
+          id: created
           table: node_field_data
-          field: title
-          order: ASC
+          field: created
+          order: DESC
           entity_type: node
-          entity_field: title
-          plugin_id: standard
+          entity_field: created
+          plugin_id: date
           relationship: none
           group_type: group
           admin_label: ''
           exposed: false
           expose:
             label: ''
-      title: Sponsors
+          granularity: second
+      title: Slider
       header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
-      use_ajax: false
     cache_metadata:
       max-age: -1
       contexts:
@@ -348,49 +282,15 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_sponsor_logo'
-        - 'config:field.storage.node.field_sponsor_url'
+        - 'config:field.storage.node.field_slider_image'
   block_1:
     display_plugin: block
     id: block_1
-    display_title: Carousel
-    position: 2
-    display_options:
-      display_extenders:
-        metatag_display_extender: {  }
-      display_description: ''
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - 'user.node_grants:view'
-        - user.permissions
-      tags:
-        - 'config:field.storage.node.field_sponsor_logo'
-        - 'config:field.storage.node.field_sponsor_url'
-  page_1:
-    display_plugin: page
-    id: page_1
-    display_title: Page
+    display_title: Block
     position: 1
     display_options:
       display_extenders:
         metatag_display_extender: {  }
-      path: sponsors
-      style:
-        type: blazy
-        options:
-          style: column
-          grid: 4
-          grid_medium: 3
-          grid_small: 2
-      defaults:
-        style: false
-        row: false
-      row:
-        type: fields
-        options: {  }
     cache_metadata:
       max-age: -1
       contexts:
@@ -399,5 +299,4 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_sponsor_logo'
-        - 'config:field.storage.node.field_sponsor_url'
+        - 'config:field.storage.node.field_slider_image'

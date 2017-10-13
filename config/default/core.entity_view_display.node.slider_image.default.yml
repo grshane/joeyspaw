@@ -1,0 +1,51 @@
+uuid: 4fd1d45c-a273-453f-b792-7c7f7ecd0bcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.slider_image.field_slider_image
+    - field.field.node.slider_image.field_slider_url
+    - node.type.slider_image
+  module:
+    - image
+    - link
+    - panelizer
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.slider_image.default
+targetEntityType: node
+bundle: slider_image
+mode: default
+content:
+  field_slider_image:
+    weight: 102
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_slider_url:
+    weight: 103
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

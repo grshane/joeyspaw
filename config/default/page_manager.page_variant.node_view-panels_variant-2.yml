@@ -4,12 +4,16 @@ status: true
 dependencies:
   config:
     - page_manager.page.node_view
+  content:
+    - 'block_content:basic:05e7a1b6-275a-416e-a438-56c42808560c'
   module:
-    - ctools
+    - block_content
     - ctools_block
     - panels
+    - system
+    - webform
 id: node_view-panels_variant-2
-label: Webform
+label: 'Contact Us Webform'
 variant: panels_variant
 variant_settings:
   blocks:
@@ -29,13 +33,36 @@ variant_settings:
       uuid: c3c316b9-1dd5-4416-be40-1d2ce1eee635
       context_mapping:
         entity: node
+    c2223426-e9b2-4d42-9fd2-caba5ce01288:
+      id: webform_block
+      label: Webform
+      provider: webform
+      label_display: visible
+      webform_id: contact_us
+      default_data: ''
+      region: middle_left
+      weight: 1
+      uuid: c2223426-e9b2-4d42-9fd2-caba5ce01288
+      context_mapping: {  }
+    3c8c08cc-a0f0-4edb-b27a-d0a3670886fb:
+      id: 'block_content:05e7a1b6-275a-416e-a438-56c42808560c'
+      label: donatebutton
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: middle_right
+      weight: 0
+      uuid: 3c8c08cc-a0f0-4edb-b27a-d0a3670886fb
+      context_mapping: {  }
   id: panels_variant
   uuid: 5b9baa10-2587-4fd0-94bd-89b4c5f762e3
   label: null
   weight: 0
   layout: one_two_one_cl
   layout_settings: {  }
-  page_title: '[node:title]'
+  page_title: ''
   storage_type: page_manager
   storage_id: node_view-panels_variant-2
   builder: ipe
@@ -43,11 +70,9 @@ page: node_view
 weight: 0
 selection_criteria:
   -
-    id: 'entity_bundle:node'
-    bundles:
-      webform: webform
+    id: request_path
+    pages: /contact-us
     negate: false
-    context_mapping:
-      node: node
+    context_mapping: {  }
 selection_logic: and
 static_context: {  }

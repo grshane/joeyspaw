@@ -1,0 +1,21 @@
+uuid: 0da6305f-9a32-47fb-b3f4-d5cd6df5fd18
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+name: front_page
+label: 'Front Page'
+group: null
+description: 'The front page layout and items.'
+requireAllConditions: false
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: 0
+    uuid: ee64095c-b535-49e2-97f8-745eb4c64308
+    context_mapping: {  }
+reactions: {  }
+weight: 0

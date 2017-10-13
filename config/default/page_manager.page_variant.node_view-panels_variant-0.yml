@@ -25,7 +25,7 @@ variant_settings:
         third_party_settings: {  }
         weight: 0
       region: middle_left
-      weight: 0
+      weight: -1
       uuid: 9a67c0c1-3256-49b5-8d66-8d6f28378ec4
       context_mapping:
         entity: node
@@ -57,12 +57,33 @@ variant_settings:
         type: image
         settings:
           image_style: ''
-          image_link: ''
+          image_link: file
         third_party_settings: {  }
         weight: 0
       region: middle_right
-      weight: 0
+      weight: -9
       uuid: 06f5fb79-280b-4293-8d6f-66a79c10bd6b
+      context_mapping:
+        entity: node
+    0f389c97-4124-4bf3-98c6-fcf1a0650e0c:
+      id: 'entity_field:node:field_dog_url'
+      label: 'Adopt This Dog'
+      provider: ctools_block
+      label_display: visible
+      formatter:
+        label: hidden
+        type: link
+        settings:
+          trim_length: 80
+          url_only: false
+          url_plain: false
+          rel: '0'
+          target: '0'
+        third_party_settings: {  }
+        weight: 0
+      region: middle_left
+      weight: 0
+      uuid: 0f389c97-4124-4bf3-98c6-fcf1a0650e0c
       context_mapping:
         entity: node
   id: panels_variant

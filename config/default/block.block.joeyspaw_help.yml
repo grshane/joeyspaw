@@ -11,7 +11,7 @@ _core:
 id: joeyspaw_help
 theme: joeyspaw
 region: content
-weight: -10
+weight: -8
 provider: null
 plugin: help_block
 settings:

@@ -1,0 +1,27 @@
+uuid: fa805c82-34e8-4630-94e3-a902d7ff49c5
+langcode: en
+status: false
+dependencies:
+  enforced:
+    module:
+      - slick
+_core:
+  default_config_hash: Zyx4BsKtbNFnRU7WTHAF0DGHMenI0b_Czn4dwl1bQTc
+id: sponsors
+name: sponsors
+label: Sponsors
+weight: -10
+group: main
+skin: fullwidth
+breakpoints: 0
+optimized: true
+options:
+  options__active_tab: edit-options-settings
+  settings:
+    autoplay: true
+    focusOnSelect: true
+    lazyLoad: ondemand
+    slidesPerRow: 4
+    slidesToShow: 4
+    swipe: false
+    waitForAnimate: false

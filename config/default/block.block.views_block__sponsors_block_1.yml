@@ -21,10 +21,10 @@ provider: null
 plugin: 'views_block:sponsors-block_1'
 settings:
   id: 'views_block:sponsors-block_1'
-  label: ''
+  label: 'Thank You To Our Wonderful Sponsors'
   provider: views
   label_display: visible
-  views_label: ''
+  views_label: 'Thank You To Our Wonderful Sponsors'
   items_per_page: none
 visibility:
   request_path:

@@ -1,0 +1,9 @@
+uuid: 7e9b921c-f456-4b8b-b3f1-92000fe54793
+langcode: en
+status: true
+dependencies: {  }
+id: node__dog
+label: 'Content: Dog'
+tags:
+  keywords: '[site:name], [site:slogan], [node:title], [node:field_dog_status], [site:name] dog [node:title], '
+  title: '[node:title] | [site:name]'

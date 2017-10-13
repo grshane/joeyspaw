@@ -5,7 +5,7 @@ slogan: 'Prosthetics and Wheelchairs for Dogs'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/71
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 id: image_block
 label: Image
-revision: 0
+revision: 1
 description: 'Has only an image field'

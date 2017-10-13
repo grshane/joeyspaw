@@ -9,7 +9,7 @@ _core:
 id: joeyspaw_page_title
 theme: joeyspaw
 region: content
-weight: -9
+weight: -8
 provider: null
 plugin: page_title_block
 settings:

@@ -1,6 +1,6 @@
 uuid: c46449c5-c04f-4124-96d7-df3ad3e8dbb4
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - block_class
@@ -15,7 +15,7 @@ _core:
 id: joeyspaw_breadcrumbs
 theme: joeyspaw
 region: pre_content
-weight: -5
+weight: -10
 provider: null
 plugin: system_breadcrumb_block
 settings:

@@ -1,69 +1,46 @@
-uuid: 3e2df32b-e3b0-4dd8-9c1e-0c06e8077862
+uuid: 72aaf8c8-5fbb-4a26-a562-7daeef03bb46
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.faq.field_faq_body
-    - field.field.node.faq.field_header_image
-    - field.field.node.faq.field_meta_tags
-    - field.field.node.faq.field_question
+    - field.field.node.slider_image.field_slider_image
+    - field.field.node.slider_image.field_slider_url
     - image.style.thumbnail
-    - node.type.faq
+    - node.type.slider_image
   module:
     - image
-    - metatag
-    - paragraphs
+    - link
     - path
-    - text
-id: node.faq.default
+id: node.slider_image.default
 targetEntityType: node
-bundle: faq
+bundle: slider_image
 mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 2
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_faq_body:
-    type: text_textarea_with_summary
-    weight: 6
-    region: content
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-    third_party_settings: {  }
-  field_header_image:
-    weight: 5
+  field_slider_image:
+    weight: 122
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
     region: content
-  field_meta_tags:
-    weight: 8
-    settings: {  }
-    third_party_settings: {  }
-    type: metatag_firehose
-    region: content
-  field_question:
-    type: entity_reference_paragraphs
-    weight: 9
+  field_slider_url:
+    weight: 123
     settings:
-      title: Paragraph
-      title_plural: Paragraphs
-      edit_mode: open
-      add_mode: dropdown
-      form_display_mode: default
-      default_paragraph_type: ''
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
+    type: link_default
     region: content
   path:
     type: path
-    weight: 7
+    weight: 30
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -71,26 +48,26 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 3
+    weight: 15
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 10
-    third_party_settings: {  }
+    weight: 120
     region: content
+    third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 4
+    weight: 16
     region: content
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 0
+    weight: -5
     region: content
     settings:
       size: 60
@@ -98,7 +75,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 1
+    weight: 5
     settings:
       match_operator: CONTAINS
       size: 60

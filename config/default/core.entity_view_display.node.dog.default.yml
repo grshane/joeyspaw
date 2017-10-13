@@ -7,7 +7,9 @@ dependencies:
     - field.field.node.dog.field_dog_photo
     - field.field.node.dog.field_dog_status
     - field.field.node.dog.field_dog_url
+    - field.field.node.dog.field_header_image
     - field.field.node.dog.field_home_page_dog
+    - field.field.node.dog.field_meta_tags
     - node.type.dog
   module:
     - image
@@ -49,4 +51,6 @@ content:
 hidden:
   field_dog_status: true
   field_dog_url: true
+  field_header_image: true
   field_home_page_dog: true
+  field_meta_tags: true

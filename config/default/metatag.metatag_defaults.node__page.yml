@@ -1,0 +1,9 @@
+uuid: bedca072-10a8-4d8a-a4a8-35c34ec26b31
+langcode: en
+status: true
+dependencies: {  }
+id: node__page
+label: 'Content: Basic page'
+tags:
+  keywords: '[site:name], [site:slogan], [node:title], '
+  title: '[node:title] | [site:name]'

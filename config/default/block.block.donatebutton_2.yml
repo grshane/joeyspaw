@@ -1,0 +1,29 @@
+uuid: 80c3c5cd-0aeb-4dc9-b6d2-08e01a36c89a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:05e7a1b6-275a-416e-a438-56c42808560c'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - joeyspaw
+third_party_settings:
+  block_class:
+    classes: ''
+id: donatebutton_2
+theme: joeyspaw
+region: footer
+weight: -10
+provider: null
+plugin: 'block_content:05e7a1b6-275a-416e-a438-56c42808560c'
+settings:
+  id: 'block_content:05e7a1b6-275a-416e-a438-56c42808560c'
+  label: donatebutton
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

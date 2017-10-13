@@ -24,8 +24,8 @@ variant_settings:
         settings: {  }
         third_party_settings: {  }
         weight: 0
-      region: middle_left
-      weight: 0
+      region: top
+      weight: 1
       uuid: 5196ffc5-f24f-4a68-8938-5aadf8728cc0
       context_mapping:
         entity: node
