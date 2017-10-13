@@ -13,7 +13,7 @@ dependencies:
     - system
     - webform
 id: node_view-panels_variant-2
-label: 'Contact Us Webform'
+label: Webforms
 variant: panels_variant
 variant_settings:
   blocks:
@@ -62,7 +62,7 @@ variant_settings:
   weight: 0
   layout: one_two_one_cl
   layout_settings: {  }
-  page_title: ''
+  page_title: null
   storage_type: page_manager
   storage_id: node_view-panels_variant-2
   builder: ipe
@@ -71,7 +71,7 @@ weight: 0
 selection_criteria:
   -
     id: request_path
-    pages: /contact-us
+    pages: "/contact-us\n/become-sponsor"
     negate: false
     context_mapping: {  }
 selection_logic: and

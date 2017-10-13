@@ -47,7 +47,8 @@
         "drupal/recreate_block_content": "^1.0",
         "drupal/context": "^4.0@beta",
         "drush/drush": "^8.1",
-        "drupal/console": "~1.0"
+        "drupal/console": "~1.0",
+        "drupal/panelizer": "^4.0"
     },
     "require-dev": {
         "geerlingguy/drupal-vm": "^4.6"
