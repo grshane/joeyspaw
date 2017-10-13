@@ -4,6 +4,41 @@
     "type": "project",
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "oeldbirch/superfish",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://api.github.com/repos/joeldbirch/superfish/zipball",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "hammerjs/hammer.js",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://api.github.com/repos/hammerjs/hammer.js/zipball",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "FrDH/jQuery.mmenu",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://api.github.com/repos/FrDH/jQuery.mmenu/zipball",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
     "require": {
         "acquia/blt": "^8.3",
         "drupal/metatag": "^1.2",
