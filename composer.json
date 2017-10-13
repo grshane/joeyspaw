@@ -4,6 +4,44 @@
     "type": "project",
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "FrDH/jQuery.mmenu",
+                "type": "drupal-library",
+                "version": "6.1.8",
+                "dist": {
+                    "url": "https://github.com/FrDH/jQuery.mmenu/archive/v6.1.8.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "hammerjs/hammer.js",
+                "type": "drupal-library",
+                "version": "2.0.8",
+                "dist": {
+                    "url": "https://github.com/hammerjs/hammer.js/archive/v2.0.8.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "joeldbirch/superfish",
+                "type": "drupal-library",
+                "version": "1.7.9",
+                "dist": {
+                    "url": "https://github.com/joeldbirch/superfish/archive/v1.7.9.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
     "require": {
         "acquia/blt": "^8.3",
         "drupal/metatag": "^1.2",
@@ -48,7 +86,10 @@
         "drupal/context": "^4.0@beta",
         "drush/drush": "^8.1",
         "drupal/console": "~1.0",
-        "drupal/panelizer": "^4.0"
+        "drupal/panelizer": "^4.0",
+        "joeldbirch/superfish": "^1.7",
+        "FrDH/jQuery.mmenu": "^6.1",
+        "hammerjs/hammer.js": "^2.0"
     },
     "require-dev": {
         "geerlingguy/drupal-vm": "^4.6"
@@ -91,6 +132,12 @@
             ],
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
+            ],
+            "docroot/libraries/mmenu": [
+                "FrDH/jQuery.mmenu"
+            ],
+            "docroot/libraries/hammerjs": [
+                "hammerjs/hammer.js"
             ]
         },
         "merge-plugin": {
