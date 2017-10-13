@@ -143,6 +143,11 @@
             "merge-scripts": true,
             "replace": false,
             "ignore-duplicates": true
+        },
+        "patches": {
+            "drupal/responsive_menu": {
+                "Libary path issue": "https://www.drupal.org/files/issues/responsive_menu-mmenu-path-changes-21.patch"
+            }
         }
     }
 }
