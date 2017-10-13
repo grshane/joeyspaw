@@ -5,10 +5,7 @@ dependencies:
   config:
     - page_manager.page.node_view
     - views.view.dogs
-  content:
-    - 'block_content:image_block:6fa0804d-3ca1-4f96-b715-13ffa5106452'
   module:
-    - block_content
     - ctools
     - ctools_block
     - panels
@@ -29,7 +26,7 @@ variant_settings:
         settings: {  }
         third_party_settings: {  }
         weight: 0
-      region: first
+      region: top
       weight: 1
       uuid: 5196ffc5-f24f-4a68-8938-5aadf8728cc0
       context_mapping:
@@ -42,26 +39,14 @@ variant_settings:
       views_label: ''
       items_per_page: none
       context_mapping: {  }
-      region: first
+      region: top
       uuid: 167a0789-9762-4c1b-83e9-e8ea4f7166d7
       weight: 2
-    2a1e7b5d-98f5-47f0-898f-eeff72d5838b:
-      id: 'block_content:6fa0804d-3ca1-4f96-b715-13ffa5106452'
-      label: 'Our Inspiration Photo'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: second
-      uuid: 2a1e7b5d-98f5-47f0-898f-eeff72d5838b
-      weight: 1
   id: panels_variant
   uuid: 56b0efca-e3c2-4f2a-af92-21a78041a759
   label: null
   weight: 0
-  layout: layout_twocol
+  layout: one_two_one_cl
   layout_settings: {  }
   page_title: '[node:title]'
   storage_type: page_manager

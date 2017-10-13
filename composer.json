@@ -83,10 +83,7 @@
         "drupal/context": "^4.0@beta",
         "drush/drush": "^8.1",
         "drupal/console": "~1.0",
-        "drupal/panelizer": "^4.0",
-        "joeldbirch/superfish": "^1.7",
-        "FrDH/jQuery.mmenu": "^6.1",
-        "hammerjs/hammer.js": "^2.0"
+        "drupal/panelizer": "^4.0"
     },
     "require-dev": {
         "geerlingguy/drupal-vm": "^4.6"
@@ -129,12 +126,6 @@
             ],
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
-            ],
-            "docroot/libraries/mmenu": [
-                "FrDH/jQuery.mmenu"
-            ],
-            "docroot/libraries/hammerjs": [
-                "hammerjs/hammer.js"
             ]
         },
         "merge-plugin": {

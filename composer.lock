@@ -4,31 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "754ee66cd549a0e5e052c085b679e889",
+    "content-hash": "72d0ff031d7c8479ccf1ba7bfb694158",
     "packages": [
         {
-            "name": "FrDH/jQuery.mmenu",
-            "version": "6.1.8",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/FrDH/jQuery.mmenu/archive/v6.1.8.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "drupal-library"
-        },
-        {
             "name": "acquia/blt",
-            "version": "8.9.7",
+            "version": "8.9.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/blt.git",
-                "reference": "ea8a73d01c230809265debc5b1ffbc05e40b7f2f"
+                "reference": "795a7cba1a4944a5dffc6a24286b9314fb7390b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/blt/zipball/ea8a73d01c230809265debc5b1ffbc05e40b7f2f",
-                "reference": "ea8a73d01c230809265debc5b1ffbc05e40b7f2f",
+                "url": "https://api.github.com/repos/acquia/blt/zipball/795a7cba1a4944a5dffc6a24286b9314fb7390b0",
+                "reference": "795a7cba1a4944a5dffc6a24286b9314fb7390b0",
                 "shasum": ""
             },
             "require": {
@@ -43,7 +32,7 @@
                 "doctrine/common": "^2.5",
                 "doctrine/inflector": "~1.1.0",
                 "drupal/coder": "^8.2.11",
-                "drush/drush": "^8.1.14|9.0.0-beta4",
+                "drush/drush": "^8.1.15|9.0.0-beta4",
                 "grasmash/drupal-security-warning": "^1.0.0",
                 "grasmash/yaml-cli": "^1.0.0",
                 "grasmash/yaml-expander": "^1.0.5",
@@ -51,8 +40,8 @@
                 "php": ">=5.6",
                 "phpunit/phpunit": "^4.8",
                 "squizlabs/php_codesniffer": "^2.7",
-                "symfony/console": "^2.8.11|^3.2",
-                "symfony/yaml": "^2.8.11|^3.2",
+                "symfony/console": "^2.7|^3.2",
+                "symfony/yaml": "^2.7|^3.2",
                 "tivie/php-os-detector": "^1.0",
                 "wikimedia/composer-merge-plugin": "^1.4.1"
             },
@@ -98,7 +87,7 @@
                 "template",
                 "testing"
             ],
-            "time": "2017-10-05T03:12:05+00:00"
+            "time": "2017-10-10T03:55:49+00:00"
         },
         {
             "name": "acquia/lightning",
@@ -836,16 +825,16 @@
         },
         {
             "name": "consolidation/output-formatters",
-            "version": "3.1.11",
+            "version": "3.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/output-formatters.git",
-                "reference": "3a1160440819269e6d8d9c11db67129384b8fb35"
+                "reference": "88ef346a1cefb92aab8b57a3214a6d5fc63f5d2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/3a1160440819269e6d8d9c11db67129384b8fb35",
-                "reference": "3a1160440819269e6d8d9c11db67129384b8fb35",
+                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/88ef346a1cefb92aab8b57a3214a6d5fc63f5d2a",
+                "reference": "88ef346a1cefb92aab8b57a3214a6d5fc63f5d2a",
                 "shasum": ""
             },
             "require": {
@@ -881,7 +870,7 @@
                 }
             ],
             "description": "Format text by applying transformations provided by plug-in formatters.",
-            "time": "2017-08-17T22:11:07+00:00"
+            "time": "2017-10-12T19:38:03+00:00"
         },
         {
             "name": "consolidation/robo",
@@ -7807,16 +7796,16 @@
         },
         {
             "name": "drush/drush",
-            "version": "8.x-dev",
+            "version": "8.1.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "6453b39eb9ee875b21603dff299d3dba60da5747"
+                "reference": "f78b619806a9bc7c3d167fa425e8757eb046bb87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/6453b39eb9ee875b21603dff299d3dba60da5747",
-                "reference": "6453b39eb9ee875b21603dff299d3dba60da5747",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/f78b619806a9bc7c3d167fa425e8757eb046bb87",
+                "reference": "f78b619806a9bc7c3d167fa425e8757eb046bb87",
                 "shasum": ""
             },
             "require": {
@@ -7913,7 +7902,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2017-10-09T02:27:45+00:00"
+            "time": "2017-10-10T02:05:46+00:00"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -8119,29 +8108,34 @@
         },
         {
             "name": "grasmash/drupal-security-warning",
-            "version": "1.0.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/grasmash/drupal-security-warning.git",
-                "reference": "8c74ca0111433d1ae582f258f4e2d9abe0487dee"
+                "reference": "cfc5424c84df02be9d094f491e5b57063c15cd72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/grasmash/drupal-security-warning/zipball/8c74ca0111433d1ae582f258f4e2d9abe0487dee",
-                "reference": "8c74ca0111433d1ae582f258f4e2d9abe0487dee",
+                "url": "https://api.github.com/repos/grasmash/drupal-security-warning/zipball/cfc5424c84df02be9d094f491e5b57063c15cd72",
+                "reference": "cfc5424c84df02be9d094f491e5b57063c15cd72",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0",
-                "php": ">=5.3.0"
+                "composer-plugin-api": "^1.0"
             },
             "require-dev": {
-                "composer/composer": "~1.0",
-                "squizlabs/php_codesniffer": "^2.7"
+                "composer/composer": "^1.0",
+                "phpunit/phpunit": "^5.7.0",
+                "squizlabs/php_codesniffer": "^2.7",
+                "symfony/filesystem": "^3.2.0",
+                "symfony/process": "^3.2.0"
             },
             "type": "composer-plugin",
             "extra": {
-                "class": "grasmash\\DrupalSecurityWarning\\Composer\\Plugin"
+                "class": "grasmash\\DrupalSecurityWarning\\Composer\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
             },
             "autoload": {
                 "psr-4": {
@@ -8162,7 +8156,7 @@
                 "drupal",
                 "security"
             ],
-            "time": "2016-12-16T00:45:43+00:00"
+            "time": "2017-10-10T14:47:08+00:00"
         },
         {
             "name": "grasmash/yaml-cli",
@@ -8440,17 +8434,6 @@
             "time": "2017-03-20T17:10:46+00:00"
         },
         {
-            "name": "hammerjs/hammer.js",
-            "version": "2.0.8",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/hammerjs/hammer.js/archive/v2.0.8.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "drupal-library"
-        },
-        {
             "name": "j7mbo/twitter-api-php",
             "version": "1.0.6",
             "source": {
@@ -8586,17 +8569,6 @@
                 }
             ],
             "time": "2015-04-20T18:58:01+00:00"
-        },
-        {
-            "name": "joeldbirch/superfish",
-            "version": "1.7.9",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/joeldbirch/superfish/archive/v1.7.9.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "drupal-library"
         },
         {
             "name": "lcobucci/jwt",
@@ -12473,16 +12445,16 @@
         },
         {
             "name": "zendframework/zend-diactoros",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-diactoros.git",
-                "reference": "2faa791b66bac33ca40031d8bce03b7dc8143490"
+                "reference": "c8664b92a6d5bc229e48b0923486c097e45a7877"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/2faa791b66bac33ca40031d8bce03b7dc8143490",
-                "reference": "2faa791b66bac33ca40031d8bce03b7dc8143490",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/c8664b92a6d5bc229e48b0923486c097e45a7877",
+                "reference": "c8664b92a6d5bc229e48b0923486c097e45a7877",
                 "shasum": ""
             },
             "require": {
@@ -12521,7 +12493,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2017-09-13T14:47:08+00:00"
+            "time": "2017-10-12T15:24:51+00:00"
         },
         {
             "name": "zendframework/zend-escaper",
@@ -13264,45 +13236,6 @@
                 "behat-screenshot"
             ],
             "time": "2016-11-26T16:45:39+00:00"
-        },
-        {
-            "name": "chi-teck/drupal-code-generator",
-            "version": "1.19.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Chi-teck/drupal-code-generator.git",
-                "reference": "42e93161e72ab1a958ad464bf15977e3ed7dc9fe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/42e93161e72ab1a958ad464bf15977e3ed7dc9fe",
-                "reference": "42e93161e72ab1a958ad464bf15977e3ed7dc9fe",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.9",
-                "symfony/console": "~2.7|^3",
-                "symfony/filesystem": "~2.7|^3",
-                "twig/twig": "^1.23.1"
-            },
-            "bin": [
-                "bin/dcg"
-            ],
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/bootstrap.php"
-                ],
-                "psr-4": {
-                    "DrupalCodeGenerator\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL2"
-            ],
-            "description": "Drupal code generator",
-            "time": "2017-08-04T10:50:23+00:00"
         },
         {
             "name": "dmore/behat-chrome-extension",
