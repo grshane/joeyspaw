@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "521334db2d24cfef4f2f9de4483196c7",
+    "content-hash": "754ee66cd549a0e5e052c085b679e889",
     "packages": [
         {
             "name": "FrDH/jQuery.mmenu",

@@ -83,6 +83,7 @@
         "drupal/context": "^4.0@beta",
         "drush/drush": "^8.1",
         "drupal/console": "~1.0",
+        "drupal/panelizer": "^4.0",
         "joeldbirch/superfish": "^1.7",
         "FrDH/jQuery.mmenu": "^6.1",
         "hammerjs/hammer.js": "^2.0"

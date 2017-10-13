@@ -4,10 +4,12 @@ status: true
 dependencies:
   config:
     - page_manager.page.node_view
+    - views.view.dog_sidebar_photos
   module:
     - ctools
     - ctools_block
     - panels
+    - views
 id: node_view-panels_variant-0
 label: Dog
 variant: panels_variant
@@ -27,24 +29,6 @@ variant_settings:
       region: middle_left
       weight: -1
       uuid: 9a67c0c1-3256-49b5-8d66-8d6f28378ec4
-      context_mapping:
-        entity: node
-    69e04edf-9c24-486a-bced-1c4f0991c8cc:
-      id: 'entity_field:node:field_header_image'
-      label: 'Header Image'
-      provider: ctools_block
-      label_display: visible
-      formatter:
-        label: above
-        type: image
-        settings:
-          image_style: ''
-          image_link: ''
-        third_party_settings: {  }
-        weight: 0
-      region: top
-      weight: 0
-      uuid: 69e04edf-9c24-486a-bced-1c4f0991c8cc
       context_mapping:
         entity: node
     06f5fb79-280b-4293-8d6f-66a79c10bd6b:
@@ -86,6 +70,17 @@ variant_settings:
       uuid: 0f389c97-4124-4bf3-98c6-fcf1a0650e0c
       context_mapping:
         entity: node
+    1006766e-0547-46ca-ab62-01d91245ae31:
+      id: 'views_block:dog_sidebar_photos-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: '1'
+      region: middle_right
+      weight: 0
+      uuid: 1006766e-0547-46ca-ab62-01d91245ae31
+      context_mapping: {  }
   id: panels_variant
   uuid: 940a2517-1918-4df3-98fa-0e6c046d2d82
   label: null
