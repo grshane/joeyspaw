@@ -1,66 +1,64 @@
-uuid: 05b73b2f-16de-4e7e-8fa2-fd1b9b3423d3
+uuid: 62fac1fc-a7c5-4b2a-9ff1-1675d7b72b9f
 langcode: en
 status: true
 dependencies:
   config:
     - page_manager.page.node_view
-    - views.view.press_releases
+    - views.view.dogs
   module:
-    - ctools
     - ctools_block
     - panels
+    - system
     - views
-id: node_view-panels_variant-1
-label: 'Press Release'
+id: node_view-panels_variant-4
+label: Homepage
 variant: panels_variant
 variant_settings:
   blocks:
-    4b0604bd-5537-48d2-9c8a-a0a3e521362d:
-      id: 'entity_field:node:field_press_release_body'
+    7be11f29-2467-47d0-b105-b2ec1b5752af:
+      id: 'entity_field:node:field_page_body'
       label: Body
       provider: ctools_block
       label_display: '0'
       formatter:
-        label: above
+        label: hidden
         type: text_default
         settings: {  }
         third_party_settings: {  }
         weight: 0
-      region: middle_left
+      region: top
       weight: 0
-      uuid: 4b0604bd-5537-48d2-9c8a-a0a3e521362d
+      uuid: 7be11f29-2467-47d0-b105-b2ec1b5752af
       context_mapping:
         entity: node
-    7b3e1268-301a-4965-a2a8-734b30210888:
-      id: 'views_block:press_releases-block_1'
+    921b1d36-8f73-4b0b-ba0d-23a3e9bc7bf3:
+      id: 'views_block:dogs-block_1'
       label: ''
       provider: views
       label_display: '0'
       views_label: ''
       items_per_page: none
-      region: middle_right
+      region: middle_left
       weight: 0
-      uuid: 7b3e1268-301a-4965-a2a8-734b30210888
+      uuid: 921b1d36-8f73-4b0b-ba0d-23a3e9bc7bf3
       context_mapping: {  }
   id: panels_variant
-  uuid: 2dc67823-c259-40a7-8188-22651fabfe37
+  uuid: 5ed2243a-4eee-4f7e-b6fa-a129fc4ae99f
   label: null
   weight: 0
-  layout: one_two_one_cl
+  layout: one_two_one
   layout_settings: {  }
-  page_title: '[node:title]'
+  page_title: ''
   storage_type: page_manager
-  storage_id: node_view-panels_variant-1
+  storage_id: node_view-panels_variant-4
   builder: ipe
 page: node_view
-weight: -9
+weight: -7
 selection_criteria:
   -
-    id: 'entity_bundle:node'
-    bundles:
-      press_release: press_release
+    id: request_path
+    pages: '<front>'
     negate: false
-    context_mapping:
-      node: node
+    context_mapping: {  }
 selection_logic: and
 static_context: {  }

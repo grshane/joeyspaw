@@ -13,7 +13,7 @@ third_party_settings:
 id: searchform
 theme: joeyspaw
 region: branding
-weight: 0
+weight: -9
 provider: null
 plugin: search_form_block
 settings:

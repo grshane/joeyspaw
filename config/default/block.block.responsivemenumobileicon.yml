@@ -13,7 +13,7 @@ third_party_settings:
 id: responsivemenumobileicon
 theme: joeyspaw
 region: header
-weight: -9
+weight: -10
 provider: null
 plugin: responsive_menu_toggle
 settings:

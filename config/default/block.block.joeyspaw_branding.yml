@@ -14,8 +14,8 @@ _core:
   default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
 id: joeyspaw_branding
 theme: joeyspaw
-region: header
-weight: -11
+region: branding
+weight: -10
 provider: null
 plugin: system_branding_block
 settings:

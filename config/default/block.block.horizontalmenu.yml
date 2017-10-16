@@ -13,7 +13,7 @@ third_party_settings:
 id: horizontalmenu
 theme: joeyspaw
 region: header
-weight: -10
+weight: -11
 provider: null
 plugin: responsive_menu_horizontal_menu
 settings:
