@@ -1,0 +1,29 @@
+uuid: 64908a38-cba0-4152-a7d0-4a62a509eb5e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:43ac611d-99aa-4956-8b22-f18fac98cd6f'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - joeyspaw
+third_party_settings:
+  block_class:
+    classes: home__donate-ad
+id: makeadifference
+theme: joeyspaw
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:43ac611d-99aa-4956-8b22-f18fac98cd6f'
+settings:
+  id: 'block_content:43ac611d-99aa-4956-8b22-f18fac98cd6f'
+  label: 'Make A Difference'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
