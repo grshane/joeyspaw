@@ -1,0 +1,16 @@
+.dog__spotlight--home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+
+  .views-field-field-dog-photo {
+    .field_content img {
+      width: 100%;
+    }
+  }
+  .views-field-field-dog-body {
+
+  }
+}

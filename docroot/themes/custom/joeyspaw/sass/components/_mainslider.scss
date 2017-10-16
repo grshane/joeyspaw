@@ -1,0 +1,27 @@
+.slick__block--homepage {
+  background: $white;
+  .slick__slide {
+    width: 33.333333333vw;
+    @media (max-width: 800px) {
+      width: 50vw !important;
+    }
+    @media (max-width: 560px) {
+      width: 100vw !important;
+    }
+    .slide__content {
+      width: 100%;
+      padding: 0 2.5px;
+      img {width: 100%;}
+    }
+  }
+  //.view-footer {
+  //  position: relative;
+  //  top: -242px;
+  //  left: 20%;
+  //  margin-bottom: -272px;
+  //  @media (max-width: 800px) {
+  //    transform: scale(0.5);
+  //  }
+  //}
+
+}
