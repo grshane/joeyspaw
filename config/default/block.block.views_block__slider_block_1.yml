@@ -12,11 +12,11 @@ dependencies:
     - joeyspaw
 third_party_settings:
   block_class:
-    classes: ''
+    classes: slick__block--homepage
 id: views_block__slider_block_1
 theme: joeyspaw
-region: header
-weight: -9
+region: pre_content
+weight: -11
 provider: null
 plugin: 'views_block:slider-block_1'
 settings:

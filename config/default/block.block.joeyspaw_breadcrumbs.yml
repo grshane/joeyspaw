@@ -15,7 +15,7 @@ _core:
 id: joeyspaw_breadcrumbs
 theme: joeyspaw
 region: pre_content
-weight: -10
+weight: -8
 provider: null
 plugin: system_breadcrumb_block
 settings:

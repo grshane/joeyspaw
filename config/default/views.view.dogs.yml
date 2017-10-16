@@ -64,6 +64,10 @@ display:
           offset: 0
       style:
         type: default
+        options:
+          grouping: {  }
+          row_class: dog__spotlight--home
+          default_row_class: false
       row:
         type: fields
       fields:
