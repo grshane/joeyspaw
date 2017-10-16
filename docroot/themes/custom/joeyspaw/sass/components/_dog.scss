@@ -3,14 +3,18 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  width: 100%;
+  width: 500px;
+  border: solid 1px $med-gray;
 
   .views-field-field-dog-photo {
-    .field_content img {
+    .field-content {
+      display: flex;
+      justify-content: center;
       width: 100%;
     }
   }
   .views-field-field-dog-body {
-
+    font-size: 110%;
+    padding: 0.5em;
   }
 }

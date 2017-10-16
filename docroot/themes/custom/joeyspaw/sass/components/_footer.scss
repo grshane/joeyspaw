@@ -1,5 +1,7 @@
 .region-footer {
   @include region-spacer($light-gray, top);
+  display: flex;
+  justify-content: space-between;
 
   .block-menu ul.menu {
     @extend .no-ul-list;
