@@ -26,8 +26,13 @@
   }
 }
 
-.frontpage .cog-layout--middle-left {
-  display: flex;
-  justify-content: center;
-
+.frontpage {
+  .cog-layout--middle-left {
+    display: flex;
+    justify-content: center;
+  }
+  .block-entity-fieldnodefield-page-body {
+    border-bottom: 1px solid $light-gray;
+    margin-bottom: 1em;
+  }
 }
