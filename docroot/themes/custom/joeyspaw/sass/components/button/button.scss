@@ -5,13 +5,15 @@
 // :hover   - Text turns red on hover.
 // .rounded   - Wow! So round!
 //
-// Markup: example_button.twig
+// Markup: button.twig
 //
 // Style guide: components.button
 .button {
   color: $primary;
   border: 2px solid $primary;
-
+  color: $secondary;
+  font-weight: bold;
+  background-color: transparent;
 }
 
 .rounded {
@@ -26,10 +28,7 @@ button:hover {
 .donate__block {
   .button {
     font-size: 1.25em;
-    color: $secondary;
-    font-weight: bold;
-    background-color: transparent;
     height: 2em;
-    border-radius: 500px;
+    @extend .rounded;
   }
 }

@@ -2,9 +2,8 @@
   form {
     display: flex;
     input[type="submit"].form-submit {
-      border-radius: 50%;
-      background: $primary;
-      color: $white;
+      @extend .button;
+      @extend .rounded;
     }
   }
 }
