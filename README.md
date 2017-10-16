@@ -41,7 +41,7 @@ source ~/.bash_profile
        git pull
        git push
 4. After `blt deploy` completes: `drush @joeyspaw.{env} cim vcs`
-5. `blt deploy --commit-msg "BLT-000: Example deploy to branch" --branch "stage" --no-interaction
+5. `blt deploy --branch master
 `
 
 
