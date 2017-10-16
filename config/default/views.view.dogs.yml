@@ -686,12 +686,12 @@ display:
   page_1:
     display_plugin: page
     id: page_1
-    display_title: 'Adoptable Dogs Page'
+    display_title: 'Available Dogs Page'
     position: 1
     display_options:
       display_extenders:
         metatag_display_extender: {  }
-      path: adoptable-dogs
+      path: available-dogs
       display_description: ''
       filters:
         status:
@@ -764,8 +764,6 @@ display:
         fields: false
         style: false
         row: false
-        title: false
-        header: false
       filter_groups:
         operator: AND
         groups:
@@ -892,21 +890,6 @@ display:
       row:
         type: fields
         options: {  }
-      title: 'Adoptable Dogs'
-      header:
-        area:
-          id: area
-          table: views
-          field: area
-          relationship: none
-          group_type: group
-          admin_label: ''
-          empty: false
-          tokenize: false
-          content:
-            value: 'All dogs deserve a loving home. Meet some of the dogs that Joey’s P.A.W. has helped and hopefully one of them can help you.'
-            format: basic_html
-          plugin_id: text
     cache_metadata:
       max-age: -1
       contexts:
@@ -996,8 +979,6 @@ display:
         fields: false
         style: false
         row: false
-        title: false
-        header: false
       filter_groups:
         operator: AND
         groups:
@@ -1257,21 +1238,6 @@ display:
       row:
         type: fields
         options: {  }
-      title: 'Success Stories'
-      header:
-        area:
-          id: area
-          table: views
-          field: area
-          relationship: none
-          group_type: group
-          admin_label: ''
-          empty: false
-          tokenize: false
-          content:
-            value: 'It all started with Joey, but has led to so much more. Meet the other dogs that Joey’s P.A.W. has helped.'
-            format: basic_html
-          plugin_id: text
     cache_metadata:
       max-age: -1
       contexts:

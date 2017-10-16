@@ -5,7 +5,10 @@ dependencies:
   config:
     - page_manager.page.node_view
     - views.view.dogs
+  content:
+    - 'block_content:basic:43ac611d-99aa-4956-8b22-f18fac98cd6f'
   module:
+    - block_content
     - ctools_block
     - panels
     - system
@@ -27,7 +30,7 @@ variant_settings:
         third_party_settings: {  }
         weight: 0
       region: top
-      weight: 0
+      weight: 1
       uuid: 7be11f29-2467-47d0-b105-b2ec1b5752af
       context_mapping:
         entity: node
@@ -39,9 +42,21 @@ variant_settings:
       views_label: ''
       items_per_page: none
       region: middle_left
-      weight: 0
+      weight: 1
       uuid: 921b1d36-8f73-4b0b-ba0d-23a3e9bc7bf3
       context_mapping: {  }
+    c8bba59b-76b5-4190-8868-d90070ac99fd:
+      id: 'block_content:43ac611d-99aa-4956-8b22-f18fac98cd6f'
+      label: 'Make A Difference'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      context_mapping: {  }
+      region: middle_right
+      uuid: c8bba59b-76b5-4190-8868-d90070ac99fd
+      weight: 1
   id: panels_variant
   uuid: 5ed2243a-4eee-4f7e-b6fa-a129fc4ae99f
   label: null

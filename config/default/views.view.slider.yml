@@ -269,7 +269,20 @@ display:
           granularity: second
       title: Slider
       header: {  }
-      footer: {  }
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: '<img  src="/themes/custom/joeyspaw/images/JoeysPAW_Home.png">'
+            format: full_html
+          plugin_id: text
       empty: {  }
       relationships: {  }
       arguments: {  }
