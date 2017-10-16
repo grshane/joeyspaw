@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b5b2675ae855906e0228b1e843bbf15d",
+    "content-hash": "2c21ea30d37cfe7d293a50428602f320",
     "packages": [
         {
             "name": "FrDH/jQuery.mmenu",
@@ -8593,17 +8593,6 @@
             "time": "2015-04-20T18:58:01+00:00"
         },
         {
-            "name": "joeldbirch/superfish",
-            "version": "1.7.9",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/joeldbirch/superfish/archive/v1.7.9.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "library"
-        },
-        {
             "name": "lcobucci/jwt",
             "version": "3.2.2",
             "source": {
@@ -13571,17 +13560,6 @@
             "time": "2017-10-07T04:35:10+00:00"
         },
         {
-            "name": "hammerjs",
-            "version": "2.0.8",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/hammerjs/hammer.js/archive/v2.0.8.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "drupal-library"
-        },
-        {
             "name": "instaclick/php-webdriver",
             "version": "1.4.5",
             "source": {
@@ -13774,17 +13752,6 @@
             "description": "Virtual file system to mock the real file system in unit tests.",
             "homepage": "http://vfs.bovigo.org/",
             "time": "2017-08-01T08:02:14+00:00"
-        },
-        {
-            "name": "mmenu",
-            "version": "6.1.8",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/FrDH/jQuery.mmenu/archive/v6.1.8.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "drupal-library"
         },
         {
             "name": "se/selenium-server-standalone",
