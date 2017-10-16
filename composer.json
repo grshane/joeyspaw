@@ -87,7 +87,8 @@
         "drupal/console": "~1.0",
         "FrDH/jQuery.mmenu": "^6.1",
         "hammerjs/hammer.js": "^2.0",
-        "drupal/panelizer": "^4.0"
+        "drupal/panelizer": "^4.0",
+        "joeldbirch/superfish": "^1.7"
     },
     "require-dev": {
         "geerlingguy/drupal-vm": "^4.6"
