@@ -14,6 +14,13 @@
   color: $secondary;
   font-weight: bold;
   background-color: transparent;
+  font-size: 1.25em;
+  height: 2em;
+  transition: 0.45s ease-in-out;
+  &:hover {
+    color: $white;
+    background: $primary;
+  }
 }
 
 .rounded {
@@ -21,8 +28,7 @@
 }
 
 button:hover {
-  color: $secondary;
-  background: none;
+
 }
 
 .donate__block {

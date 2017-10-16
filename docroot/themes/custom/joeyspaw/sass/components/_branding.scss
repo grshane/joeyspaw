@@ -1,4 +1,12 @@
 .region-branding {
+  .site-branding {
+    display: flex;
+    justify-content: center;
+    //height: 140px;
+    .logo {
+      width: 180px;
+    }
+  }
   .block-system-menublock ul.menu {
     @extend .no-ul-list;
   }

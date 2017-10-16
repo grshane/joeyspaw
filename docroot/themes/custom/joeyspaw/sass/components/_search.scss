@@ -1,9 +1,23 @@
 .block-search {
   form {
     display: flex;
+
     input[type="submit"].form-submit {
       @extend .button;
       @extend .rounded;
+      height: 2em;
+      font-size: 1.25em;
+    }
+    input[type="search"] {
+      height: 2em;
+      font-size: 1.25em;
+      @extend .rounded;
+      border: 1px solid $primary;
+      padding: 0 0.8em;
+      &:focus,
+      &:active {
+        box-shadow: inset 0 0 3px 1px $secondary;
+      }
     }
   }
 }

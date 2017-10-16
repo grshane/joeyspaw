@@ -7,7 +7,6 @@
 // Style guide: components.header
 
 .mq-header {
-  margin-top: -7em;
 }
 
 .region-header {
@@ -16,15 +15,6 @@
   justify-content: center;
   align-content: center;
 
-  .site-branding {
-    display: flex;
-    justify-content: center;
-    //height: 140px;
-    .logo {
-      width: 180px;
-    }
-  }
-;
   .menu,
   .horizontal-menu,
   .we-mega-menu-ul{
