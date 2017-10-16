@@ -20,6 +20,9 @@
     left: 5%;
     margin-bottom: -272px;
     transform: scale(0.7);
+    @media (max-width: 1080px) {
+      display: none;
+    }
   }
 
 }
