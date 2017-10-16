@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fdda0bc8488df1dc395b56cfba9de0c9",
+    "content-hash": "413e06a3258a310a046072c43ac68790",
     "packages": [
         {
             "name": "FrDH/jQuery.mmenu",
@@ -8541,6 +8541,17 @@
                 }
             ],
             "time": "2015-04-20T18:58:01+00:00"
+        },
+        {
+            "name": "joeldbirch/superfish",
+            "version": "1.7.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/joeldbirch/superfish/archive/v1.7.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "drupal-library"
         },
         {
             "name": "lcobucci/jwt",
