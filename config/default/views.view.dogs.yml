@@ -507,7 +507,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "{{ field_dog_photo }}\n{{ title }}"
+            text: "{{ field_dog_photo }}\n<div class=\"dog__spotlight--title>{{ title }}</div>"
             make_link: false
             path: ''
             absolute: false
