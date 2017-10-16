@@ -6,6 +6,15 @@
   width: 500px;
   border: solid 1px $med-gray;
 
+  .dog__spotlight--title {
+    position: relative;
+    top: -70px;
+    font-size: 2.6em;
+    color: $white;
+    margin-left: 1em;
+    margin-bottom: -30px;
+  }
+
   .views-field-field-dog-photo {
     .field-content {
       display: flex;
