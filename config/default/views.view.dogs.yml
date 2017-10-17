@@ -904,7 +904,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: '<p>It all started with Joey, but has led to so much more. Meet the other dogs that Joey’s P.A.W. has helped.</p>'
+            value: '<p>Every dog deserves a toy, a treat and a good home. Please see the adoptable dogs below and maybe you can make your home their home.</p>'
             format: basic_html
           plugin_id: text
     cache_metadata:
@@ -1269,7 +1269,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: "<p>Joey is proud to name the following as sponsors of Joey’s P.A.W.. Please help us thank them by visiting their websites and learning more about them.</p>\n\n<p>Are you interested in becoming a sponsor? <a href=\"/sponsors\">Click Here to Learn More</a></p>"
+            value: '<p>It all started with Joey, but has led to so much more. Meet the other dogs that Joey’s P.A.W. has helped.</p>'
             format: basic_html
           plugin_id: text
     cache_metadata:
