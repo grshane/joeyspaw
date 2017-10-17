@@ -10,17 +10,18 @@
     -moz-column-count: 2;
     column-gap: 50px;
     
-  .menu__item {
-    display: block !important;
+    .menu__item {
+      display: block !important;
     
-    a:link,
-    a:visited {
-      color: #6B7C39;
-      
-    a:hover {
-      color:#04284A;
+      a {
+        color: #6B7C39;
+      &:hover {
+        color:#04284A;
+        }
       }
     }
   }
 }
+
+
 
