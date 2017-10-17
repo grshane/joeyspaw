@@ -27,3 +27,23 @@
     padding: 0.5em;
   }
 }
+
+
+.view-dogs .grid__content {
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    
+    .views-field.views-field-title {
+    padding: 0 10px;
+    font-size: 1.5em;
+    color: #6c7c3a;
+  }
+    
+    .views-field-field-dog-photo img {
+    border-radius: 10px 10px 0 0;
+  }
+    
+    .views-field.views-field-field-dog-body {
+    padding: 0 10px;
+  } 
+}
