@@ -280,7 +280,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: '<img  src="/themes/custom/joeyspaw/images/joeys_paw_slider_green_dog.png">'
+            value: '<img  src="/themes/custom/joeyspaw/images/joeys_paw_slider_dog_green.png">'
             format: full_html
           plugin_id: text
       empty: {  }
