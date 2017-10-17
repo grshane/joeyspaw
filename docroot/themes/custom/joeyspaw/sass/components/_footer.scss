@@ -12,5 +12,15 @@
     
   .menu__item {
     display: block !important;
+    
+    a:link,
+    a:visited {
+      color: #6B7C39;
+      
+    a:hover {
+      color:#04284A;
+      }
+    }
   }
 }
+
