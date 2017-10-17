@@ -5,17 +5,12 @@
 
   .block-menu ul.menu {
     @extend .no-ul-list;
-  }
-}
-
-.region-footer .block-menu ul.menu {
     -webkit-column-count: 2;
     column-count: 2;
     -moz-column-count: 2;
     column-gap: 50px;
-
-
-    .menu__item {
-       display: block !important;
-   }
+    
+  .menu__item {
+    display: block !important;
+  }
 }
