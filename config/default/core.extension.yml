@@ -72,6 +72,7 @@ module:
   responsive_menu: 0
   rewrite_field: 0
   search: 0
+  shield: 0
   shortcut: 0
   slick: 0
   slick_extras: 0
