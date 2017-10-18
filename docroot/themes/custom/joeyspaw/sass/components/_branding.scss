@@ -2,6 +2,13 @@
   .block {
     width: 33.33333% !important;
   }
+  .block-system-menublock ul.menu {
+    @extend .no-ul-list;
+  }
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3em;
+}
   .site-branding {
     display: flex;
     justify-content: center;
@@ -10,10 +17,3 @@
       width: 180px;
     }
   }
-  .block-system-menublock ul.menu {
-    @extend .no-ul-list;
-  }
-  display: flex;
-  justify-content: space-between;
-  padding-top: 3em;
-}

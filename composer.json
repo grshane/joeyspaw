@@ -88,7 +88,8 @@
         "FrDH/jQuery.mmenu": "^6.1",
         "hammerjs/hammer.js": "^2.0",
         "drupal/panelizer": "^4.0",
-        "joeldbirch/superfish": "^1.7"
+        "joeldbirch/superfish": "^1.7",
+        "drupal/we_megamenu": "^1.0@RC"
     },
     "require-dev": {
         "geerlingguy/drupal-vm": "^4.6"
