@@ -1,0 +1,51 @@
+.homepage__socialblock {
+  background: $primary;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 270px;
+  padding: 0.5em 2em;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-bottom: gutter()*2;
+
+  ul {
+    align-self: flex-start;
+    flex-grow: 19;
+    flex-basis: 100%;
+    width: span(6);
+    list-style: none;
+    li {
+      font-size: 2.5em;
+      line-height: 1;
+      color: $white;
+      &:last-of-type {
+        color: $secondary;
+        font-weight: bold;
+      }
+    }
+  }
+  .homepage__socialblock-callout {
+    color: $white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    line-height: 1;
+
+    .homepage__socialblock-links {
+      color: $secondary;
+      font-weight: bold;
+      font-style: italic;
+      text-transform: none;
+      a {
+        color: $secondary;
+        border-bottom: 1px solid $white;
+        &:hover {
+          color: $med-gray;
+        }
+      }
+    }
+  }
+  .homepage__socialblock-icons {
+
+  }
+}

@@ -37,14 +37,14 @@
   }
   .block-entity-fieldnodefield-page-body {
     border-bottom: 1px solid $light-gray;
-    margin-bottom: 1em;
-    padding-bottom: 0.5em;
+    margin-bottom: gutter();
     color: $primary;
     display: flex;
     img {
       position: relative;
       top: -4em;
       width: span(6);
+      margin-bottom: -3.5em;
     }
     a {
       color: $secondary;
