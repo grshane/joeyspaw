@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.slider_image.field_order
     - field.field.node.slider_image.field_slider_image
     - field.field.node.slider_image.field_slider_url
     - image.style.thumbnail
@@ -12,7 +11,6 @@ dependencies:
     - image
     - link
     - path
-    - weight
 id: node.slider_image.default
 targetEntityType: node
 bundle: slider_image
@@ -24,12 +22,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_order:
-    weight: 124
-    settings: {  }
-    third_party_settings: {  }
-    type: weight_selector
-    region: content
   field_slider_image:
     weight: 122
     settings:
