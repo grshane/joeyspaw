@@ -89,7 +89,9 @@
         "hammerjs/hammer.js": "^2.0",
         "drupal/panelizer": "^4.0",
         "joeldbirch/superfish": "^1.7",
-        "drupal/we_megamenu": "^1.0@RC"
+        "drupal/we_megamenu": "^1.0@RC",
+        "drupal/weight": "^3.0"
+
     },
     "require-dev": {
         "geerlingguy/drupal-vm": "^4.6"
