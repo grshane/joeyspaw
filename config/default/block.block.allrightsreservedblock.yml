@@ -1,0 +1,29 @@
+uuid: 4e452705-d350-409c-8a8d-a296a68c4193
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:27043a6f-2dec-4ecc-8052-81eda0e33694'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - joeyspaw
+third_party_settings:
+  block_class:
+    classes: ''
+id: allrightsreservedblock
+theme: joeyspaw
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:27043a6f-2dec-4ecc-8052-81eda0e33694'
+settings:
+  id: 'block_content:27043a6f-2dec-4ecc-8052-81eda0e33694'
+  label: 'All Rights Reserved Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
