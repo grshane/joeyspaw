@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-
   border: solid 1px $med-gray;
 
   .dog__spotlight--title {
@@ -15,9 +14,9 @@
     margin-bottom: -30px;
   }
 
-  .views-field-field-nothing {
+  .views-field-nothing {
     .field-content {
-      display: flex;
+      //display: flex;
       justify-content: center;
       width: span(12);
       img {
@@ -28,6 +27,13 @@
   .views-field-field-dog-body {
     font-size: 110%;
     padding: 0.5em;
+    color: $secondary;
+    a {
+      color: $med-gray;
+      &:hover {
+        color: $primary;
+      }
+    }
   }
 }
 

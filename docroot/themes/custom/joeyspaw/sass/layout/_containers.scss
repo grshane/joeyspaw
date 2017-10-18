@@ -31,6 +31,9 @@
     display: flex;
     //justify-content: center;
     width: span(6);
+    @media (max-width: 800px) {
+      width: span(12);
+    }
   }
   .block-entity-fieldnodefield-page-body {
     border-bottom: 1px solid $light-gray;
