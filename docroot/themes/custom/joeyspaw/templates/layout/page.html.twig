@@ -28,7 +28,14 @@
 
   <!-- ______________________ Pre content _______________________ -->
   {% if page.pre_content %}
-    <div class="clearfix pre-content" id="pre-content">
+    {% if node.field_header_image.entity.uri.value %}
+    <div class="clearfix pre-content" id="pre-content" style='background-image: url({{ file_url(node.field_header_image.entity.uri.value) }});'>
+        {% elseif is_front %}
+            <div class="clearfix pre-content" id="pre-content">
+        {% else %}
+                <div class="clearfix pre-content" id="pre-content" style='background-image: url({{ base_path ~ directory}}/images/joeys_paw_header_joey.jpg);'>
+        {% endif %}
+
       <div class="cog--mq mq-precontent">
         {{ page.pre_content }}
       </div>

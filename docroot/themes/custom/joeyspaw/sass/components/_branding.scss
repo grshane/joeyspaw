@@ -1,19 +1,39 @@
 .region-branding {
   .block {
-    width: 33.33333% !important;
+    width: span(4);
+    @media (max-width: 800px) {
+      width: span(12);
+      justify-content: center;
+    }
+  }
+  .donate__block {
+    @media (max-width: 800px) {
+      order: 2;
+      width: span(6);
+    }
   }
   .block-system-menublock ul.menu {
     @extend .no-ul-list;
   }
   display: flex;
   justify-content: space-between;
-  padding-top: 3em;
+  padding-top: 2em;
+  flex-wrap: wrap;
 }
   .site-branding {
+    @media(max-width: 800px) {
+      order: 1;
+    }
     display: flex;
     justify-content: center;
     //height: 140px;
     .logo {
       width: 180px;
+    }
+  }
+  .block-search {
+    @media (max-width: 800px) {
+      order: 3;
+      width: span(6);
     }
   }

@@ -38,7 +38,14 @@
   .block-entity-fieldnodefield-page-body {
     border-bottom: 1px solid $light-gray;
     margin-bottom: 1em;
+    padding-bottom: 0.5em;
     color: $primary;
+    display: flex;
+    img {
+      position: relative;
+      top: -4em;
+      width: span(6);
+    }
     a {
       color: $secondary;
       &:hover {
