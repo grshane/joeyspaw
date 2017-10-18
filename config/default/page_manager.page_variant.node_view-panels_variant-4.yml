@@ -7,7 +7,7 @@ dependencies:
     - views.view.dogs
   content:
     - 'block_content:basic:43ac611d-99aa-4956-8b22-f18fac98cd6f'
-    - 'block_content:basic:dd8f74af-3e70-420b-ac1b-eaf1db8fc184'
+    - 'block_content:basic:4c517d5d-c888-4afa-8f8a-19851830f6bf'
   module:
     - block_content
     - ctools_block
@@ -58,8 +58,8 @@ variant_settings:
       weight: 1
       context_mapping: {  }
       uuid: c8bba59b-76b5-4190-8868-d90070ac99fd
-    87b8a0b2-02e6-4545-8b94-a522df3e6b15:
-      id: 'block_content:dd8f74af-3e70-420b-ac1b-eaf1db8fc184'
+    c9772a4b-1239-4e0b-8cc7-f5c14b94c4d7:
+      id: 'block_content:4c517d5d-c888-4afa-8f8a-19851830f6bf'
       label: 'Social Media Homepage'
       provider: block_content
       label_display: '0'
@@ -68,7 +68,7 @@ variant_settings:
       view_mode: full
       region: middle_right
       weight: 0
-      uuid: 87b8a0b2-02e6-4545-8b94-a522df3e6b15
+      uuid: c9772a4b-1239-4e0b-8cc7-f5c14b94c4d7
       context_mapping: {  }
   id: panels_variant
   uuid: 5ed2243a-4eee-4f7e-b6fa-a129fc4ae99f

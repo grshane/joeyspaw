@@ -6,6 +6,8 @@ dependencies:
     - page_manager.page.node_view
   content:
     - 'block_content:basic:05e7a1b6-275a-416e-a438-56c42808560c'
+    - 'block_content:basic:0c37eb85-17f9-447f-a682-dbe730c51cc9'
+    - 'block_content:basic:7b2f7877-3952-4b7f-9167-f68975b02be9'
   module:
     - block_content
     - ctools_block
@@ -29,21 +31,10 @@ variant_settings:
         third_party_settings: {  }
         weight: 0
       region: middle_left
-      weight: 0
+      weight: 1
       uuid: c3c316b9-1dd5-4416-be40-1d2ce1eee635
       context_mapping:
         entity: node
-    c2223426-e9b2-4d42-9fd2-caba5ce01288:
-      id: webform_block
-      label: Webform
-      provider: webform
-      label_display: visible
-      webform_id: contact_us
-      default_data: ''
-      region: middle_left
-      weight: 1
-      uuid: c2223426-e9b2-4d42-9fd2-caba5ce01288
-      context_mapping: {  }
     3c8c08cc-a0f0-4edb-b27a-d0a3670886fb:
       id: 'block_content:05e7a1b6-275a-416e-a438-56c42808560c'
       label: donatebutton
@@ -53,8 +44,43 @@ variant_settings:
       info: ''
       view_mode: full
       region: middle_right
-      weight: 0
+      weight: 1
       uuid: 3c8c08cc-a0f0-4edb-b27a-d0a3670886fb
+      context_mapping: {  }
+    c2223426-e9b2-4d42-9fd2-caba5ce01288:
+      id: webform_block
+      label: Webform
+      provider: webform
+      label_display: '0'
+      webform_id: contact_us
+      default_data: ''
+      region: middle_left
+      weight: 2
+      uuid: c2223426-e9b2-4d42-9fd2-caba5ce01288
+      context_mapping: {  }
+    ff817d59-3839-4978-8a23-1db3c95805cb:
+      id: 'block_content:7b2f7877-3952-4b7f-9167-f68975b02be9'
+      label: 'Phone Number Block'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: middle_right
+      weight: 3
+      uuid: ff817d59-3839-4978-8a23-1db3c95805cb
+      context_mapping: {  }
+    354d8fd1-756e-4cd5-b75e-7bebbc422c10:
+      id: 'block_content:0c37eb85-17f9-447f-a682-dbe730c51cc9'
+      label: 'Address Block'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: middle_right
+      weight: 2
+      uuid: 354d8fd1-756e-4cd5-b75e-7bebbc422c10
       context_mapping: {  }
   id: panels_variant
   uuid: 5b9baa10-2587-4fd0-94bd-89b4c5f762e3
