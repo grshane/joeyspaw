@@ -4,7 +4,12 @@ status: true
 dependencies:
   config:
     - page_manager.page.node_view
+  content:
+    - 'block_content:basic:05e7a1b6-275a-416e-a438-56c42808560c'
+    - 'block_content:basic:1a73fcba-3f71-4b40-a0f5-67eaf0e6b8c7'
+    - 'block_content:basic:57aafc11-04cd-45c9-9849-a415029cb740'
   module:
+    - block_content
     - ctools
     - ctools_block
     - panels
@@ -29,6 +34,42 @@ variant_settings:
       uuid: 5196ffc5-f24f-4a68-8938-5aadf8728cc0
       context_mapping:
         entity: node
+    f6e1b23d-6807-470d-b257-57aa2e379086:
+      id: 'block_content:57aafc11-04cd-45c9-9849-a415029cb740'
+      label: 'Address Block'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: middle_right
+      weight: 0
+      uuid: f6e1b23d-6807-470d-b257-57aa2e379086
+      context_mapping: {  }
+    164caeef-d1b6-4f06-a8b0-b92d5a4f1181:
+      id: 'block_content:1a73fcba-3f71-4b40-a0f5-67eaf0e6b8c7'
+      label: 'Phone Number Block'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: middle_right
+      weight: 1
+      uuid: 164caeef-d1b6-4f06-a8b0-b92d5a4f1181
+      context_mapping: {  }
+    cce28a26-3c8b-4519-9e37-66757763111e:
+      id: 'block_content:05e7a1b6-275a-416e-a438-56c42808560c'
+      label: donatebutton
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: middle_right
+      weight: -1
+      uuid: cce28a26-3c8b-4519-9e37-66757763111e
+      context_mapping: {  }
   id: panels_variant
   uuid: 56b0efca-e3c2-4f2a-af92-21a78041a759
   label: null

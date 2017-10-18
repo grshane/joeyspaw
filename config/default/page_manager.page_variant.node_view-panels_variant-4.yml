@@ -53,17 +53,17 @@ variant_settings:
       status: true
       info: ''
       view_mode: full
-      region: middle_right
-      weight: 1
       context_mapping: {  }
+      region: middle_right
       uuid: c8bba59b-76b5-4190-8868-d90070ac99fd
+      weight: 1
   id: panels_variant
   uuid: 5ed2243a-4eee-4f7e-b6fa-a129fc4ae99f
   label: null
   weight: 0
   layout: one_two_one
   layout_settings: {  }
-  page_title: '[node:title]'
+  page_title: ''
   storage_type: page_manager
   storage_id: node_view-panels_variant-4
   builder: ipe
