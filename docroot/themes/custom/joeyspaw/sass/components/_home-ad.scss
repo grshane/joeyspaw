@@ -1,11 +1,20 @@
 .home__donate-ad {
-  background: linear-gradient(to right, rgba(0,43,76,1) 0%,rgba(0,43,76,0.47) 73%,rgba(229,229,229,0.3) 90%,rgba(229,229,229,0) 100%),
-    url(../images/joeys_paw_dog_joey_3.jpg);
+  //background: linear-gradient(to right, rgba(0,43,76,1) 0%,rgba(0,43,76,0.47) 73%,rgba(229,229,229,0.3) 90%,rgba(229,229,229,0) 100%),
+    //url(../images/joeys_paw_dog_joey_3.jpg);
+
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
   color: $white;
+  height: 200px;
   padding: 0.5em 1em;
+    background: $secondary;
+  div {
+  }
+  img {
+    height: 200px;
+    width: auto;
+  }
   h2 {
     color: $white;
   }

@@ -14,9 +14,9 @@
       display: block !important;
     
       a {
-        color: #6B7C39;
-      &:hover {
-        color:#04284A;
+        color: $primary;
+        &:hover {
+          color: $secondary;
         }
       }
     }

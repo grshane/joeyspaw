@@ -29,7 +29,8 @@
 
   .cog-layout--middle-left {
     display: flex;
-    justify-content: center;
+    //justify-content: center;
+    width: span(6);
   }
   .block-entity-fieldnodefield-page-body {
     border-bottom: 1px solid $light-gray;

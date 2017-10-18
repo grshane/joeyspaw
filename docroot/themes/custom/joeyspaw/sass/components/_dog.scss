@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  width: 500px;
+
   border: solid 1px $med-gray;
 
   .dog__spotlight--title {
@@ -15,11 +15,14 @@
     margin-bottom: -30px;
   }
 
-  .views-field-field-dog-photo {
+  .views-field-field-nothing {
     .field-content {
       display: flex;
       justify-content: center;
-      width: 100%;
+      width: span(12);
+      img {
+        width: 100% !important;
+      }
     }
   }
   .views-field-field-dog-body {
