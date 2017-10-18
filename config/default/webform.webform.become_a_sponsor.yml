@@ -10,7 +10,7 @@ id: become_a_sponsor
 title: 'Become a Sponsor'
 description: ''
 category: ''
-elements: "your_name:\n  '#type': webform_name\n  '#title': 'Your Name'\n  '#title__access': false\n  '#first__title': 'First Name'\n  '#middle__access': false\n  '#last__title': 'Last Name'\n  '#suffix__access': false\n  '#degree__access': false\nemail_address:\n  '#type': email\n  '#title': 'Email Address'\nphone_number:\n  '#type': tel\n  '#title': 'Phone Number'\nadditional_information:\n  '#type': textarea\n  '#title': 'Additional Information'\n"
+elements: "your_name:\n  '#type': webform_name\n  '#title': 'Your Name'\n  '#title__access': false\n  '#first__title': 'First Name'\n  '#middle__access': false\n  '#last__title': 'Last Name'\n  '#suffix__access': false\n  '#degree__access': false\n  '#flexbox': '1'\nemail_address:\n  '#type': email\n  '#title': 'Email Address'\nphone_number:\n  '#type': tel\n  '#title': 'Phone Number'\nadditional_information:\n  '#type': textarea\n  '#title': 'Additional Information'\n"
 css: ''
 javascript: ''
 settings:

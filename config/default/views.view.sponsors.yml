@@ -81,19 +81,19 @@ display:
           image: field_sponsor_logo
           thumbnail: ''
           overlay: ''
-          title: title
-          link: field_sponsor_url
+          title: ''
+          link: ''
           class: ''
           id: ''
-          override: false
+          override: true
           overridables:
-            arrows: arrows
             autoplay: autoplay
             draggable: draggable
             infinite: infinite
+            randomize: randomize
+            arrows: '0'
             dots: '0'
             mouseWheel: '0'
-            randomize: '0'
             variableWidth: '0'
           cache: 0
           current_view_mode: block_1
