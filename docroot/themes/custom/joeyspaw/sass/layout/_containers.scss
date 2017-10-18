@@ -27,14 +27,20 @@
     }
   }
 
-  .frontpage {
-    .cog-layout--middle-left {
-      display: flex;
-      justify-content: center;
-    }
-    .block-entity-fieldnodefield-page-body {
-      border-bottom: 1px solid $light-gray;
-      margin-bottom: 1em;
+  .cog-layout--middle-left {
+    display: flex;
+    justify-content: center;
+  }
+  .block-entity-fieldnodefield-page-body {
+    border-bottom: 1px solid $light-gray;
+    margin-bottom: 1em;
+    color: $primary;
+    a {
+      color: $secondary;
+      &:hover {
+        color: $med-gray;
+      }
     }
   }
+
 }
