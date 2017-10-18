@@ -16,9 +16,9 @@ $lighter-gray: lighten($blk, 90%);
 $off-white: lighten($blk, 97%);
 
 // Utility color variables ///////////////
-$heading: $dark-gray;
-$link: $med-gray;
+$link: $primary;
 $primary: $green;
+$heading: $primary;
 $secondary: $blue;
 $accent: $brown;
 
