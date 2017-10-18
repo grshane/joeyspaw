@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.slider_image.field_order
     - field.field.node.slider_image.field_slider_image
     - field.field.node.slider_image.field_slider_url
     - node.type.slider_image
@@ -48,4 +49,5 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_order: true
