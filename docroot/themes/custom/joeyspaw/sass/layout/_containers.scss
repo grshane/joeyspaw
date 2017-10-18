@@ -40,11 +40,15 @@
     margin-bottom: gutter();
     color: $primary;
     display: flex;
+    .frontpage__content {
+      width: span(6);
+    }
     img {
       position: relative;
       top: -4em;
       width: span(6);
       margin-bottom: -3.5em;
+      padding-bottom: gutter()*2;
     }
     a {
       color: $secondary;
