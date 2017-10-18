@@ -1,0 +1,24 @@
+uuid: 8cf4be3c-18d8-4012-b9af-c59e79cee715
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_order
+    - node.type.slider_image
+  module:
+    - weight
+id: node.slider_image.field_order
+field_name: field_order
+entity_type: node
+bundle: slider_image
+label: Order
+description: 'Pick the order that the home page slider images appear. 1 will appear before 2. Negative numbers (Ex. - 4) will appear before a positive number.'
+required: false
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings:
+  range: '20'
+field_type: weight
