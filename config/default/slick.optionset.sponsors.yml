@@ -13,15 +13,42 @@ label: Sponsors
 weight: -10
 group: main
 skin: fullwidth
-breakpoints: 0
+breakpoints: 2
 optimized: true
 options:
-  options__active_tab: edit-options-settings
+  options__active_tab: edit-options-responsives
   settings:
     autoplay: true
+    arrows: false
     focusOnSelect: true
     lazyLoad: ondemand
     slidesPerRow: 4
     slidesToShow: 4
     swipe: false
     waitForAnimate: false
+  responsives:
+    responsive:
+      -
+        breakpoint: 800
+        unslick: false
+        settings:
+          arrows: false
+          draggable: false
+          infinite: false
+          slidesPerRow: 3
+          slidesToShow: 3
+          swipe: false
+          touchMove: false
+          waitForAnimate: false
+      -
+        breakpoint: 560
+        unslick: false
+        settings:
+          arrows: false
+          draggable: false
+          infinite: false
+          slidesPerRow: 2
+          slidesToShow: 2
+          swipe: false
+          touchMove: false
+          waitForAnimate: false
