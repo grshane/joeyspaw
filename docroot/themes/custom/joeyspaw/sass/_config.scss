@@ -36,17 +36,18 @@ $susy: (
 
 // Breakpoints & MQ's ///////////////
 $screen: "only screen" !default;
-$small-max: 767px !default;
-$medium-max: 1023px !default;
+$small-max: 559px !default;
+$medium-max: 799px !default;
 $small: $screen max-width $small-max;
 $up-sm: $screen $small-max + 1;
+$up-md: $screen $medium-max + 1;
 $medium: $screen $small-max + 1 $medium-max;
 $large: $screen $medium-max + 1;
 
 $min_width: 320px;
 $max_width: 1200px;
-$min_font: 14px;
-$max_font: 20px;
+$min_font: 16px;
+$max_font: 22px;
 
 // EXAMPLE FOR MQ REFERENCES =>
 

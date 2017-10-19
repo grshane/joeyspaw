@@ -1,0 +1,39 @@
+.block-entity-fieldnodefield-page-body {
+  border-bottom: 1px solid $light-gray;
+  margin-bottom: gutter();
+  color: $primary;
+  display: flex;
+  .frontpage__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    .frontpage__content {
+      width: span(6);
+      @media (max-width: 800px) {
+        width: span(12);
+      }
+    }
+    .frontpage__image {
+      img {
+        margin-bottom: gutter();
+        position: relative;
+        top: -4em;
+        width: span(6);
+        margin-bottom: -3.5em;
+        padding-bottom: gutter()*2;
+        @media (max-width: 800px) {
+          top: 0;
+          width: span(12);
+          margin-bottom: 0;
+        }
+      }
+    }
+    a {
+      display: block;
+      color: $secondary;
+      &:hover {
+        color: $med-gray;
+      }
+    }
+  }
+}

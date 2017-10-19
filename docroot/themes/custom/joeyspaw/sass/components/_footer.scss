@@ -21,6 +21,9 @@
   .site-branding {
     position: relative;
     top: -70px;
+    @media (max-width: 800px){
+      display: none !important;
+    }
   }
   #block-allrightsreservedblock {
     flex-grow: 18;
