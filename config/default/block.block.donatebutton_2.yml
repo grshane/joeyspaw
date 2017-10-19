@@ -11,7 +11,7 @@ dependencies:
     - joeyspaw
 third_party_settings:
   block_class:
-    classes: ''
+    classes: donate__block
 id: donatebutton_2
 theme: joeyspaw
 region: footer
