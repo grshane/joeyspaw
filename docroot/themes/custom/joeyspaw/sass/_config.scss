@@ -36,7 +36,7 @@ $susy: (
 
 // Breakpoints & MQ's ///////////////
 $screen: "only screen" !default;
-$small-max: 559px !default;
+$small-max: 799px !default;
 $medium-max: 799px !default;
 $small: $screen max-width $small-max;
 $up-sm: $screen $small-max + 1;

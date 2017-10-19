@@ -10,6 +10,7 @@
   font-size: 1.25em;
   height: 2em;
   transition: 0.45s ease-in-out;
+  white-space: nowrap;
   &:hover {
     color: $white;
     background: $primary;
