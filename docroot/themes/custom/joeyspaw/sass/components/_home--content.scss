@@ -10,6 +10,8 @@
     .frontpage__content {
       width: span(6);
       order: 1;
+      margin-right: gutter();
+      //align-self: center;
       @media (max-width: 800px) {
         width: span(12);
         order: 2;
@@ -32,6 +34,9 @@
         width: 100%;
         margin-bottom: -3.5em;
         padding-bottom: gutter()*2;
+        @media (min-width: 1200px) {
+          object-fit: cover;
+        }
         @media (max-width: 800px) {
           top: 0;
           margin-bottom: 0;
