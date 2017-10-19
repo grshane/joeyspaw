@@ -1,0 +1,32 @@
+.responsive-menu-toggle {
+  display: flex;
+  justify-content: flex-end;
+  //background: $primary;
+  .responsive-menu-toggle-icon {
+    &:before,
+    &:after {
+      background: $primary;
+    }
+    .icon {
+      background: $primary;
+
+    }
+    .label {
+      left: -34px;
+      color: $primary;
+    }
+  }
+}
+
+.mm-menu.mm-theme-dark {
+  background: $primary;
+}
+
+.mm-title {
+  font-size: 1.3em;
+  color: $secondary !important;
+}
+
+.mm-listview {
+  font-size: 1.2em;
+}
