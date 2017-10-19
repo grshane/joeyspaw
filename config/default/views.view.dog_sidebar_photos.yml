@@ -52,7 +52,7 @@ display:
       pager:
         type: some
         options:
-          items_per_page: 2
+          items_per_page: 1
           offset: 0
       style:
         type: default
@@ -281,11 +281,37 @@ display:
   block_1:
     display_plugin: block
     id: block_1
-    display_title: Block
+    display_title: 'Dog Photo - 1 Dog Sidebar Block'
     position: 1
     display_options:
       display_extenders:
         metatag_display_extender: {  }
+      display_description: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_dog_photo'
+  block_2:
+    display_plugin: block
+    id: block_2
+    display_title: 'Dog Photo - All Dogs Sidebar Block'
+    position: 2
+    display_options:
+      display_extenders:
+        metatag_display_extender: {  }
+      display_description: ''
+      pager:
+        type: none
+        options:
+          offset: 0
+      defaults:
+        pager: false
     cache_metadata:
       max-age: -1
       contexts:

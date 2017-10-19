@@ -7,11 +7,12 @@
   }
 
   .slick__slide {
+    //@include span(3);
     @media (max-width: 800px) {
-      width: 33.333333333vw;
+      width: span(4);
     }
     @media (max-width: 560px) {
-      width: 50vw !important;
+      width: span(6);
       //width: 100vw !important;
     }
     .slide__content {
