@@ -245,7 +245,11 @@ display:
     display_title: Page
     position: 1
     display_options:
-      display_extenders: {  }
+      display_extenders:
+        metatag_display_extender:
+          metatags:
+            description: 'Joey''s P.A.W. is proud to hear what people are saying about the nonprofit charity.'
+            keywords: '[site:name], [site:slogan], Testimonials, [site:name]  Testimonials,'
       path: testimonials
     cache_metadata:
       max-age: -1

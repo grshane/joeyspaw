@@ -691,7 +691,10 @@ display:
     position: 1
     display_options:
       display_extenders:
-        metatag_display_extender: {  }
+        metatag_display_extender:
+          metatags:
+            description: 'Every dog deserves a toy, a treat and a good home. Please see the Joey''s P.A.W adoptable dogs.'
+            keywords: '[site:name], [site:slogan], Avaliable Dogs,'
       path: adoptable-dogs
       display_description: ''
       filters:
@@ -925,7 +928,10 @@ display:
     position: 3
     display_options:
       display_extenders:
-        metatag_display_extender: {  }
+        metatag_display_extender:
+          metatags:
+            description: 'It all started with Joey, but has led to so much more. Meet the other dogs that Joey’s P.A.W. has helped.'
+            keywords: '[site:name], [site:slogan], Success Stories, Dogs,'
       filters:
         status:
           value: '1'

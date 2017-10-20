@@ -377,7 +377,10 @@ display:
     position: 1
     display_options:
       display_extenders:
-        metatag_display_extender: {  }
+        metatag_display_extender:
+          metatags:
+            description: 'Joey is proud to name the following as sponsors of Joey’s P.A.W.. Please help us thank them by visiting their websites and learning more about them.'
+            keywords: '[site:name], [site:slogan], Sponsors'
       path: sponsors
       style:
         type: blazy
