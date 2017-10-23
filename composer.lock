@@ -19,16 +19,16 @@
         },
         {
             "name": "acquia/blt",
-            "version": "8.9.8",
+            "version": "8.9.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/blt.git",
-                "reference": "795a7cba1a4944a5dffc6a24286b9314fb7390b0"
+                "reference": "b19c3d8e52ede749362454fac9b5f112eb5b56bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/blt/zipball/795a7cba1a4944a5dffc6a24286b9314fb7390b0",
-                "reference": "795a7cba1a4944a5dffc6a24286b9314fb7390b0",
+                "url": "https://api.github.com/repos/acquia/blt/zipball/b19c3d8e52ede749362454fac9b5f112eb5b56bd",
+                "reference": "b19c3d8e52ede749362454fac9b5f112eb5b56bd",
                 "shasum": ""
             },
             "require": {
@@ -98,7 +98,7 @@
                 "template",
                 "testing"
             ],
-            "time": "2017-10-10T03:55:49+00:00"
+            "time": "2017-10-16T20:21:48+00:00"
         },
         {
             "name": "acquia/lightning",
