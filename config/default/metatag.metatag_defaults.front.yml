@@ -7,8 +7,7 @@ _core:
 id: front
 label: 'Front page'
 tags:
-  description: 'Joey''s P.A.W. is a nonprofit charity that optimize the quality of life of special needs dogs, focusing on prosthetics and wheelchairs for dogs.'
+  canonical_url: '[site:url]'
+  description: '[node:summary]'
   shortlink: '[site:url]'
   title: '[site:name] | [site:slogan]'
-  canonical_url: '[site:url]'
-  keywords: 'Joey''s P.A.W., dog prosthetics, dog wheelchairs, dog wheels, special needs dogs, dog mobility assistance devices, dog devices,'

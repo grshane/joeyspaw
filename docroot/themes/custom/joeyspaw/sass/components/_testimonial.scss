@@ -1,8 +1,8 @@
-.view-testimonials .views-row {
-    margin-bottom: 50px;
-}
-    
-.view-testimonials .views-row::before {
+.testimonials {
+  .testimonial {
+    //margin-bottom: 50px;
+    margin: 0 3em 3em;
+    &::before {
       content: "\201c";
       display: block;
       position: relative;
@@ -10,15 +10,17 @@
       top: 60px;
       font-family: georgia;
       color: #6c7c3a;
-      }
-    
-  .views-field.views-field-field-testimonial-body {
-   margin-left: 50px;
-   }
-  
-  .views-field.views-field-title {
-  float: right;
-  margin-right: 60px;
-  color: #6c7c3a;
-  font-style: italic;
+    }
+
+    .testimonial__body {
+      margin-left: 50px;
+    }
+
+    .testimonial__title {
+      float: right;
+      margin-right: 60px;
+      color: #6c7c3a;
+      font-style: italic;
+    }
   }
+}

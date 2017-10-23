@@ -5,6 +5,5 @@ dependencies: {  }
 id: node__page
 label: 'Content: Basic page'
 tags:
-  description: '[node:summary]'
-  title: '[node:title] | [site:name]'
   keywords: '[site:name], [site:slogan], [node:title], '
+  title: '[node:title] | [site:name]'
