@@ -44,7 +44,7 @@ variant_settings:
       info: ''
       view_mode: full
       region: middle_right
-      weight: 1
+      weight: 0
       uuid: 3c8c08cc-a0f0-4edb-b27a-d0a3670886fb
       context_mapping: {  }
     c2223426-e9b2-4d42-9fd2-caba5ce01288:
@@ -67,7 +67,7 @@ variant_settings:
       info: ''
       view_mode: full
       region: middle_right
-      weight: 3
+      weight: -1
       uuid: ff817d59-3839-4978-8a23-1db3c95805cb
       context_mapping: {  }
     354d8fd1-756e-4cd5-b75e-7bebbc422c10:
@@ -79,7 +79,7 @@ variant_settings:
       info: ''
       view_mode: full
       region: middle_right
-      weight: 2
+      weight: -2
       uuid: 354d8fd1-756e-4cd5-b75e-7bebbc422c10
       context_mapping: {  }
   id: panels_variant
