@@ -13,7 +13,6 @@ dependencies:
     - ctools_block
     - panels
     - system
-    - webform
 id: node_view-panels_variant-2
 label: Webforms
 variant: panels_variant
@@ -31,7 +30,7 @@ variant_settings:
         third_party_settings: {  }
         weight: 0
       region: middle_left
-      weight: 1
+      weight: -2
       uuid: c3c316b9-1dd5-4416-be40-1d2ce1eee635
       context_mapping:
         entity: node
@@ -46,17 +45,6 @@ variant_settings:
       region: middle_right
       weight: 0
       uuid: 3c8c08cc-a0f0-4edb-b27a-d0a3670886fb
-      context_mapping: {  }
-    c2223426-e9b2-4d42-9fd2-caba5ce01288:
-      id: webform_block
-      label: Webform
-      provider: webform
-      label_display: '0'
-      webform_id: contact_us
-      default_data: ''
-      region: middle_left
-      weight: 2
-      uuid: c2223426-e9b2-4d42-9fd2-caba5ce01288
       context_mapping: {  }
     ff817d59-3839-4978-8a23-1db3c95805cb:
       id: 'block_content:7b2f7877-3952-4b7f-9167-f68975b02be9'
@@ -82,6 +70,23 @@ variant_settings:
       weight: -2
       uuid: 354d8fd1-756e-4cd5-b75e-7bebbc422c10
       context_mapping: {  }
+    f58f9743-88b3-4aa4-b850-0fefec7a7122:
+      id: 'entity_field:node:webform'
+      label: Webform
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: webform_entity_reference_entity_view
+        settings:
+          source_entity: true
+        third_party_settings: {  }
+        weight: 0
+      region: middle_left
+      weight: -1
+      uuid: f58f9743-88b3-4aa4-b850-0fefec7a7122
+      context_mapping:
+        entity: node
   id: panels_variant
   uuid: 5b9baa10-2587-4fd0-94bd-89b4c5f762e3
   label: null
