@@ -1,24 +1,26 @@
-uuid: 50b6a963-5d93-4677-a023-200dfd408b88
+uuid: a508ce8d-908c-47b6-a722-c5b60ef949ca
 langcode: en
 status: true
 dependencies:
   config:
     - page_manager.page.node_view
+    - views.view.dogs
   content:
     - 'block_content:basic:05e7a1b6-275a-416e-a438-56c42808560c'
     - 'block_content:basic:0c37eb85-17f9-447f-a682-dbe730c51cc9'
     - 'block_content:basic:7b2f7877-3952-4b7f-9167-f68975b02be9'
   module:
     - block_content
-    - ctools
     - ctools_block
     - panels
-id: node_view-panels_variant-3
-label: 'Basic Page'
+    - system
+    - views
+id: node_view-panels_variant-6
+label: 'Joy of Owning'
 variant: panels_variant
 variant_settings:
   blocks:
-    5196ffc5-f24f-4a68-8938-5aadf8728cc0:
+    ec64f936-f00c-4b9a-bec5-51c0f73fcc97:
       id: 'entity_field:node:field_page_body'
       label: Body
       provider: ctools_block
@@ -30,23 +32,11 @@ variant_settings:
         third_party_settings: {  }
         weight: 0
       region: middle_left
-      weight: 1
-      uuid: 5196ffc5-f24f-4a68-8938-5aadf8728cc0
+      weight: 0
+      uuid: ec64f936-f00c-4b9a-bec5-51c0f73fcc97
       context_mapping:
         entity: node
-    8c32ee14-8d76-4de8-ad90-43891e28f8b8:
-      id: 'block_content:05e7a1b6-275a-416e-a438-56c42808560c'
-      label: donatebutton
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      region: middle_right
-      weight: 0
-      uuid: 8c32ee14-8d76-4de8-ad90-43891e28f8b8
-      context_mapping: {  }
-    a5c4ad64-4095-46ba-b595-f1711257350d:
+    0f55cfd5-d70d-4887-a399-1a9dbb98569c:
       id: 'block_content:0c37eb85-17f9-447f-a682-dbe730c51cc9'
       label: 'Address Block'
       provider: block_content
@@ -56,9 +46,9 @@ variant_settings:
       view_mode: full
       region: middle_right
       weight: 0
-      uuid: a5c4ad64-4095-46ba-b595-f1711257350d
+      uuid: 0f55cfd5-d70d-4887-a399-1a9dbb98569c
       context_mapping: {  }
-    6702624f-fcb6-4f63-9c63-fc0438c93d9c:
+    c01acf13-1082-4f03-9982-00fb10611e8b:
       id: 'block_content:7b2f7877-3952-4b7f-9167-f68975b02be9'
       label: 'Phone Number Block'
       provider: block_content
@@ -68,27 +58,48 @@ variant_settings:
       view_mode: full
       region: middle_right
       weight: 0
-      uuid: 6702624f-fcb6-4f63-9c63-fc0438c93d9c
+      uuid: c01acf13-1082-4f03-9982-00fb10611e8b
+      context_mapping: {  }
+    938b0c0c-e8c4-46bd-89b7-ab04ef1c2e54:
+      id: 'block_content:05e7a1b6-275a-416e-a438-56c42808560c'
+      label: donatebutton
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: middle_right
+      weight: 0
+      uuid: 938b0c0c-e8c4-46bd-89b7-ab04ef1c2e54
+      context_mapping: {  }
+    0a63e933-f9ef-4f4e-8fcc-98f5ca058ad4:
+      id: 'views_block:dogs-block_3'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: bottom
+      weight: 0
+      uuid: 0a63e933-f9ef-4f4e-8fcc-98f5ca058ad4
       context_mapping: {  }
   id: panels_variant
-  uuid: 56b0efca-e3c2-4f2a-af92-21a78041a759
+  uuid: 899f5d2a-a761-466a-8875-a8240a3809dc
   label: null
   weight: 0
   layout: one_two_one_cl
   layout_settings: {  }
   page_title: '[node:title]'
   storage_type: page_manager
-  storage_id: node_view-panels_variant-3
+  storage_id: node_view-panels_variant-6
   builder: ipe
 page: node_view
-weight: -4
+weight: -5
 selection_criteria:
   -
-    id: 'entity_bundle:node'
-    bundles:
-      page: page
+    id: request_path
+    pages: /joy-owning-special-needs-dogs
     negate: false
-    context_mapping:
-      node: node
+    context_mapping: {  }
 selection_logic: and
 static_context: {  }

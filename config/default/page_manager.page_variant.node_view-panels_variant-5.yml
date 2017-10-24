@@ -1,24 +1,26 @@
-uuid: 50b6a963-5d93-4677-a023-200dfd408b88
+uuid: e0153f9e-5c5a-4820-aa4b-fb31400e0b1e
 langcode: en
 status: true
 dependencies:
   config:
     - page_manager.page.node_view
+    - views.view.dogs
   content:
     - 'block_content:basic:05e7a1b6-275a-416e-a438-56c42808560c'
     - 'block_content:basic:0c37eb85-17f9-447f-a682-dbe730c51cc9'
     - 'block_content:basic:7b2f7877-3952-4b7f-9167-f68975b02be9'
   module:
     - block_content
-    - ctools
     - ctools_block
     - panels
-id: node_view-panels_variant-3
-label: 'Basic Page'
+    - system
+    - views
+id: node_view-panels_variant-5
+label: 'About Us'
 variant: panels_variant
 variant_settings:
   blocks:
-    5196ffc5-f24f-4a68-8938-5aadf8728cc0:
+    55961db0-d5a5-4a1b-a97a-2d9dc66a7c67:
       id: 'entity_field:node:field_page_body'
       label: Body
       provider: ctools_block
@@ -30,23 +32,11 @@ variant_settings:
         third_party_settings: {  }
         weight: 0
       region: middle_left
-      weight: 1
-      uuid: 5196ffc5-f24f-4a68-8938-5aadf8728cc0
+      weight: 0
+      uuid: 55961db0-d5a5-4a1b-a97a-2d9dc66a7c67
       context_mapping:
         entity: node
-    8c32ee14-8d76-4de8-ad90-43891e28f8b8:
-      id: 'block_content:05e7a1b6-275a-416e-a438-56c42808560c'
-      label: donatebutton
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      region: middle_right
-      weight: 0
-      uuid: 8c32ee14-8d76-4de8-ad90-43891e28f8b8
-      context_mapping: {  }
-    a5c4ad64-4095-46ba-b595-f1711257350d:
+    1f5592b2-117c-44db-92c4-9aadd20933db:
       id: 'block_content:0c37eb85-17f9-447f-a682-dbe730c51cc9'
       label: 'Address Block'
       provider: block_content
@@ -55,10 +45,10 @@ variant_settings:
       info: ''
       view_mode: full
       region: middle_right
-      weight: 0
-      uuid: a5c4ad64-4095-46ba-b595-f1711257350d
+      weight: -1
+      uuid: 1f5592b2-117c-44db-92c4-9aadd20933db
       context_mapping: {  }
-    6702624f-fcb6-4f63-9c63-fc0438c93d9c:
+    8aac3215-9c24-44da-b828-4e01749264b7:
       id: 'block_content:7b2f7877-3952-4b7f-9167-f68975b02be9'
       label: 'Phone Number Block'
       provider: block_content
@@ -68,27 +58,48 @@ variant_settings:
       view_mode: full
       region: middle_right
       weight: 0
-      uuid: 6702624f-fcb6-4f63-9c63-fc0438c93d9c
+      uuid: 8aac3215-9c24-44da-b828-4e01749264b7
+      context_mapping: {  }
+    bcd3bdf6-6f2a-4afc-b7bf-6f6b4906d8d5:
+      id: 'block_content:05e7a1b6-275a-416e-a438-56c42808560c'
+      label: donatebutton
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: middle_right
+      weight: 1
+      uuid: bcd3bdf6-6f2a-4afc-b7bf-6f6b4906d8d5
+      context_mapping: {  }
+    931a4918-3ba3-453f-a115-113a498c1873:
+      id: 'views_block:dogs-block_2'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: bottom
+      weight: 0
+      uuid: 931a4918-3ba3-453f-a115-113a498c1873
       context_mapping: {  }
   id: panels_variant
-  uuid: 56b0efca-e3c2-4f2a-af92-21a78041a759
+  uuid: 658f87a4-57d7-4f31-a96c-3bd46ee6a534
   label: null
   weight: 0
   layout: one_two_one_cl
   layout_settings: {  }
-  page_title: '[node:title]'
+  page_title: ''
   storage_type: page_manager
-  storage_id: node_view-panels_variant-3
+  storage_id: node_view-panels_variant-5
   builder: ipe
 page: node_view
-weight: -4
+weight: -6
 selection_criteria:
   -
-    id: 'entity_bundle:node'
-    bundles:
-      page: page
+    id: request_path
+    pages: /about-us
     negate: false
-    context_mapping:
-      node: node
+    context_mapping: {  }
 selection_logic: and
 static_context: {  }
