@@ -765,6 +765,7 @@ display:
         fields: false
         style: false
         row: false
+        header: false
       filter_groups:
         operator: AND
         groups:
@@ -1023,6 +1024,7 @@ display:
         type: fields
         options: {  }
       display_description: ''
+      header: {  }
     cache_metadata:
       max-age: -1
       contexts:
