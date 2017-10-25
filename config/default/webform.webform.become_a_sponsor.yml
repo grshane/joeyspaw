@@ -133,7 +133,7 @@ handlers:
       from_options: {  }
       from_name: default
       subject: default
-      body: default
+      body: "<p>Submitted on [webform_submission:created]</p>\n\n<p>Submitted values are:</p>\n[webform_submission:values]"
       excluded_elements: {  }
       ignore_access: false
       exclude_empty: true
