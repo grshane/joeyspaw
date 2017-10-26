@@ -1,0 +1,22 @@
+uuid: d2a76a4c-c646-4f7c-a5fb-6a905877ada8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: product_
+label: 'Product '
+type: 'canonical_entities:node'
+pattern: 'shop-joey/product/[node:title]'
+selection_criteria:
+  9a5e0185-e4c8-4dd5-bff5-706c16912fed:
+    id: node_type
+    bundles:
+      product: product
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 9a5e0185-e4c8-4dd5-bff5-706c16912fed
+selection_logic: and
+weight: -5
+relationships: {  }

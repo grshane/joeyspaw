@@ -1,0 +1,69 @@
+uuid: 88cb6805-e33d-4b8d-ac6e-b9f0944aa352
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.product.field_manufacturer_name
+    - field.field.node.product.field_product_description
+    - field.field.node.product.field_product_image
+    - field.field.node.product.field_product_url
+    - node.type.product
+  module:
+    - image
+    - link
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.product.default
+targetEntityType: node
+bundle: product
+mode: default
+content:
+  field_manufacturer_name:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_product_description:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_product_image:
+    weight: 3
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_product_url:
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

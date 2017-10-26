@@ -1,0 +1,19 @@
+uuid: 48830fbe-fb08-4735-90e0-ca235fb9001b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_manufacturer_name
+    - node.type.product
+id: node.product.field_manufacturer_name
+field_name: field_manufacturer_name
+entity_type: node
+bundle: product
+label: 'Manufacturer Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

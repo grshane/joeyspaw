@@ -1,24 +1,37 @@
-uuid: 50b6a963-5d93-4677-a023-200dfd408b88
+uuid: afb8916d-fc97-45a5-a308-92f5a9bf5246
 langcode: en
 status: true
 dependencies:
   config:
     - page_manager.page.node_view
+    - views.view.products
   content:
     - 'block_content:basic:05e7a1b6-275a-416e-a438-56c42808560c'
     - 'block_content:basic:0c37eb85-17f9-447f-a682-dbe730c51cc9'
     - 'block_content:basic:7b2f7877-3952-4b7f-9167-f68975b02be9'
   module:
     - block_content
-    - ctools
     - ctools_block
     - panels
-id: node_view-panels_variant-3
-label: 'Basic Page'
+    - system
+    - views
+id: node_view-panels_variant-7
+label: 'Shop Joey'
 variant: panels_variant
 variant_settings:
   blocks:
-    5196ffc5-f24f-4a68-8938-5aadf8728cc0:
+    46c1f56e-16b4-4cd0-ae60-2953a35226fa:
+      id: 'views_block:products-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: bottom
+      weight: 0
+      uuid: 46c1f56e-16b4-4cd0-ae60-2953a35226fa
+      context_mapping: {  }
+    b2a74708-0361-4b63-8c55-e5819ce23838:
       id: 'entity_field:node:field_page_body'
       label: Body
       provider: ctools_block
@@ -30,23 +43,11 @@ variant_settings:
         third_party_settings: {  }
         weight: 0
       region: middle_left
-      weight: 1
-      uuid: 5196ffc5-f24f-4a68-8938-5aadf8728cc0
+      weight: 0
+      uuid: b2a74708-0361-4b63-8c55-e5819ce23838
       context_mapping:
         entity: node
-    8c32ee14-8d76-4de8-ad90-43891e28f8b8:
-      id: 'block_content:05e7a1b6-275a-416e-a438-56c42808560c'
-      label: donatebutton
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      region: middle_right
-      weight: 0
-      uuid: 8c32ee14-8d76-4de8-ad90-43891e28f8b8
-      context_mapping: {  }
-    a5c4ad64-4095-46ba-b595-f1711257350d:
+    6f724c17-912c-4877-b82f-00e694bf507b:
       id: 'block_content:0c37eb85-17f9-447f-a682-dbe730c51cc9'
       label: 'Address Block'
       provider: block_content
@@ -56,9 +57,9 @@ variant_settings:
       view_mode: full
       region: middle_right
       weight: 0
-      uuid: a5c4ad64-4095-46ba-b595-f1711257350d
+      uuid: 6f724c17-912c-4877-b82f-00e694bf507b
       context_mapping: {  }
-    6702624f-fcb6-4f63-9c63-fc0438c93d9c:
+    0d78df89-ef43-4e04-9c93-6d1284005816:
       id: 'block_content:7b2f7877-3952-4b7f-9167-f68975b02be9'
       label: 'Phone Number Block'
       provider: block_content
@@ -68,27 +69,37 @@ variant_settings:
       view_mode: full
       region: middle_right
       weight: 0
-      uuid: 6702624f-fcb6-4f63-9c63-fc0438c93d9c
+      uuid: 0d78df89-ef43-4e04-9c93-6d1284005816
+      context_mapping: {  }
+    c39d72e1-76c3-4b92-8665-9bf0739694d9:
+      id: 'block_content:05e7a1b6-275a-416e-a438-56c42808560c'
+      label: donatebutton
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: middle_right
+      weight: 0
+      uuid: c39d72e1-76c3-4b92-8665-9bf0739694d9
       context_mapping: {  }
   id: panels_variant
-  uuid: 56b0efca-e3c2-4f2a-af92-21a78041a759
+  uuid: 9f070089-0195-483a-af09-d3420682a5da
   label: null
   weight: 0
   layout: one_two_one_cl
   layout_settings: {  }
   page_title: '[node:title]'
   storage_type: page_manager
-  storage_id: node_view-panels_variant-3
+  storage_id: node_view-panels_variant-7
   builder: ipe
 page: node_view
-weight: -3
+weight: -4
 selection_criteria:
   -
-    id: 'entity_bundle:node'
-    bundles:
-      page: page
+    id: request_path
+    pages: /shop-joey
     negate: false
-    context_mapping:
-      node: node
+    context_mapping: {  }
 selection_logic: and
 static_context: {  }

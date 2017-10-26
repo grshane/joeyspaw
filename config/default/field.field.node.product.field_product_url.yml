@@ -1,0 +1,23 @@
+uuid: a30eec71-4a0f-4348-97b8-289095518d3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_url
+    - node.type.product
+  module:
+    - link
+id: node.product.field_product_url
+field_name: field_product_url
+entity_type: node
+bundle: product
+label: 'Product URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link
