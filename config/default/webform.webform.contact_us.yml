@@ -10,7 +10,7 @@ id: contact_us
 title: 'Contact Us'
 description: ''
 category: ''
-elements: "your_name:\n  '#type': webform_name\n  '#title': 'Your Name'\n  '#required': true\n  '#title__access': false\n  '#first__title': 'First Name'\n  '#middle__access': false\n  '#last__title': 'Last Name'\n  '#suffix__access': false\n  '#degree__access': false\n  '#flexbox': '1'\nemail_address:\n  '#type': email\n  '#title': 'Email Address'\ninquiry:\n  '#type': textarea\n  '#title': Inquiry\n"
+elements: "your_name:\n  '#type': webform_name\n  '#title': 'Your Name'\n  '#required': true\n  '#title__access': false\n  '#first__title': 'First Name'\n  '#middle__access': false\n  '#last__title': 'Last Name'\n  '#suffix__access': false\n  '#degree__access': false\n  '#flexbox': '0'\nemail_address:\n  '#type': email\n  '#title': 'Email Address'\ninquiry:\n  '#type': textarea\n  '#title': Inquiry\n"
 css: ''
 javascript: ''
 settings:
