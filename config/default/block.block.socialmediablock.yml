@@ -1,6 +1,6 @@
 uuid: 81a1dffb-79cd-4d8f-9bd5-04bee9360eb6
 langcode: en
-status: false
+status: true
 dependencies:
   content:
     - 'block_content:basic:b7c8c194-5d78-44fc-b8c3-40cf7fd664ec'
@@ -15,7 +15,7 @@ third_party_settings:
 id: socialmediablock
 theme: joeyspaw
 region: branding
-weight: -8
+weight: -10
 provider: null
 plugin: 'block_content:b7c8c194-5d78-44fc-b8c3-40cf7fd664ec'
 settings:
