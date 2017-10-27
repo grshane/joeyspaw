@@ -18,5 +18,7 @@ content:
     weight: 100
     region: content
 hidden:
+  field_manufacturer_name: true
   field_product_description: true
   field_product_image: true
+  field_product_url: true
