@@ -12,6 +12,11 @@
     }
   }
   .search-block-form {
+    form {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    width: span(3);
     @media (max-width: 800px) {
       width: span(6);
       order: 3;
@@ -26,10 +31,17 @@
       width: span(12);
     }
   }
+  .header__social {
+    width: span(1);
+  }
   .donate__block {
+      display: flex;
+      justify-content: center;
+
     @media (max-width: 800px) {
       order: 2;
       width: span(6);
+
     }
     @media (max-width: 560px) {
       width: span(12);
