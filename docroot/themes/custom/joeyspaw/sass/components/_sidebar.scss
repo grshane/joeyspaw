@@ -1,0 +1,16 @@
+.slick--view--dog-sidebar-photos {
+  .slick__slide {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    img {
+      max-height: 600px;
+      width: auto;
+      flex: 1 0 auto;
+    }
+    div {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
