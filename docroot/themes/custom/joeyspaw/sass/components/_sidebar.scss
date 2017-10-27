@@ -13,10 +13,10 @@
     div {
       width: 100%;
       text-align: center;
-      border: 1px solid $med-gray;
-      margin-bottom: 0.5em;
-      background: #000000;
-      color: $white;
+      border-top: 1px solid $med-gray;
+      border-bottom: 1px solid $med-gray;
+      margin: 0.5em 0 ;
+      color: $primary;
     }
   }
   .slick__arrow {
