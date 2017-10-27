@@ -3,14 +3,24 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    max-height: 80vh;
     img {
       max-height: 600px;
       width: auto;
+      object-fit: contain;
       flex: 1 0 auto;
     }
     div {
       width: 100%;
       text-align: center;
+      border: 1px solid $med-gray;
+      margin-bottom: 0.5em;
+      background: #000000;
+      color: $white;
     }
+  }
+  .slick__arrow {
+    display: flex;
+    justify-content: space-between;
   }
 }
