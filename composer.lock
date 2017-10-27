@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e4b25d1a180e65eaffe39c1bfeea6b41",
+    "content-hash": "b4c2f24330b32e898f37c3b386c46f06",
     "packages": [
         {
             "name": "FrDH/jQuery.mmenu",
@@ -14038,7 +14038,11 @@
         "drupal/slick_extras": 10,
         "drupal/context": 10,
         "drupal/we_megamenu": 5,
-        "drupal/term_csv_export_import": 15
+        "drupal/term_csv_export_import": 15,
+        "drupal/qa_accounts": 15,
+        "drupal/memcache": 15,
+        "drupal/seckit": 15,
+        "drupal/security_review": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
