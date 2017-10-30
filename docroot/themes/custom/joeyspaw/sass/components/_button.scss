@@ -31,6 +31,13 @@ button:hover {
     font-size: 1.25em;
     height: 2em;
     padding: 0 2em;
+    color: $white;
+    background: $primary;
+    border: 2px solid $secondary;
     @extend .rounded;
+    &:hover {
+      background: $white;
+      color: $primary;
+    }
   }
 }

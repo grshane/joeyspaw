@@ -810,43 +810,43 @@
 773 info package.json jsesc@1.3.0 No README data
 774 info package.json object.assign@4.0.4 No README data
 775 info package.json onecolor@3.0.4 No README data
-776 info package.json parsejson@0.0.1 No repository field.
-777 info package.json parsejson@0.0.1 No README data
-778 info package.json parseqs@0.0.2 No repository field.
-779 info package.json parseqs@0.0.2 No README data
+776 info package.json parseqs@0.0.2 No repository field.
+777 info package.json parseqs@0.0.2 No README data
+778 info package.json parsejson@0.0.1 No repository field.
+779 info package.json parsejson@0.0.1 No README data
 780 info package.json parseuri@0.0.4 No README data
 781 info package.json path-is-inside@1.0.2 No README data
 782 info package.json JSONStream@0.8.4 No license field.
 783 info package.json after@0.8.1 No license field.
-784 info package.json array-unique@0.2.1 license should be a valid SPDX license expression
-785 info package.json arraybuffer.slice@0.0.6 No license field.
-786 info package.json async-foreach@0.1.3 No license field.
-787 info package.json base64-arraybuffer@0.1.5 No license field.
-788 info package.json batch@0.5.3 No license field.
-789 info package.json base64id@0.1.0 No license field.
-790 info package.json bcrypt-pbkdf@1.0.1 No repository field.
+784 info package.json arraybuffer.slice@0.0.6 No license field.
+785 info package.json async-foreach@0.1.3 No license field.
+786 info package.json base64-arraybuffer@0.1.5 No license field.
+787 info package.json base64id@0.1.0 No license field.
+788 info package.json bcrypt-pbkdf@1.0.1 No repository field.
+789 info package.json batch@0.5.3 No license field.
+790 info package.json benchmark@1.0.0 No license field.
 791 info package.json better-assert@1.0.2 No license field.
-792 info package.json benchmark@1.0.0 No license field.
-793 info package.json blob@0.0.4 No license field.
-794 info package.json browser-sync-client@2.5.1 No license field.
-795 info package.json callsite@1.0.0 No repository field.
-796 info package.json callsite@1.0.0 No license field.
-797 info package.json casperjs@1.1.3 No license field.
+792 info package.json blob@0.0.4 No license field.
+793 info package.json browser-sync-client@2.5.1 No license field.
+794 info package.json callsite@1.0.0 No repository field.
+795 info package.json callsite@1.0.0 No license field.
+796 info package.json casperjs@1.1.3 No license field.
+797 info package.json cli@0.4.4-2 No license field.
 798 info package.json color-diff@0.1.7 license should be a valid SPDX license expression
-799 info package.json component-bind@1.0.0 No license field.
-800 info package.json component-emitter@1.1.2 No license field.
-801 info package.json component-inherit@0.0.3 No license field.
-802 info package.json config-chain@1.1.11 No license field.
+799 info package.json component-emitter@1.1.2 No license field.
+800 info package.json component-inherit@0.0.3 No license field.
+801 info package.json config-chain@1.1.11 No license field.
+802 info package.json component-bind@1.0.0 No license field.
 803 info package.json ctype@0.5.3 No license field.
 804 info package.json deep-is@0.1.3 license should be a valid SPDX license expression
 805 info package.json deprecated@0.0.1 No license field.
 806 info package.json dev-ip@1.0.1 No license field.
 807 info package.json diff@1.0.7 No license field.
-808 info package.json duplexer@0.1.1 No license field.
-809 info package.json duplexer2@0.0.2 license should be a valid SPDX license expression
+808 info package.json doctrine@1.5.0 No license field.
+809 info package.json duplexer@0.1.1 No license field.
 810 info package.json easy-extender@2.3.2 No license field.
-811 info package.json eazy-logger@3.0.2 No license field.
-812 info package.json doctrine@1.5.0 No license field.
+811 info package.json duplexer2@0.0.2 license should be a valid SPDX license expression
+812 info package.json eazy-logger@3.0.2 No license field.
 813 info package.json esquery@1.0.0 license should be a valid SPDX license expression
 814 info package.json esutils@2.0.2 No license field.
 815 info package.json express@2.5.11 No license field.
@@ -884,8 +884,8 @@
 847 info package.json phpjs@1.3.2 No license field.
 848 info package.json portscanner@1.2.0 No license field.
 849 info package.json postcss-resolve-nested-selector@0.1.1 No repository field.
-850 info package.json preserve@0.2.0 license should be a valid SPDX license expression
-851 info package.json prelude-ls@1.1.2 No license field.
+850 info package.json prelude-ls@1.1.2 No license field.
+851 info package.json preserve@0.2.0 license should be a valid SPDX license expression
 852 info package.json progress@1.1.8 No license field.
 853 info package.json punycode@1.4.1 punycode is also the name of a node core module.
 854 info package.json rechoir@0.6.2 No license field.
@@ -910,11 +910,11 @@
 873 info package.json v8flags@2.1.1 No license field.
 874 info package.json vinyl-bufferstream@1.0.1 No license field.
 875 info package.json vinyl-fs@0.3.14 No license field.
-876 info package.json walk@2.3.9 No license field.
-877 info package.json weinre@2.0.0-pre-I0Z7U9OV No license field.
+876 info package.json weinre@2.0.0-pre-I0Z7U9OV No license field.
+877 info package.json walk@2.3.9 No license field.
 878 info package.json wordwrap@0.0.2 license should be a valid SPDX license expression
 879 info package.json xmlhttprequest-ssl@1.5.1 No license field.
-880 info package.json cli@0.4.4-2 No license field.
+880 info package.json array-unique@0.2.1 license should be a valid SPDX license expression
 881 verbose readDependencies loading dependencies from /var/www/joeyspaw/docroot/themes/custom/joeyspaw/package.json
 882 verbose targetResolver reading package data from /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/JSONStream/package.json
 883 verbose targetResolver reading package data from /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/abbrev/package.json
@@ -1745,42 +1745,42 @@
 1708 verbose targetResolver reading package data from /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/weinre/package.json
 1709 verbose targetResolver reading package data from /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/which/package.json
 1710 verbose targetResolver reading package data from /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/window-size/package.json
-1711 verbose already installed skipping gulp-rename@1.2.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1712 verbose already installed skipping gulp-sass@2.3.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1713 verbose already installed skipping gulp-sass-glob@1.0.6 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1714 verbose already installed skipping gulp-sass-lint@1.2.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1715 verbose already installed skipping gulp-size@2.1.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1716 verbose already installed skipping gulp-sourcemaps@2.1.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1717 verbose already installed skipping gulp-stylelint@^3.9.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1718 verbose already installed skipping gulp-uglify@2.0.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1719 verbose already installed skipping gulp-util@3.0.7 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1720 verbose already installed skipping gulp-watch@4.3.10 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1721 verbose already installed skipping kss@3.0.0-beta.15 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1722 verbose already installed skipping node-sass@3.10.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1723 verbose already installed skipping node-sass-import-once@1.2.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1724 verbose already installed skipping pa11y@^4.10.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1725 verbose already installed skipping run-sequence@1.2.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1726 verbose already installed skipping stylelint-config-standard@^16.0.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1727 verbose already installed skipping susy@2.2.12 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1728 verbose already installed skipping typey@1.0.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1729 verbose already installed skipping babel-preset-es2015@^6.24.1 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1730 verbose already installed skipping breakpoint-sass@2.7.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1731 verbose already installed skipping browser-sync@2.17.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1732 verbose already installed skipping del@2.2.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1733 verbose already installed skipping eslint@3.19.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1734 verbose already installed skipping eslint-config-airbnb@14.1.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1735 verbose already installed skipping eslint-plugin-import@2.2.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1736 verbose already installed skipping eslint-plugin-jsx-a11y@4.0.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1737 verbose already installed skipping eslint-plugin-react@6.10.3 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1738 verbose already installed skipping gulp@3.9.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1739 verbose already installed skipping gulp-autoprefixer@3.1.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1740 verbose already installed skipping gulp-babel@^6.1.2 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1741 verbose already installed skipping gulp-clean-css@2.0.13 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1742 verbose already installed skipping gulp-eslint@3.0.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1743 verbose already installed skipping gulp-load-plugins@1.3.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1744 verbose already installed skipping gulp-parker@0.1.4 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1745 verbose already installed skipping gulp-phantomcss@^0.3.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
-1746 verbose already installed skipping gulp-plumber@1.1.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1711 verbose already installed skipping del@2.2.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1712 verbose already installed skipping eslint@3.19.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1713 verbose already installed skipping eslint-config-airbnb@14.1.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1714 verbose already installed skipping eslint-plugin-import@2.2.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1715 verbose already installed skipping eslint-plugin-jsx-a11y@4.0.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1716 verbose already installed skipping eslint-plugin-react@6.10.3 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1717 verbose already installed skipping gulp@3.9.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1718 verbose already installed skipping gulp-autoprefixer@3.1.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1719 verbose already installed skipping gulp-babel@^6.1.2 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1720 verbose already installed skipping gulp-clean-css@2.0.13 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1721 verbose already installed skipping gulp-eslint@3.0.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1722 verbose already installed skipping gulp-load-plugins@1.3.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1723 verbose already installed skipping gulp-parker@0.1.4 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1724 verbose already installed skipping gulp-phantomcss@^0.3.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1725 verbose already installed skipping gulp-plumber@1.1.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1726 verbose already installed skipping gulp-rename@1.2.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1727 verbose already installed skipping gulp-sass@2.3.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1728 verbose already installed skipping gulp-sass-glob@1.0.6 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1729 verbose already installed skipping gulp-sass-lint@1.2.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1730 verbose already installed skipping gulp-size@2.1.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1731 verbose already installed skipping gulp-sourcemaps@2.1.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1732 verbose already installed skipping gulp-stylelint@^3.9.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1733 verbose already installed skipping gulp-uglify@2.0.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1734 verbose already installed skipping gulp-util@3.0.7 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1735 verbose already installed skipping gulp-watch@4.3.10 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1736 verbose already installed skipping kss@3.0.0-beta.15 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1737 verbose already installed skipping node-sass@3.10.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1738 verbose already installed skipping node-sass-import-once@1.2.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1739 verbose already installed skipping pa11y@^4.10.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1740 verbose already installed skipping run-sequence@1.2.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1741 verbose already installed skipping stylelint-config-standard@^16.0.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1742 verbose already installed skipping susy@2.2.12 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1743 verbose already installed skipping typey@1.0.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1744 verbose already installed skipping babel-preset-es2015@^6.24.1 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1745 verbose already installed skipping breakpoint-sass@2.7.0 /var/www/joeyspaw/docroot/themes/custom/joeyspaw
+1746 verbose already installed skipping browser-sync@2.17.x /var/www/joeyspaw/docroot/themes/custom/joeyspaw
 1747 silly install resolved []
 1748 info build /var/www/joeyspaw/docroot/themes/custom/joeyspaw
 1749 info linkStuff joeyspaw@0.1.0
@@ -5112,10 +5112,10 @@
 4282 verbose link bins   false ]
 4283 verbose linkMans express@2.5.11
 4284 verbose rebuildBundles express@2.5.11
-4285 verbose rebuildBundles [ 'connect', 'mime', 'mkdirp', 'qs' ]
-4286 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/express is being purged
-4287 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/express
-4288 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/express
+4285 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/express is being purged
+4286 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/express
+4287 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/express
+4288 verbose rebuildBundles [ 'connect', 'mime', 'mkdirp', 'qs' ]
 4289 silly vacuum-fs quitting because other entries in /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin
 4290 info install express@2.5.11
 4291 info postinstall express@2.5.11
@@ -5150,10 +5150,10 @@
 4318 verbose link bins   false ]
 4319 verbose linkMans extract-zip@1.6.5
 4320 verbose rebuildBundles extract-zip@1.6.5
-4321 verbose rebuildBundles [ '.bin', 'minimist', 'mkdirp' ]
-4322 verbose rebuild bundle /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/extract-zip/node_modules/minimist
-4323 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/extract-zip is being purged
-4324 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/extract-zip
+4321 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/extract-zip is being purged
+4322 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/extract-zip
+4323 verbose rebuildBundles [ '.bin', 'minimist', 'mkdirp' ]
+4324 verbose rebuild bundle /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/extract-zip/node_modules/minimist
 4325 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/extract-zip
 4326 info build /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/extract-zip/node_modules/minimist
 4327 silly vacuum-fs quitting because other entries in /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin
@@ -6584,10 +6584,10 @@
 5628 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/fsevents/node_modules/.bin/sshpk-sign
 5629 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/fsevents/node_modules/.bin/sshpk-verify is being purged
 5630 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/fsevents/node_modules/.bin/sshpk-verify
-5631 verbose rebuildBundles [ 'assert-plus' ]
-5632 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/fsevents/node_modules/.bin/sshpk-conv
-5633 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/fsevents/node_modules/.bin/sshpk-sign
-5634 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/fsevents/node_modules/.bin/sshpk-verify
+5631 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/fsevents/node_modules/.bin/sshpk-conv
+5632 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/fsevents/node_modules/.bin/sshpk-sign
+5633 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/fsevents/node_modules/.bin/sshpk-verify
+5634 verbose rebuildBundles [ 'assert-plus' ]
 5635 silly vacuum-fs quitting because other entries in /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/fsevents/node_modules/.bin
 5636 silly vacuum-fs quitting because other entries in /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/fsevents/node_modules/.bin
 5637 silly vacuum-fs quitting because other entries in /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/fsevents/node_modules/.bin
@@ -7105,10 +7105,10 @@
 6138 verbose link bins   false ]
 6139 verbose linkMans gonzales-pe@4.2.2
 6140 verbose rebuildBundles gonzales-pe@4.2.2
-6141 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/gonzales is being purged
-6142 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/gonzales
-6143 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/gonzales
-6144 verbose rebuildBundles [ 'minimist' ]
+6141 verbose rebuildBundles [ 'minimist' ]
+6142 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/gonzales is being purged
+6143 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/gonzales
+6144 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/gonzales
 6145 silly vacuum-fs quitting because other entries in /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin
 6146 info install gonzales-pe@4.2.2
 6147 info postinstall gonzales-pe@4.2.2
@@ -8014,13 +8014,13 @@
 7032 verbose link bins   false ]
 7033 verbose linkMans js-beautify@1.4.2
 7034 verbose rebuildBundles js-beautify@1.4.2
-7035 verbose rebuildBundles [ '.bin', 'mkdirp', 'nopt' ]
-7036 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/css-beautify is being purged
-7037 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/css-beautify
-7038 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/html-beautify is being purged
-7039 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/html-beautify
-7040 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/js-beautify is being purged
-7041 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/js-beautify
+7035 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/css-beautify is being purged
+7036 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/css-beautify
+7037 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/html-beautify is being purged
+7038 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/html-beautify
+7039 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/js-beautify is being purged
+7040 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/js-beautify
+7041 verbose rebuildBundles [ '.bin', 'mkdirp', 'nopt' ]
 7042 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/css-beautify
 7043 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/html-beautify
 7044 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/js-beautify
@@ -8050,10 +8050,10 @@
 7066 verbose link bins   false ]
 7067 verbose linkMans js-yaml@3.10.0
 7068 verbose rebuildBundles js-yaml@3.10.0
-7069 verbose rebuildBundles [ '.bin' ]
-7070 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/js-yaml is being purged
-7071 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/js-yaml
-7072 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/js-yaml
+7069 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/js-yaml is being purged
+7070 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/js-yaml
+7071 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/js-yaml
+7072 verbose rebuildBundles [ '.bin' ]
 7073 silly vacuum-fs quitting because other entries in /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin
 7074 info install js-yaml@3.10.0
 7075 info postinstall js-yaml@3.10.0
@@ -8177,16 +8177,16 @@
 7187 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/jsonfilter
 7188 verbose rebuildBundles [ '.bin', 'readable-stream', 'through2' ]
 7189 verbose rebuild bundle /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/jsonfilter/node_modules/readable-stream
-7190 info build /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/jsonfilter/node_modules/readable-stream
-7191 info preinstall readable-stream@1.0.34
-7192 info linkStuff readable-stream@1.0.34
-7193 silly linkStuff readable-stream@1.0.34 has /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/jsonfilter/node_modules as its parent node_modules
-7194 verbose linkBins readable-stream@1.0.34
-7195 verbose linkMans readable-stream@1.0.34
-7196 verbose rebuildBundles readable-stream@1.0.34
-7197 info install readable-stream@1.0.34
-7198 info postinstall readable-stream@1.0.34
-7199 silly vacuum-fs quitting because other entries in /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin
+7190 silly vacuum-fs quitting because other entries in /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin
+7191 info build /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/jsonfilter/node_modules/readable-stream
+7192 info preinstall readable-stream@1.0.34
+7193 info linkStuff readable-stream@1.0.34
+7194 silly linkStuff readable-stream@1.0.34 has /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/jsonfilter/node_modules as its parent node_modules
+7195 verbose linkBins readable-stream@1.0.34
+7196 verbose linkMans readable-stream@1.0.34
+7197 verbose rebuildBundles readable-stream@1.0.34
+7198 info install readable-stream@1.0.34
+7199 info postinstall readable-stream@1.0.34
 7200 info install jsonfilter@1.1.2
 7201 info postinstall jsonfilter@1.1.2
 7202 verbose rebuild bundle /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/jsonify
@@ -8380,8 +8380,8 @@
 7383 verbose rebuild bundle /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/localtunnel/node_modules/asn1
 7384 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/lt is being purged
 7385 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/lt
-7386 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/lt
-7387 info build /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/localtunnel/node_modules/asn1
+7386 info build /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/localtunnel/node_modules/asn1
+7387 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/lt
 7388 silly vacuum-fs quitting because other entries in /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin
 7389 info preinstall asn1@0.1.11
 7390 info linkStuff asn1@0.1.11
@@ -8926,9 +8926,9 @@
 7921 verbose link bins   false ]
 7922 verbose linkMans mkdirp@0.5.1
 7923 verbose rebuildBundles mkdirp@0.5.1
-7924 verbose rebuildBundles [ 'minimist' ]
-7925 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/mkdirp is being purged
-7926 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/mkdirp
+7924 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/mkdirp is being purged
+7925 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/mkdirp
+7926 verbose rebuildBundles [ 'minimist' ]
 7927 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/mkdirp
 7928 silly vacuum-fs quitting because other entries in /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin
 7929 info install mkdirp@0.5.1
@@ -9126,25 +9126,25 @@
 8092 verbose rebuild bundle /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/node-gyp/node_modules/ajv
 8093 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/node-gyp is being purged
 8094 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/node-gyp
-8095 info build /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/node-gyp/node_modules/ajv
-8096 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/node-gyp
-8097 info preinstall ajv@5.2.3
-8098 info linkStuff ajv@5.2.3
-8099 silly linkStuff ajv@5.2.3 has /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/node-gyp/node_modules as its parent node_modules
-8100 verbose linkBins ajv@5.2.3
-8101 verbose linkMans ajv@5.2.3
-8102 verbose rebuildBundles ajv@5.2.3
-8103 info install ajv@5.2.3
-8104 info postinstall ajv@5.2.3
-8105 verbose rebuild bundle /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/node-gyp/node_modules/aws-sign2
-8106 info build /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/node-gyp/node_modules/aws-sign2
-8107 info preinstall aws-sign2@0.7.0
-8108 info linkStuff aws-sign2@0.7.0
-8109 silly linkStuff aws-sign2@0.7.0 has /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/node-gyp/node_modules as its parent node_modules
-8110 verbose linkBins aws-sign2@0.7.0
-8111 verbose linkMans aws-sign2@0.7.0
-8112 verbose rebuildBundles aws-sign2@0.7.0
-8113 silly vacuum-fs quitting because other entries in /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin
+8095 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/node-gyp
+8096 info build /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/node-gyp/node_modules/ajv
+8097 silly vacuum-fs quitting because other entries in /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin
+8098 info preinstall ajv@5.2.3
+8099 info linkStuff ajv@5.2.3
+8100 silly linkStuff ajv@5.2.3 has /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/node-gyp/node_modules as its parent node_modules
+8101 verbose linkBins ajv@5.2.3
+8102 verbose linkMans ajv@5.2.3
+8103 verbose rebuildBundles ajv@5.2.3
+8104 info install ajv@5.2.3
+8105 info postinstall ajv@5.2.3
+8106 verbose rebuild bundle /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/node-gyp/node_modules/aws-sign2
+8107 info build /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/node-gyp/node_modules/aws-sign2
+8108 info preinstall aws-sign2@0.7.0
+8109 info linkStuff aws-sign2@0.7.0
+8110 silly linkStuff aws-sign2@0.7.0 has /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/node-gyp/node_modules as its parent node_modules
+8111 verbose linkBins aws-sign2@0.7.0
+8112 verbose linkMans aws-sign2@0.7.0
+8113 verbose rebuildBundles aws-sign2@0.7.0
 8114 info install aws-sign2@0.7.0
 8115 info postinstall aws-sign2@0.7.0
 8116 verbose rebuild bundle /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/node-gyp/node_modules/boom
@@ -9315,8 +9315,8 @@
 8279 verbose rebuildBundles node-pre-gyp@0.6.38
 8280 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/node-pre-gyp is being purged
 8281 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/node-pre-gyp
-8282 verbose rebuildBundles [ '.bin', 'nopt' ]
-8283 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/node-pre-gyp
+8282 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/node-pre-gyp
+8283 verbose rebuildBundles [ '.bin', 'nopt' ]
 8284 silly vacuum-fs quitting because other entries in /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin
 8285 info install node-pre-gyp@0.6.38
 8286 info postinstall node-pre-gyp@0.6.38
@@ -9899,9 +9899,9 @@
 8855 verbose link bins   false ]
 8856 verbose linkMans phantomjs-prebuilt@2.1.15
 8857 verbose rebuildBundles phantomjs-prebuilt@2.1.15
-8858 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/phantomjs is being purged
-8859 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/phantomjs
-8860 verbose rebuildBundles [ '.bin', 'fs-extra', 'which' ]
+8858 verbose rebuildBundles [ '.bin', 'fs-extra', 'which' ]
+8859 silly gentlyRm /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/phantomjs is being purged
+8860 verbose gentlyRm don't care about contents; nuking /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/phantomjs
 8861 silly vacuum-fs purging /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin/phantomjs
 8862 silly vacuum-fs quitting because other entries in /var/www/joeyspaw/docroot/themes/custom/joeyspaw/node_modules/.bin
 8863 info install phantomjs-prebuilt@2.1.15
