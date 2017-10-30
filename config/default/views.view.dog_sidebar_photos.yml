@@ -1,6 +1,6 @@
 uuid: 7d731382-b1fb-4acc-baff-a2be05d826d2
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - field.storage.node.field_dog_photo

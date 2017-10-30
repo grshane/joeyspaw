@@ -63,17 +63,6 @@ variant_settings:
       weight: 1
       uuid: 04fc25e9-be7d-4d74-b880-6316a9216a58
       context_mapping: {  }
-    bdf79fee-78b8-4142-963f-b7683d34f33f:
-      id: 'views_block:sidebar_gallery-block_1'
-      label: ''
-      provider: views
-      label_display: visible
-      views_label: ''
-      items_per_page: none
-      region: bottom
-      weight: 1
-      uuid: bdf79fee-78b8-4142-963f-b7683d34f33f
-      context_mapping: {  }
   id: panels_variant
   uuid: 940a2517-1918-4df3-98fa-0e6c046d2d82
   label: null
