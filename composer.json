@@ -91,7 +91,8 @@
         "joeldbirch/superfish": "^1.7",
         "drupal/we_megamenu": "^1.0@RC",
         "drupal/weight": "^3.0",
-        "drupal/shield": "^1.1"
+        "drupal/shield": "^1.1",
+        "drupal/term_csv_export_import": "^1.0@alpha"
 
     },
     "require-dev": {
