@@ -11,8 +11,8 @@ dependencies:
   content:
     - 'taxonomy_term:avaliable_dog:79746826-dacf-47fc-855d-bdc4b40e6c75'
     - 'taxonomy_term:avaliable_dog:9a335a6a-eaa5-4348-8747-32781f71eee9'
+    - 'taxonomy_term:avaliable_dog:aef0bdcd-9acb-48f9-ab5c-339874da4240'
     - 'taxonomy_term:avaliable_dog:cee3649a-2663-437b-8d7b-7755622ea74b'
-    - 'taxonomy_term:avaliable_dog:d495a288-d056-4e22-b11c-da38ff9d187d'
   module:
     - blazy
     - image
@@ -874,7 +874,7 @@ display:
           type: image
           settings:
             image_style: ''
-            image_link: ''
+            image_link: content
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -1074,7 +1074,7 @@ display:
           admin_label: ''
           operator: or
           value:
-            22: 22
+            21: 21
           group: 1
           exposed: false
           expose:
@@ -1223,7 +1223,7 @@ display:
           type: image
           settings:
             image_style: ''
-            image_link: ''
+            image_link: content
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -2535,7 +2535,7 @@ display:
           admin_label: ''
           operator: or
           value:
-            12: 12
+            22: 22
           group: 1
           exposed: false
           expose:

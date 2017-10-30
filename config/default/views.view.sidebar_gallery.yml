@@ -53,7 +53,7 @@ display:
       pager:
         type: some
         options:
-          items_per_page: 0
+          items_per_page: 1
           offset: 0
       style:
         type: slick
@@ -440,7 +440,7 @@ display:
             image_link: ''
           group_column: ''
           group_columns: {  }
-          group_rows: false
+          group_rows: true
           delta_limit: 1
           delta_offset: 0
           delta_reversed: false
@@ -452,9 +452,7 @@ display:
       defaults:
         fields: false
         footer: false
-        use_ajax: false
       footer: {  }
-      use_ajax: true
     cache_metadata:
       max-age: -1
       contexts:
