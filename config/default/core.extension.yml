@@ -48,8 +48,7 @@ module:
   image: 0
   layout_discovery: 0
   link: 0
-  media_entity: 0
-  media_entity_image: 0
+  media: 0
   menu_ui: 0
   metatag: 0
   metatag_views: 0

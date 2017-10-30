@@ -5,7 +5,6 @@ dependencies:
   config:
     - block_content.type.ad_block
     - field.storage.block_content.field_ad_image
-    - media_entity.bundle.image
 id: block_content.ad_block.field_ad_image
 field_name: field_ad_image
 entity_type: block_content
@@ -19,8 +18,7 @@ default_value_callback: ''
 settings:
   handler: 'default:media'
   handler_settings:
-    target_bundles:
-      image: image
+    target_bundles: {  }
     sort:
       field: created
       direction: DESC

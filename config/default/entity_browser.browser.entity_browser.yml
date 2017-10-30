@@ -5,7 +5,7 @@ dependencies:
   config:
     - views.view.asset_browser
   module:
-    - media_entity_image
+    - media
     - views
 name: entity_browser
 label: 'Entity Browser'

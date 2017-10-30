@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - page_manager.page.node_view
-    - views.view.dog_sidebar_photos
+    - views.view.sidebar_gallery
   module:
     - ctools
     - ctools_block
@@ -27,7 +27,7 @@ variant_settings:
         third_party_settings: {  }
         weight: 0
       region: middle_left
-      weight: -1
+      weight: 1
       uuid: 9a67c0c1-3256-49b5-8d66-8d6f28378ec4
       context_mapping:
         entity: node
@@ -48,20 +48,31 @@ variant_settings:
         third_party_settings: {  }
         weight: 0
       region: middle_left
-      weight: 0
+      weight: 2
       uuid: 0f389c97-4124-4bf3-98c6-fcf1a0650e0c
       context_mapping:
         entity: node
-    1006766e-0547-46ca-ab62-01d91245ae31:
-      id: 'views_block:dog_sidebar_photos-block_1'
+    04fc25e9-be7d-4d74-b880-6316a9216a58:
+      id: 'views_block:sidebar_gallery-block_1'
       label: ''
       provider: views
       label_display: '0'
       views_label: ''
-      items_per_page: '1'
+      items_per_page: none
       region: middle_right
-      weight: -1
-      uuid: 1006766e-0547-46ca-ab62-01d91245ae31
+      weight: 1
+      uuid: 04fc25e9-be7d-4d74-b880-6316a9216a58
+      context_mapping: {  }
+    bdf79fee-78b8-4142-963f-b7683d34f33f:
+      id: 'views_block:sidebar_gallery-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: bottom
+      weight: 1
+      uuid: bdf79fee-78b8-4142-963f-b7683d34f33f
       context_mapping: {  }
   id: panels_variant
   uuid: 940a2517-1918-4df3-98fa-0e6c046d2d82
