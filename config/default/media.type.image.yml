@@ -1,16 +1,13 @@
 uuid: 630cc491-8730-41d7-8bc3-00f5a8a6e4ce
 langcode: en
 status: true
-dependencies:
-  module:
-    - media_entity_image
+dependencies: {  }
 id: image
 label: Image
 description: ''
-type: image
+source: image
 queue_thumbnail_downloads: false
 new_revision: false
-type_configuration:
-  source_field: ''
-  gather_exif: false
+source_configuration:
+  source_field: field_media_image
 field_map: {  }
