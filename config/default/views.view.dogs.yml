@@ -11,8 +11,8 @@ dependencies:
   content:
     - 'taxonomy_term:avaliable_dog:79746826-dacf-47fc-855d-bdc4b40e6c75'
     - 'taxonomy_term:avaliable_dog:9a335a6a-eaa5-4348-8747-32781f71eee9'
-    - 'taxonomy_term:avaliable_dog:bd10118c-3538-40be-848c-7a5f88a21ff4'
     - 'taxonomy_term:avaliable_dog:cee3649a-2663-437b-8d7b-7755622ea74b'
+    - 'taxonomy_term:avaliable_dog:d495a288-d056-4e22-b11c-da38ff9d187d'
   module:
     - blazy
     - image
@@ -1074,7 +1074,7 @@ display:
           admin_label: ''
           operator: or
           value:
-            16: 16
+            22: 22
           group: 1
           exposed: false
           expose:
@@ -2535,7 +2535,7 @@ display:
           admin_label: ''
           operator: or
           value:
-            12: 12
+            22: 22
           group: 1
           exposed: false
           expose:
