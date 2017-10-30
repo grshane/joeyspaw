@@ -1,6 +1,6 @@
 uuid: 0f3df710-2588-4483-bd92-b079d5fc7029
 langcode: en
-status: false
+status: true
 dependencies: {  }
 id: basic_page
 label: 'Basic Page'
