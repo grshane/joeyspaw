@@ -13,3 +13,10 @@ global_styles:
   css:
     theme:
       css/styles.css: {}
+global_scripts:
+  version: 0.0.2
+  js:
+    js/joey-theme.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
