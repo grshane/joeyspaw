@@ -1,0 +1,29 @@
+.press-releases {
+  border-top: 2px solid $light-gray;
+  padding-top: 1em;
+  .press-release__item {
+    border-bottom: 2px solid $light-gray;
+    padding-bottom: 1em;
+    margin-bottom: 1.5em;
+
+    .press-release__title {
+      text-transform: uppercase;
+     }
+    .press-release__body {
+      .views-more-link {
+        @extend .button;
+        @extend .rounded;
+        width: span(2);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: auto;
+        margin-top: 0.5em;
+      }
+    }
+    .press-release__date {
+      font-weight: bold;
+    }
+  }
+}

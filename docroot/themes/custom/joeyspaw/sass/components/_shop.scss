@@ -1,0 +1,16 @@
+.products {
+
+
+
+  .grid {
+    border: 1px solid $light-gray;
+    padding: 1em 0.5em;
+    display: flex;
+    justify-content: center;
+  }
+  .product__title {
+    text-align: center;
+  }
+  .product__manufacturer {}
+  .product__image {}
+}

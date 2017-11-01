@@ -1,4 +1,14 @@
-.slick--view--dog-sidebar-photos {
+.nodetype--dog {
+  .ui-widget-header {
+    background: $white;
+    border: none;
+  }
+  .ui-dialog-title {
+    display: none;
+  }
+}
+
+.slick--view--sidebar-gallery {
   .slick__slide {
     display: flex;
     justify-content: center;
@@ -10,7 +20,7 @@
       object-fit: contain;
       flex: 1 0 auto;
     }
-    div {
+    .description {
       width: 100%;
       text-align: center;
       border-top: 1px solid $med-gray;
