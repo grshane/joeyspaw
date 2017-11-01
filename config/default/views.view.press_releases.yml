@@ -58,10 +58,6 @@ display:
           offset: 0
       style:
         type: default
-        options:
-          grouping: {  }
-          row_class: press-release__item
-          default_row_class: true
       row:
         type: fields
       fields:
@@ -153,13 +149,13 @@ display:
             preserve_tags: ''
             html: false
           element_type: ''
-          element_class: press-releases__date
+          element_class: ''
           element_label_type: ''
-          element_label_class: press-releases__date--label
+          element_label_class: ''
           element_label_colon: false
-          element_wrapper_type: '0'
+          element_wrapper_type: ''
           element_wrapper_class: ''
-          element_default_classes: false
+          element_default_classes: true
           empty: ''
           hide_empty: false
           empty_zero: false
@@ -217,13 +213,13 @@ display:
             preserve_tags: ''
             html: false
           element_type: h2
-          element_class: press-release__title
+          element_class: ''
           element_label_type: ''
           element_label_class: ''
           element_label_colon: false
           element_wrapper_type: ''
           element_wrapper_class: ''
-          element_default_classes: false
+          element_default_classes: true
           empty: ''
           hide_empty: false
           empty_zero: false
@@ -282,13 +278,13 @@ display:
             preserve_tags: ''
             html: false
           element_type: ''
-          element_class: press-release__body
+          element_class: ''
           element_label_type: ''
           element_label_class: ''
           element_label_colon: false
           element_wrapper_type: ''
           element_wrapper_class: ''
-          element_default_classes: false
+          element_default_classes: true
           empty: ''
           hide_empty: false
           empty_zero: false
@@ -505,6 +501,7 @@ display:
       defaults:
         fields: false
         arguments: false
+        pager: false
       arguments:
         nid:
           id: nid
@@ -538,10 +535,15 @@ display:
             fail: 'not found'
           validate_options: {  }
           break_phrase: false
-          not: false
+          not: true
           entity_type: node
           entity_field: nid
           plugin_id: node_nid
+      pager:
+        type: some
+        options:
+          items_per_page: 5
+          offset: 0
     cache_metadata:
       max-age: -1
       contexts:
