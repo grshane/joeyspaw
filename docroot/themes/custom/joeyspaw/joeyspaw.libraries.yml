@@ -3,11 +3,16 @@ fonts:
   css:
     theme:
       '//fonts.googleapis.com/css?family=Asap+Condensed:400,500': {type: external} # external font
-fontawesome:
+font-awesome:
+  remote: https://fortawesome.github.io/Font-Awesome/
   version: 4.7.0
+  license:
+    name: MIT
+    url: https://fortawesome.github.io/Font-Awesome/license/
+    gpl-compatible: true
   css:
-    component:
-      '//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css': {type: external}
+    theme:
+      https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css: { type: external, minified: true }
 global_styles:
   version: VERSION
   css:

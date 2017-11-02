@@ -5,7 +5,7 @@ core: 8.x
 base theme: cog
 libraries:
   - joeyspaw/fonts
-  - joeyspaw/fontawesome
+  - joeyspaw/font-awesome
   - joeyspaw/global_styles
   - joeyspaw/global_scripts
 regions:
