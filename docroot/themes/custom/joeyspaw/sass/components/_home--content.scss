@@ -20,8 +20,6 @@
     .frontpage__image {
       width: span(6);
       order: 2;
-      display: flex;
-      justify-content: center;
       @media (max-width: 800px) {
         order: 1;
         align-self: center;

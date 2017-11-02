@@ -14,8 +14,42 @@
   flex-wrap: wrap;
 
   .block {
+    width: span(4);
     flex-grow: 1;
     flex-shrink: 0;
+    @media (max-width: 600px) {
+      width: span(12);
+    }
+  }
+
+  .donate__block {
+    width: span(2);
+    .button {
+      @media (max-width: 960px) {
+        font-size: 1em;
+
+      }
+    }
+    @media (max-width: 800px) {
+      width: span(4);
+      .field--name-body {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+    }
+    @media (max-width: 600px) {
+      width: span(8);
+    }
+  }
+
+  .footer__social {
+    margin-top: 7px;
+    width: span(2);
+    justify-content: flex-end;
+    @media (max-width: 600px) {
+      width: span(4);
+    }
   }
 
   .site-branding {
@@ -33,6 +67,10 @@
     text-align: center;
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
+    @media (max-width: 800px) {
+      margin-top: 1em;
+    }
+
   }
 
   .block-menu ul.menu {
@@ -42,10 +80,10 @@
     column-count: 2;
     -moz-column-count: 2;
     column-gap: 50px;
-    
+
     .menu__item {
       display: block !important;
-    
+
       a {
         color: $primary;
         &:hover {

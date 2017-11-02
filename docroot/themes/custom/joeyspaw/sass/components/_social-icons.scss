@@ -1,12 +1,21 @@
 .header__social,
 .footer__social {
-  .fa {
-    font-size: 1.5em;
-    .field--name-body {
-      display: flex;
+  .field--name-body {
+    display: flex;
+    justify-content: flex-end;
+    @media (max-width: 800px) {
+      justify-content: center;
+      align-content: center;
+      .fa {
+        font-size: 1.7em;
+
+      }
+    }
+    .fa {
+      font-size: 1.7em;
+      padding-left: 0.3em;
     }
   }
-
 }
 
 .header__social {
