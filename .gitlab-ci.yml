@@ -2,7 +2,6 @@ image: geerlingguy/drupal-vm
 stages:
   - validate
   - build
-  - test
   - deploy
 
 variables:
