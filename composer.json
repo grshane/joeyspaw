@@ -93,7 +93,8 @@
         "drupal/weight": "^3.0",
         "drupal/shield": "^1.1",
         "drupal/term_csv_export_import": "^1.0@alpha",
-        "drupal/honeypot": "^1.27"
+        "drupal/honeypot": "^1.27",
+        "drupal/acquia_purge": "^1.0@beta"
 
     },
     "require-dev": {
