@@ -19,10 +19,13 @@
       border: 1px solid $primary;
       padding: 0 0.8em;
       margin-top: 2px;
-      width: 150px;
+      width: 10vw;
       &:focus,
       &:active {
         box-shadow: inset 0 0 3px 1px $secondary;
+      }
+      @media (max-width: 800px) {
+        width: 25vw;
       }
     }
   }
