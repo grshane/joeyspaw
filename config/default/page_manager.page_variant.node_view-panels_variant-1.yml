@@ -42,6 +42,24 @@ variant_settings:
       weight: 0
       uuid: 7b3e1268-301a-4965-a2a8-734b30210888
       context_mapping: {  }
+    1ebc0a60-b226-429e-a9c8-522afd277d17:
+      id: 'entity_field:node:field_press_releasedate'
+      label: Date
+      provider: ctools_block
+      label_display: visible
+      formatter:
+        label: visually_hidden
+        type: datetime_default
+        settings:
+          timezone_override: ''
+          format_type: month_day_year
+        third_party_settings: {  }
+        weight: 0
+      region: middle_left
+      weight: -1
+      uuid: 1ebc0a60-b226-429e-a9c8-522afd277d17
+      context_mapping:
+        entity: node
   id: panels_variant
   uuid: 2dc67823-c259-40a7-8188-22651fabfe37
   label: null
