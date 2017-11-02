@@ -7,10 +7,13 @@
     padding: 1em 0.5em;
     display: flex;
     justify-content: center;
+    text-align: center;
+    border-radius: 10px;
   }
   .product__title {
-    text-align: center;
   }
   .product__manufacturer {}
-  .product__image {}
+  .product__image {
+
+  }
 }
