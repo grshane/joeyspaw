@@ -11,6 +11,9 @@
       font-family: georgia;
       color: #6c7c3a;
     }
+    @media (max-width: 600px) {
+      margin: 0 0 3em;
+    }
 
     .testimonial__body {
       margin-left: 50px;
