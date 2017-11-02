@@ -32,7 +32,7 @@ variant_settings:
         third_party_settings: {  }
         weight: 0
       region: middle_left
-      weight: 0
+      weight: -2
       uuid: 55961db0-d5a5-4a1b-a97a-2d9dc66a7c67
       context_mapping:
         entity: node
@@ -79,8 +79,8 @@ variant_settings:
       label_display: '0'
       views_label: ''
       items_per_page: none
-      region: bottom
-      weight: 0
+      region: middle_left
+      weight: -1
       uuid: 931a4918-3ba3-453f-a115-113a498c1873
       context_mapping: {  }
   id: panels_variant

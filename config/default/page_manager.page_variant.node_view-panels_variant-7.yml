@@ -27,8 +27,8 @@ variant_settings:
       label_display: '0'
       views_label: ''
       items_per_page: none
-      region: bottom
-      weight: 0
+      region: middle_left
+      weight: -1
       uuid: 46c1f56e-16b4-4cd0-ae60-2953a35226fa
       context_mapping: {  }
     b2a74708-0361-4b63-8c55-e5819ce23838:
@@ -43,7 +43,7 @@ variant_settings:
         third_party_settings: {  }
         weight: 0
       region: middle_left
-      weight: 0
+      weight: -2
       uuid: b2a74708-0361-4b63-8c55-e5819ce23838
       context_mapping:
         entity: node
