@@ -27,6 +27,7 @@ drush/contrib
 docroot/themes/custom/*/node_modules
 docroot/themes/custom/*/css
 docroot/themes/custom/*/styleguide
+docroot/themes/custom/*/npm-debug.log
 
 # Ignore build artifacts
 /deploy
