@@ -20,3 +20,5 @@ global_scripts:
   dependencies:
     - core/jquery
     - core/drupal
+    - core/drupal.ajax
+
