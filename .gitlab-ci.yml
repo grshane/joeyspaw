@@ -16,7 +16,7 @@ before_script:
   - php -r "unlink('composer-setup.php');"
   - php composer.phar install
   - php composer.phar run-script blt-alias
-  - source ~/.bash_profile
+  - source ~/.bashrc
 
 validate:
   stage: validate
