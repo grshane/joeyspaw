@@ -12,7 +12,7 @@
         /***** PARALLAX BG IMAGE SCROLL *****/
 
         var parallax = $('.pre-content'),
-          speed = 0.35;
+          speed = 0.2;
 
         $(window).on("resize scroll",function(e) {
           var isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth < 980;
