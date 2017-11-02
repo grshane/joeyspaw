@@ -11,7 +11,7 @@ dependencies:
     - joeyspaw
 third_party_settings:
   block_class:
-    classes: footer__social
+    classes: ''
 id: socialmediablock_2
 theme: joeyspaw
 region: footer
