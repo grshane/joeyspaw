@@ -103,6 +103,7 @@ xhprof_*
 #Composer vendor
 vendor/
 vendor/.git
+*.phar
 
 #Sass
 .sass-cache
