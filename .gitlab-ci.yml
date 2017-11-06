@@ -38,7 +38,7 @@ test:
 production:
   stage: deploy
   script:
-    - echo "Launching application"
+    - blt deploy --commit-msg "$CI $CI_COMMIT_SHA" --branch $CI_COMMIT_REF_NAME --no-interaction
   environment:
     name: production
     url: http://$APP_NAME.stage.bsddigital.com
