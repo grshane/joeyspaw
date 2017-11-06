@@ -39,9 +39,8 @@ production:
   stage: deploy
   script:
     - git branch
-    - cd /builds/BeyondSpotsDots/joeyspaw/deploy/
     - git remote -v
-    - git push
+    - blt deploy --commit-msg "$CI_COMMIT_SHA" --branch master --no-interaction
   environment:
     name: production
     url: http://$APP_NAME.stage.bsddigital.com
