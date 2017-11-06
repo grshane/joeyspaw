@@ -39,7 +39,7 @@ production:
   stage: deploy
   script:
     - git branch
-    -cd /builds/BeyondSpotsDots/joeyspaw/deploy/
+    - cd /builds/BeyondSpotsDots/joeyspaw/deploy/
     - git remote -v
     - git push
   environment:
