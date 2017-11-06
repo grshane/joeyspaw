@@ -54,6 +54,7 @@
 
   .site-branding {
     position: relative;
+    width: span(4);
     top: -70px;
     @media (max-width: 800px){
       display: none !important;
