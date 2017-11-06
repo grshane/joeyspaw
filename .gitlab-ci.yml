@@ -38,6 +38,7 @@ test:
 production:
   stage: deploy
   script:
+    - git status
     - blt deploy --commit-msg "$CI $CI_COMMIT_SHA" --branch $CI_COMMIT_REF_NAME --no-interaction
   environment:
     name: production
