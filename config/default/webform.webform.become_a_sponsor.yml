@@ -135,7 +135,7 @@ handlers:
       bcc_options: {  }
       from_mail: jschwartz@beyondspotsanddots.com
       from_options: {  }
-      from_name: default
+      from_name: 'Joeys P.A.W.'
       subject: default
       body: "<p>Submitted on [webform_submission:created]</p>\n\n<p>Submitted values are:</p>\n[webform_submission:values]"
       excluded_elements: {  }

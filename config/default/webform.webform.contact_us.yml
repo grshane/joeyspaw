@@ -135,15 +135,15 @@ handlers:
       bcc_options: {  }
       from_mail: jschwartz@beyondspotsanddots.com
       from_options: {  }
-      from_name: '[webform_submission:values:your_name:raw]'
+      from_name: 'Joeys P.A.W.'
       subject: default
-      body: "<p>Submitted on [webform_submission:created]</p>\n\n<p>Submitted values are:</p>\n[webform_submission:values]"
+      body: "<p>Submitted on [webform_submission:created:month_day_year] at&nbsp;[webform_submission:created:time]</p>\n\n<p>Submitted values are:</p>\n[webform_submission:values]"
       excluded_elements: {  }
       ignore_access: false
       exclude_empty: true
       html: true
       attachments: false
-      debug: true
+      debug: false
       reply_to: ''
       return_path: ''
       sender_mail: ''
