@@ -22,6 +22,14 @@ validate:
   stage: validate
   script:
     - echo "Validated!"
+    - apt-get update
+    - apt-get install unzip php7.1-bz2 -y
+    - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+    - php composer-setup.php
+    - php -r "unlink('composer-setup.php');"
+    - php composer.phar install
+    - php composer.phar run-script blt-alias
+    - source ~/.bashrc
 
 build:
   stage: build
