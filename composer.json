@@ -58,7 +58,7 @@
         "drupal/google_analytics": "^2.2",
         "drupal/imce": "^1.6",
         "drupal/inline_entity_form": "^1.0@beta",
-        "drupal/media_entity": "^1.6",
+        "drupal/media_entity": "1.x",
         "drupal/media_entity_image": "^1.2",
         "drupal/media_entity_video": "^1.0@beta",
         "drupal/paragraphs": "^1.2",
@@ -101,7 +101,7 @@
         "geerlingguy/drupal-vm": "^4.6"
     },
     "config": {
-        "platform": {"php":"5.6"}
+        "platform": {"php":"7.1"}
     },
     "extra": {
         "enable-patching": true,
