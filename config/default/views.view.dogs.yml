@@ -1365,10 +1365,10 @@ display:
       style:
         type: blazy
         options:
-          style: column
-          grid: 4
-          grid_medium: 3
-          grid_small: 2
+          style: grid
+          grid: 3
+          grid_medium: 2
+          grid_small: 1
       row:
         type: fields
         options: {  }
