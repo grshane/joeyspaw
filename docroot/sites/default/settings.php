@@ -776,21 +776,3 @@ if (isset($_ENV['AH_SITE_ENVIRONMENT'])) {
   }
 }
 
-/* Set private files directory */
-if (isset($_ENV['AH_SITE_ENVIRONMENT'])) {
-  $files_private_conf_path = conf_path();
-  $conf['file_private_path'] = '/mnt/files/' . $_ENV['AH_SITE_GROUP'] . '.' . $_ENV['AH_SITE_ENVIRONMENT'] . '/' . $files_private_conf_path . '/files-private';
-}
-else {
-  $conf['file_private_path'] = '{PATH}';
-}
-
-/* Set private files directory */
-if (isset($_ENV['AH_SITE_ENVIRONMENT'])) {
-  $files_private_conf_path = conf_path();
-  $conf['file_private_path'] = '/mnt/files/' . $_ENV['AH_SITE_GROUP'] . '.' . $_ENV['AH_SITE_ENVIRONMENT'] . '/' . $files_private_conf_path . '/files-private';
-}
-else {
-  $conf['file_private_path'] = '{PATH}';
-}
-
