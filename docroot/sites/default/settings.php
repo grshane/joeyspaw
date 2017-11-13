@@ -766,3 +766,31 @@ require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
 $config_directories['vcs'] = $app_root . '/../config/' . basename($site_path);
 
 $settings['install_profile'] = 'standard';
+
+if (isset($_ENV['AH_SITE_ENVIRONMENT'])) {
+  switch ($_ENV['AH_SITE_ENVIRONMENT']) {
+    case 'prod':
+      // Disable Shield on prod by setting the shield_user variable to NULL
+      $conf['shield_user'] = NULL;
+      break;
+  }
+}
+
+/* Set private files directory */
+if (isset($_ENV['AH_SITE_ENVIRONMENT'])) {
+  $files_private_conf_path = conf_path();
+  $conf['file_private_path'] = '/mnt/files/' . $_ENV['AH_SITE_GROUP'] . '.' . $_ENV['AH_SITE_ENVIRONMENT'] . '/' . $files_private_conf_path . '/files-private';
+}
+else {
+  $conf['file_private_path'] = '{PATH}';
+}
+
+/* Set private files directory */
+if (isset($_ENV['AH_SITE_ENVIRONMENT'])) {
+  $files_private_conf_path = conf_path();
+  $conf['file_private_path'] = '/mnt/files/' . $_ENV['AH_SITE_GROUP'] . '.' . $_ENV['AH_SITE_ENVIRONMENT'] . '/' . $files_private_conf_path . '/files-private';
+}
+else {
+  $conf['file_private_path'] = '{PATH}';
+}
+
