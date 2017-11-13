@@ -69,6 +69,19 @@ AddEncoding gzip svgz
 <IfModule mod_rewrite.c>
   RewriteEngine on
 
+  # Redirect www.joeyspaw.com to .org
+  RewriteCond %{HTTP_HOST} ^www.joeyspaw.com$ [NC]
+  RewriteRule ^(.*)$ http://www.joeyspaw.org/$1 [L,R=301]
+
+  # Redirect joeyspaw.com to .org
+  RewriteCond %{HTTP_HOST} ^joeyspaw.com$ [NC]
+  RewriteRule ^(.*)$ http://www.joeyspaw.org/$1 [L,R=301]
+
+  # Redirect joeyspaw.org www
+  RewriteCond %{HTTP_HOST} ^joeyspaw.org$ [NC]
+  RewriteRule ^(.*)$ http://www.joeyspaw.org/$1 [L,R=301]
+
+
   # Set "protossl" to "s" if we were accessed via https://.  This is used later
   # if you enable "www." stripping or enforcement, in order to ensure that
   # you don't bounce between http and https.
