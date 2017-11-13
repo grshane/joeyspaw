@@ -318,7 +318,7 @@ display:
           entity_field: type
           plugin_id: bundle
       sorts: {  }
-      title: Sponsors
+      title: 'Sponsors & Partners'
       header: {  }
       footer: {  }
       empty: {  }
@@ -378,7 +378,7 @@ display:
     display_options:
       display_extenders:
         metatag_display_extender: {  }
-      path: sponsors
+      path: sponsors-partners
       style:
         type: blazy
         options:
