@@ -31,5 +31,5 @@ modules:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
   prod:
-    enable: [acquia_connector, shield]
+    enable: [acquia_connector]
     uninstall: [devel, views_ui]
