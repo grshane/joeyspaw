@@ -1,0 +1,7 @@
+name: Certbot Challenge
+desription: A module to answer the certbot challenge
+package: custom
+type: module
+version: 1.0
+core: 8.x
+
