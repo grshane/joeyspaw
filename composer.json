@@ -64,7 +64,7 @@
         "drupal/paragraphs": "^1.2",
         "drupal/pathauto": "^1.0",
         "drupal/rules": "^3.0@alpha",
-        "drupal/responsive_menu": "^2.4",
+        "drupal/responsive_menu": "2.x-dev",
         "drupal/rewrite_field": "^1.0",
         "drupal/simple_block": "^1.0@beta",
         "drupal/twig_field_value": "^1.1",

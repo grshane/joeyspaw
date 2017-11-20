@@ -766,3 +766,13 @@ require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
 $config_directories['vcs'] = $app_root . '/../config/' . basename($site_path);
 
 $settings['install_profile'] = 'standard';
+
+if (isset($_ENV['AH_SITE_ENVIRONMENT'])) {
+  switch ($_ENV['AH_SITE_ENVIRONMENT']) {
+    case 'prod':
+      // Disable Shield on prod by setting the shield_user variable to NULL
+      $conf['shield_user'] = NULL;
+      break;
+  }
+}
+
