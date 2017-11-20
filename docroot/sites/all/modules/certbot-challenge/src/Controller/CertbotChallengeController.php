@@ -4,7 +4,7 @@
  * Contains \Drupal\first_module\Controller\FirstController.
  */
  
-namespace Drupal\first_module\Controller;
+namespace Drupal\certbot-challenge\Controller;
  
 use Drupal\Core\Controller\ControllerBase;
  
