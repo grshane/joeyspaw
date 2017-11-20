@@ -40,6 +40,14 @@
       }
 
     }
+    // Add psuedoclass as needed to remove Joey image from submenu
+    &:last-of-type {
+      .sub-nav {
+        width: auto;
+        padding: 1em 0;
+        background: rgba(255, 255, 255, 0.9);
+      }
+    }
   }
   .sub-nav {
     background: url(../images/joeys_paw_menu_joey.png) rgba(255, 255, 255, 0.9) no-repeat;
