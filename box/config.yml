@@ -53,7 +53,6 @@ installed_extras:
   - mailhog
   - nodejs
   - selenium
-  - xdebug
   - drupalconsole
 
 # PHP 5.6 (PHP 7.1 is being tested, see: https://docs.acquia.com/node/25726).
@@ -69,7 +68,7 @@ php_xdebug_default_enable: 0
 php_xdebug_coverage_enable: 0
 # Change this value to 1 in order to enable xdebug on the cli.
 php_xdebug_cli_enable: 0
-php_xdebug_remote_enable: 1
+php_xdebug_remote_enable: 0
 php_xdebug_remote_connect_back: 1
 # Use PHPSTORM for PHPStorm, sublime.xdebug for Sublime Text.
 php_xdebug_idekey: PHPSTORM
