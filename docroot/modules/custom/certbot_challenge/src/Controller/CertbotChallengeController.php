@@ -10,10 +10,12 @@ use Drupal\Core\Controller\ControllerBase;
  
 class CertbotChallengeController extends ControllerBase {
   public function content() {
-    return array(
-      '#type' => 'markup',
-      '#markup' => t('Hello world'),
-    );
+
+    use Symfony\Component\HttpFoundation\Response;
+
+    $response = new Response();
+    $response->setContent('<h1>Hello world</h1>');
+    return $response;
   }
 }
 
