@@ -1,7 +1,7 @@
 certbot-challenge.content:
   path: '/certbot'
   defaults:
-    _controller: 'Drupal\first_module\Controller\CertbotChallengeController::content'
+    _controller: 'Drupal\certbot_challenge\Controller\CertbotChallengeController::content'
     _title: 'Hello world'
   requirement:
     _permission: 'access content'
