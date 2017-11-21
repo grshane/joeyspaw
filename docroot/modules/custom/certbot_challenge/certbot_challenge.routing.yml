@@ -1,5 +1,5 @@
 certbot-challenge.content:
-  path: '/certbot'
+  path: '.well-known/acme-challenge/_rCvQ8oDkW2S5q3sE_-u1bk9idn6CrPL35qjSb7jka4'
   defaults:
     _controller: 'Drupal\certbot_challenge\Controller\CertbotChallengeController::content'
     _title: 'Hello world'

@@ -14,7 +14,7 @@ class CertbotChallengeController extends ControllerBase {
     use Symfony\Component\HttpFoundation\Response;
 
     $response = new Response();
-    $response->setContent('<h1>Hello world</h1>');
+    $response->setContent('_rCvQ8oDkW2S5q3sE_-u1bk9idn6CrPL35qjSb7jka4.2qn6s5gHRMlaCEKxm2wZeAFHequoOLhtJdQ7qyDOdVI');
     return $response;
   }
 }
