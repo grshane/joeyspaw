@@ -3,6 +3,6 @@ certbot-challenge.content:
   defaults:
     _controller: 'Drupal\certbot_challenge\Controller\CertbotChallengeController::content'
     _title: 'Hello world'
-  requirement:
+  requirements:
     _permission: 'access content'
 
