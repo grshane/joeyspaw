@@ -71,15 +71,15 @@ AddEncoding gzip svgz
 
   # Redirect www.joeyspaw.com to .org
   RewriteCond %{HTTP_HOST} ^www.joeyspaw.com$ [NC]
-  RewriteRule ^(.*)$ http://www.joeyspaw.org/$1 [L,R=301]
+  RewriteRule ^(.*)$ https://www.joeyspaw.org/$1 [L,R=301]
 
   # Redirect joeyspaw.com to .org
   RewriteCond %{HTTP_HOST} ^joeyspaw.com$ [NC]
-  RewriteRule ^(.*)$ http://www.joeyspaw.org/$1 [L,R=301]
+  RewriteRule ^(.*)$ https://www.joeyspaw.org/$1 [L,R=301]
 
   # Redirect joeyspaw.org www
   RewriteCond %{HTTP_HOST} ^joeyspaw.org$ [NC]
-  RewriteRule ^(.*)$ http://www.joeyspaw.org/$1 [L,R=301]
+  RewriteRule ^(.*)$ https://www.joeyspaw.org/$1 [L,R=301]
 
   # Redirect joeyspaw.org https
   RewriteCond %{HTTP_HOST} ^www.joeyspaw.org$ [NC]
