@@ -11,9 +11,6 @@ git:
   default_branch: master
   remotes:
     acquia: 'joeyspaw@svn-634.devcloud.hosting.acquia.com:joeyspaw.git'
-addons:
-  ssh_known_hosts:
-  - svn-634.devcloud.hosting.acquia.com
 drush:
   aliases:
     remote: '${project.machine_name}.test'

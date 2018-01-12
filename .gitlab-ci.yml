@@ -1,4 +1,3 @@
-image: geerlingguy/drupal-vm
 stages:
   - validate
   - build
@@ -6,30 +5,15 @@ stages:
   - deploy
 
 variables:
-  APP_NAME: joeyspaw 
+  APP_NAME: Project
 
 before_script:
-  - apt-get update
-  - apt-get install unzip php7.1-bz2 -y
-  - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-  - php composer-setup.php
-  - php -r "unlink('composer-setup.php');"
-  - php composer.phar install
-  - php composer.phar run-script blt-alias
-  - source ~/.bashrc
+  - echo "hello world"
 
 validate:
   stage: validate
   script:
-    - echo "Validated!"
-    - apt-get update
-    - apt-get install unzip php7.1-bz2 -y
-    - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-    - php composer-setup.php
-    - php -r "unlink('composer-setup.php');"
-    - php composer.phar install
-    - php composer.phar run-script blt-alias
-    - source ~/.bashrc
+    - blt validate:all
 
 build:
   stage: build
@@ -41,17 +25,14 @@ build:
 test:
   stage: test
   script:
-    - echo "testing skipped"
+    - blt tests --define tests.run-server=true --yes -v
 
 production:
   stage: deploy
   script:
-    - git branch
-    - git remote -v
-    - blt deploy --commit-msg "$CI_COMMIT_SHA" --branch master --no-interaction
-    - git remote -v
+    - echo "Launching application"
   environment:
     name: production
-    url: http://$APP_NAME.stage.bsddigital.com
+    url: http://$APP_NAME.example.com
   only:
     - master
