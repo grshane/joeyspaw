@@ -8,7 +8,7 @@
         {
             "type": "package",
             "package": {
-                "name": "FrDH/jQuery.mmenu",
+                "name": "FrDH/mmenu",
                 "type": "drupal-library",
                 "version": "6.1.8",
                 "dist": {
@@ -32,7 +32,7 @@
         {
             "type": "package",
             "package": {
-                "name": "hammerjs/hammer.js",
+                "name": "hammerjs/hammerjs",
                 "type": "drupal-library",
                 "version": "2.0.8",
                 "dist": {
@@ -85,8 +85,8 @@
         "drupal/context": "^4.0@beta",
         "drush/drush": "^8.1",
         "drupal/console": "~1.0",
-        "FrDH/jQuery.mmenu": "^6.1",
-        "hammerjs/hammer.js": "^2.0",
+        "FrDH/mmenu": "^6.1",
+        "hammerjs/hammerjs": "^2.0",
         "drupal/panelizer": "^4.0",
         "joeldbirch/superfish": "^1.7",
         "drupal/we_megamenu": "^1.0@RC",
