@@ -33,3 +33,5 @@ modules:
   prod:
     enable: [acquia_connector]
     uninstall: [devel, views_ui]
+phpunit:
+  config: null
