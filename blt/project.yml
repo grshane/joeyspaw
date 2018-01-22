@@ -1,7 +1,7 @@
 project:
   machine_name: joeyspaw
   prefix: BLT
-  human_name: 'BLTed 8'
+  human_name: 'Joeys Paw'
   profile:
     name: standard
   local:
@@ -33,3 +33,10 @@ modules:
   prod:
     enable: [acquia_connector]
     uninstall: [devel, views_ui]
+target-hooks:
+  frontend-setup:
+    dir: ${docroot}/docroot/themes/custom/joeyspaw
+    command: 'npm install'
+  frontend-build:
+    dir: ${docroot}docroot/themes/custom/joeyspaw
+    command: 'gulp build:dev'
